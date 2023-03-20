@@ -1,2 +1,2 @@
 # Android Dev
-Ανάπτυξη εφαρμογών για κινητές συσκευές 2023
+Mobile Application Development 2023
