@@ -2722,6 +2722,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable flex
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -2882,6 +2883,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addressTxt
 id alertTitle
 id aligned
 id all
@@ -2947,6 +2949,7 @@ id cos
 id counterclockwise
 id cradle
 id createAccountButton
+id createButton
 id currentState
 id custom
 id customPanel
@@ -2986,6 +2989,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id emailTxt
 id embed
 id end
 id endToStart
@@ -3032,10 +3036,12 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id immediateStop
 id included
 id indeterminate
 id info
+id infosTxt
 id invisible
 id inward
 id italic
@@ -3113,6 +3119,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameTxt
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3150,6 +3157,7 @@ id path
 id pathRelative
 id peekHeight
 id percent
+id phoneNumberTxt
 id pin
 id position
 id postLayout
@@ -3159,6 +3167,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registerClinicTxt
 id registerTxt
 id reverseSawtooth
 id right
@@ -3295,6 +3304,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id vatNumberTxt
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3495,6 +3505,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout register_clinic
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
