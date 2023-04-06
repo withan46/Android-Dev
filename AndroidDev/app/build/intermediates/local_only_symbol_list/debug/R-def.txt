@@ -19,6 +19,7 @@ drawable ic_launcher_foreground
 id Welcome
 id barrier2
 id button
+id button2
 id createAccountButton
 id first
 id loginButton
@@ -30,6 +31,7 @@ id third
 layout activity_main
 layout activity_second
 layout activity_third
+layout create_new_service
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
