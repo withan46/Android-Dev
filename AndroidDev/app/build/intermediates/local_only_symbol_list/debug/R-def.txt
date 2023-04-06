@@ -21,8 +21,10 @@ id Welcome
 id addressTxt
 id barrier2
 id button
+id button2
 id createAccountButton
 id createButton
+id editTextTextPersonName
 id emailTxt
 id first
 id imageView
@@ -41,6 +43,7 @@ layout activity_main
 layout activity_second
 layout activity_third
 layout register_clinic
+layout test
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

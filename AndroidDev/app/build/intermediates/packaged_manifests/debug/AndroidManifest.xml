@@ -38,6 +38,7 @@
         <activity android:name="com.example.androiddev.SecondActivity" />
         <activity android:name="com.example.androiddev.ThirdActivity" />
         <activity android:name="com.example.androiddev.RegisterClinic" />
+        <activity android:name="com.example.androiddev.Test" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

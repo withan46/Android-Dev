@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void registerLink(View view){
-        Intent intent = new Intent(MainActivity.this, RegisterClinic.class);
+        Intent intent = new Intent(MainActivity.this, Test.class);
         startActivity(intent);
     }
 }

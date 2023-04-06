@@ -2913,6 +2913,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id button
+id button2
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2987,6 +2988,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextTextPersonName
 id edit_query
 id elastic
 id emailTxt
@@ -3510,6 +3512,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout test
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
