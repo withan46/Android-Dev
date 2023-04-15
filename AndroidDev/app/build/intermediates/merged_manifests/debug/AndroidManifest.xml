@@ -37,6 +37,7 @@
         </activity>
         <activity android:name="com.example.androiddev.SecondActivity" />
         <activity android:name="com.example.androiddev.ThirdActivity" />
+        <activity android:name="com.example.androiddev.SelectClinic" />
         <activity android:name="com.example.androiddev.CreateNewService" />
 
         <provider
