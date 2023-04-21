@@ -37,8 +37,7 @@
         </activity>
         <activity android:name="com.example.androiddev.SecondActivity" />
         <activity android:name="com.example.androiddev.ThirdActivity" />
-        <activity android:name="com.example.androiddev.RegisterClinic" />
-        <activity android:name="com.example.androiddev.Test" />
+        <activity android:name="com.example.androiddev.PatientActivity" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".DoctorActivity">
+
+    <TextView
+        android:id="@+id/hello"
+        android:layout_width="159dp"
+        android:layout_height="36dp"
+        android:text="Hello User!"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <TextView
+        android:id="@+id/niceDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have a nice day"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hello"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/logOutTxt"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:clickable="true"
+        android:onClick="logOutLink"
+        android:text="Log out"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <android.widget.Button
+        android:id="@+id/manageTxt"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:background="@drawable/button_gray_tight_line"
+        android:drawableTop="@drawable/appointment"
+        android:paddingTop="20dp"
+        android:text="Manage Appointments"
+        android:textAllCaps="false"
+        android:textColor="#3996A9"
+        android:onClick="manageOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <android.widget.Button
+        android:id="@+id/viewPatientsTxt"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:background="@drawable/button_gray_tight_line"
+        android:text="View Patients"
+        android:textAllCaps="false"
+        android:drawableTop="@drawable/patient"
+        android:paddingTop="20dp"
+        android:textColor="#3996A9"
+        android:onClick="viewPatientOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/manageTxt"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.widget.Button
+        android:id="@+id/appointmentTxt"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:background="@drawable/button_gray_tight_line"
+        android:drawableTop="@drawable/calendar"
+        android:paddingTop="20dp"
+        android:text="View your Appointments"
+        android:textAllCaps="false"
+        android:textColor="#3996A9"
+        android:onClick="viewAppointmentsOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manageTxt"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <android.widget.Button
+        android:id="@+id/patientTxt"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:background="@drawable/button_gray_tight_line"
+        android:drawableTop="@drawable/medical"
+        android:paddingTop="20dp"
+        android:text="Add patient"
+        android:textAllCaps="false"
+        android:textColor="#3996A9"
+        android:onClick="patientOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/appointmentTxt"
+        app:layout_constraintTop_toBottomOf="@+id/viewPatientsTxt"
+        app:layout_constraintVertical_bias="0.138" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

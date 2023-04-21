@@ -2700,9 +2700,11 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable appointment
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+drawable background_image
 drawable background_image_for_android
 drawable baseline_email_24
 drawable baseline_key_24
@@ -2715,14 +2717,18 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable button_gray
+drawable button_gray_tight_line
 drawable button_style
 drawable button_style_filled
+drawable calendar
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable doctor
 drawable flex
+drawable flexfitsubtlenoback_white
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
@@ -2758,6 +2764,7 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable money_bag
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -2893,7 +2900,9 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appointmentTxt
 id arc
+id arrangeTxt
 id asConfigured
 id async
 id auto
@@ -2913,7 +2922,6 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id button
-id button2
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2975,6 +2983,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id doctorTxt
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2988,7 +2997,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
-id editTextTextPersonName
+id economicTxt
 id edit_query
 id elastic
 id emailTxt
@@ -3027,6 +3036,7 @@ id group_divider
 id grouping
 id groups
 id header_title
+id hello
 id hideable
 id home
 id homeAsUp
@@ -3060,6 +3070,7 @@ id line3
 id linear
 id listMode
 id list_item
+id logOutTxt
 id loginButton
 id m3_side_sheet
 id marquee
@@ -3132,6 +3143,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id niceDay
 id noScroll
 id noState
 id none
@@ -3170,7 +3182,6 @@ id radio
 id ratio
 id rectangles
 id registerClinicTxt
-id registerTxt
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3507,12 +3518,12 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout patient_activity
 layout register_clinic
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
-layout test
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

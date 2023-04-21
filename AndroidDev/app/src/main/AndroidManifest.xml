@@ -22,6 +22,9 @@
         </activity>
         <activity android:name=".SecondActivity" />
         <activity android:name=".ThirdActivity" />
+        <activity android:name=".PatientActivity"/>
+        <activity android:name=".DoctorActivity"/>
+        <activity android:name=".PsfActivity"/>
     </application>
 
 </manifest>
