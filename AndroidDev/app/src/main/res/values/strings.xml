@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Android Dev</string>
+    <string name="profile_photo">profile photo</string>
+    <string name="anna_maria_dagmaer">Anna Maria Dagmaer</string>
+    <string name="_12_00_pm_23_3_2023">12:00 PM 23/3/2023</string>
+    <string name="_26_years_old">26 years old</string>
 </resources>

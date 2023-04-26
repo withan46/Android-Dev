@@ -27,6 +27,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.AndroidDev" >
         <activity
+            android:name="com.example.androiddev.R4"
+            android:exported="false" />
+        <activity
             android:name="com.example.androiddev.MainActivity"
             android:exported="true" >
             <intent-filter>

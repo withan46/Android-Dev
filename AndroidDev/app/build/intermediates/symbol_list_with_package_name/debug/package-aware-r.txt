@@ -2704,6 +2704,7 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background
 drawable background_image_for_android
+drawable background_image_white
 drawable baseline_email_24
 drawable baseline_key_24
 drawable btn_checkbox_checked_mtrl
@@ -2984,6 +2985,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextTextMultiLine
 id edit_query
 id elastic
 id embed
@@ -3264,6 +3266,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
+id textView2
+id textView3
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3420,6 +3425,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_r4
 layout activity_second
 layout activity_third
 layout custom_dialog
@@ -3502,6 +3508,8 @@ layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string _12_00_pm_23_3_2023
+string _26_years_old
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3530,6 +3538,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
+string anna_maria_dagmaer
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
@@ -3650,6 +3659,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string profile_photo
 string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
