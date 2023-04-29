@@ -94,7 +94,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Us
 	android:allowBackup
 		ADDED from C:\Users\User\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\User\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:12:9-48
+		ADDED from C:\Users\User\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:12:9-40
 	android:dataExtractionRules
 		ADDED from C:\Users\User\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:7:9-65
 activity#com.example.androiddev.MainActivity

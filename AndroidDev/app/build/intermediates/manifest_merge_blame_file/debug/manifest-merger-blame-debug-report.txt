@@ -40,8 +40,8 @@
 26        android:supportsRtl="true"
 26-->C:\Users\User\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:11:9-35
 27        android:testOnly="true"
-28        android:theme="@style/Theme.AndroidDev" >
-28-->C:\Users\User\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:12:9-48
+28        android:theme="@style/AppTheme" >
+28-->C:\Users\User\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:12:9-40
 29        <activity
 29-->C:\Users\User\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:14:9-22:20
 30            android:name="com.example.androiddev.MainActivity"

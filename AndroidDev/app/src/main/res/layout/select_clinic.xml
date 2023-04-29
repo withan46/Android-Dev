@@ -39,7 +39,7 @@
         android:id="@+id/search_name_tb"
         android:layout_width="230dp"
         android:layout_height="40dp"
-        android:background="@drawable/button_style"
+        android:background="@drawable/button_gray"
         android:ems="10"
         android:hint="@string/search_by_name_text"
         android:inputType="textPersonName"

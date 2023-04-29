@@ -25,7 +25,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.AndroidDev" >
+        android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.androiddev.MainActivity"
             android:exported="true" >

@@ -57,6 +57,7 @@ string price_text
 string search_by_name_text
 string search_text
 string select_a_clinic_text
+style AppTheme
 style Theme.AndroidDev
 xml backup_rules
 xml data_extraction_rules
