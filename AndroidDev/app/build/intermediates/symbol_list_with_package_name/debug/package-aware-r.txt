@@ -2717,6 +2717,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable button_gray
 drawable button_style
 drawable button_style_filled
+drawable button_style_r6
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2795,6 +2796,7 @@ drawable mtrl_switch_track
 drawable mtrl_switch_track_decoration
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable nextarrow
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -2807,9 +2809,11 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable r6_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font noto_sans
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2912,6 +2916,8 @@ id bounceEnd
 id bounceStart
 id button
 id buttonPanel
+id button_next
+id button_previous
 id cache_measures
 id callMeasure
 id cancel_button
@@ -2952,6 +2958,7 @@ id custom
 id customPanel
 id cut
 id date_picker_actions
+id day_textview
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -3010,6 +3017,7 @@ id flip
 id floating
 id forever
 id fragment_container_view_tag
+id fri
 id frost
 id fullscreen_header
 id ghost_view
@@ -3082,6 +3090,8 @@ id matrix
 id message
 id middle
 id mini
+id mon
+id mon_text
 id month_grid
 id month_navigation_bar
 id month_navigation_fragment_toggle
@@ -3167,6 +3177,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id sat
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3242,6 +3253,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id sun
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -3264,9 +3276,16 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView14
+id text_fri
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
+id text_month
+id text_sat
+id text_sun
+id text_thu
+id text_wen
 id textinput_counter
 id textinput_error
 id textinput_helper_text
@@ -3274,6 +3293,7 @@ id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
 id third
+id thu
 id time
 id title
 id titleDividerNoCustom
@@ -3290,6 +3310,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tue
+id tue_text
 id unchecked
 id uniform
 id unlabeled
@@ -3304,6 +3326,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id wen
 id west
 id withText
 id with_icon
@@ -3438,6 +3461,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout event_cell
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3495,6 +3519,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout r6_weekly_planner
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
