@@ -17,6 +17,7 @@ drawable button_style
 drawable button_style_filled
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable profile_photo
 id Welcome
 id barrier2
 id button
@@ -43,6 +44,7 @@ string _26_years_old
 string anna_maria_dagmaer
 string app_name
 string profile_photo
+style AppTheme
 style Theme.AndroidDev
 xml backup_rules
 xml data_extraction_rules

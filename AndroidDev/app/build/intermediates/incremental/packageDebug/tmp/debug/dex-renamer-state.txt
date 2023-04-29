@@ -1,4 +1,4 @@
-#Wed Apr 26 19:11:10 EEST 2023
+#Sat Apr 29 01:44:08 EEST 2023
 base.2=C\:\\Users\\Windows 10\\AndroidStudioProjects\\AndoirdDev\\Android-Dev\\Android-Dev\\AndroidDev\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 path.2=10/classes.dex
 base.1=C\:\\Users\\Windows 10\\AndroidStudioProjects\\AndoirdDev\\Android-Dev\\Android-Dev\\AndroidDev\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

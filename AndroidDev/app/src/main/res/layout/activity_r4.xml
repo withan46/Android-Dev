@@ -20,20 +20,21 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.018" />
 
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="163dp"
+        android:layout_height="33dp"
+        android:gravity="center_vertical"
         android:text="@string/anna_maria_dagmaer"
         android:textColor="@color/black"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.279" />
+        app:layout_constraintVertical_bias="0.277" />
 
     <TextView
         android:id="@+id/textView3"
@@ -50,7 +51,7 @@
 
     <ScrollView
         android:layout_width="288dp"
-        android:layout_height="191dp"
+        android:layout_height="240dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,9 +69,9 @@
                 android:layout_height="match_parent"
                 android:ems="10"
                 android:gravity="start|top"
+                android:lineSpacingExtra="8sp"
                 android:text="Η συνεδρία φυσιοθεραπείας πραγματοποιήθηκε στις 23 Μαρτίου 2023. Ο ασθενής, ο κύριος Π.Κ., παρουσιάζει οξεία οσφυαλγία στην περιοχή της μέσης. Στην αρχή της συνεδρίας πραγματοποιήθηκε μια εκτίμηση της κατάστασης του ασθενούς, καθώς και μια αξιολόγηση της κίνησης της μέσης και της στάσης του σώματος. \nΣτη συνέχεια, πραγματοποιήθηκαν ασκήσεις για τη βελτίωση της ευλυγισίας της μέσης, καθώς και ασκήσεις ενδυνάμωσης των μυών της μέσης και των γλουτών. Επίσης, προτάθηκε η εφαρμογή ζεστού πακέτου στην περιοχή της μέσης για ανακούφιση από τον πόνο. \nΣτο τέλος της συνεδρίας, ο ασθενής αισθάνθηκε βελτίωση και είχε λιγότερο πόνο στην περιοχή της μέσης. Προτάθηκε η συνέχιση των ασκήσεων και η εφαρμογή ζεστού πακέτου στο σπίτι. Η επόμενη συνεδρία φυσιοθεραπείας προτάθηκε για τις 20 Απριλίου 2023." />
         </LinearLayout>
     </ScrollView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
