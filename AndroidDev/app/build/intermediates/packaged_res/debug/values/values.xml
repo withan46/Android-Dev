@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="background">#E4E4E4</color>
     <color name="black">#FF000000</color>
+    <color name="greenColor">#8FD14F</color>
+    <color name="noteColor">#000000</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
+    <color name="redColor">#EA593E</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="acceptButton">Accept</string>
     <string name="app_name">Android Dev</string>
-    <style name="Theme.AndroidDev" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <string name="date">15.05.23</string>
+    <string name="denyButton">Deny</string>
+    <string name="imagedesc">App Logo</string>
+    <string name="meetings">Meetings</string>
+    <string name="note1">Note: Problems with back pain</string>
+    <string name="note2">Note: Sports Massage</string>
+    <string name="note3">Note: Medium-Competitive</string>
+    <string name="past">Past</string>
+    <string name="requests">Request</string>
+    <string name="time">15.30</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="user1">Domas Irena</string>
+    <string name="user2">Katrina Angharad</string>
+    <string name="user3">Joachim Mitsuaki</string>
+    <style name="Theme.AndroidDev" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
