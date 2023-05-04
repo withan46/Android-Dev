@@ -9,6 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background">#E4E4E4</color>
     <color name="noteColor">#000000</color>
-    <color name="greenColor">#04d910</color>
-    <color name="redColor">#e40000</color>
+    <color name="greenColor">#8FD14F</color>
+    <color name="redColor">#EA593E</color>
 </resources>

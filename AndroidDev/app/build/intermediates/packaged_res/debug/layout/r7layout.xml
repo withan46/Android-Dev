@@ -3,7 +3,8 @@
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent"
+    android:fillViewport="true">
     <RelativeLayout
 
         android:id="@+id/screen"
@@ -67,7 +68,6 @@
                     android:id="@+id/upcomingBtn"
                     style="?android:attr/buttonBarButtonStyle"
                     android:layout_width="100dp"
-
                     android:layout_height="wrap_content"
                     android:background="@drawable/roundedbtn"
                     android:gravity="center_horizontal|center_vertical"
@@ -94,8 +94,10 @@
                     android:gravity="center_horizontal|center_vertical"
                     android:importantForAccessibility="yes"
                     android:maxLines="1"
+                    android:backgroundTint="@color/teal_700"
                     android:text="@string/requests"
                     android:textSize="12sp"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
             </LinearLayout>
 
@@ -117,6 +119,7 @@
                     android:maxLines="1"
                     android:text="@string/past"
                     android:textSize="12sp"
+
                     android:textStyle="bold" />
             </LinearLayout>
         </LinearLayout>
@@ -125,340 +128,341 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/patientsParent"
             android:layout_below="@id/container"
             android:paddingBottom="15dp"
             android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingTop="20dp"
-                android:paddingBottom="20dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:background="@drawable/roundedcontainer">
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:paddingTop="20dp"-->
+<!--                android:paddingBottom="20dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:background="@drawable/roundedcontainer">-->
 
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/usericon"
-                    android:drawablePadding="15dp"
-                    android:text="@string/user1"
-                    android:textSize="20sp"
-                    android:layout_marginStart="60dp"
-                    android:gravity="center_vertical"
-                    android:textColor="@color/black"/>
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableStart="@drawable/usericon"-->
+<!--                    android:drawablePadding="15dp"-->
+<!--                    android:text="@string/user1"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:layout_marginStart="50dp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="@color/black"/>-->
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/noteColor"
-                    android:text="@string/note1"
-                    android:textSize="12sp"
-                    android:layout_marginStart="60dp"
-                    android:layout_marginEnd="35dp"
-                    android:layout_marginTop="15dp"/>
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/noteColor"-->
+<!--                    android:text="@string/note1"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:layout_marginStart="60dp"-->
+<!--                    android:layout_marginEnd="35dp"-->
+<!--                    android:layout_marginTop="15dp"/>-->
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginBottom="15dp">
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="@string/time"
-                        android:textColor="@color/black"
-                        android:paddingStart="15dp"
-                        android:paddingEnd="15dp"
-                        android:layout_marginStart="60dp"
-                        android:textSize="12sp"
-                        android:gravity="start"/>
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginTop="40dp"-->
+<!--                    android:layout_marginBottom="15dp">-->
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="@string/time"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:paddingStart="15dp"-->
+<!--                        android:paddingEnd="15dp"-->
+<!--                        android:layout_marginStart="60dp"-->
+<!--                        android:textSize="12sp"-->
+<!--                        android:gravity="start"/>-->
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="@string/date"
-                        android:textColor="@color/black"
-                        android:paddingStart="15dp"
-                        android:layout_marginEnd="60dp"
-                        android:paddingEnd="15dp"
-                        android:textSize="12sp"
-                        android:gravity="end"/>
-                </LinearLayout>
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="@string/date"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:paddingStart="15dp"-->
+<!--                        android:layout_marginEnd="60dp"-->
+<!--                        android:paddingEnd="15dp"-->
+<!--                        android:textSize="12sp"-->
+<!--                        android:gravity="end"/>-->
+<!--                </LinearLayout>-->
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:baselineAligned="false"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="15dp">
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:baselineAligned="false"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginBottom="15dp">-->
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_marginStart="40dp">
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:drawableStart="@drawable/whitebacktick"
-                            android:text="@string/acceptButton"
-                            android:textColor="@color/greenColor"
-                            android:textSize="12sp"
-                            android:background="@drawable/acceptbtn"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"/>
-                    </RelativeLayout>
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_marginStart="40dp">-->
+<!--                        <Button-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:drawableStart="@drawable/whitebacktick"-->
+<!--                            android:text="@string/acceptButton"-->
+<!--                            android:textColor="@color/greenColor"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:background="@drawable/acceptbtn"-->
+<!--                            android:paddingStart="10dp"-->
+<!--                            android:paddingEnd="10dp"/>-->
+<!--                    </RelativeLayout>-->
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_marginEnd="45dp">
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:drawableStart="@drawable/xmark"
-                            android:text="@string/denyButton"
-                            android:textColor="@color/redColor"
-                            android:textSize="12sp"
-                            android:background="@drawable/denybtn"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"
-                            android:layout_alignParentEnd="true"/>
-                    </RelativeLayout>
-                </LinearLayout>
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingTop="20dp"
-                android:paddingBottom="20dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:background="@drawable/roundedcontainer">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/usericon"
-                    android:drawablePadding="15dp"
-                    android:text="@string/user2"
-                    android:textSize="20sp"
-                    android:layout_marginStart="60dp"
-                    android:gravity="center_vertical"
-                    android:textColor="@color/black"/>
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_marginEnd="45dp">-->
+<!--                        <Button-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:drawableStart="@drawable/xmark"-->
+<!--                            android:text="@string/denyButton"-->
+<!--                            android:textColor="@color/redColor"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:background="@drawable/denybtn"-->
+<!--                            android:paddingStart="10dp"-->
+<!--                            android:paddingEnd="10dp"-->
+<!--                            android:layout_alignParentEnd="true"/>-->
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/noteColor"
-                    android:text="@string/note2"
-                    android:textSize="12sp"
-                    android:layout_marginStart="60dp"
-                    android:layout_marginEnd="35dp"
-                    android:layout_marginTop="15dp"/>
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:paddingTop="20dp"-->
+<!--                android:paddingBottom="20dp"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:background="@drawable/roundedcontainer">-->
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginBottom="15dp">
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="@string/time"
-                        android:textColor="@color/black"
-                        android:paddingStart="15dp"
-                        android:paddingEnd="15dp"
-                        android:layout_marginStart="60dp"
-                        android:textSize="12sp"
-                        android:gravity="start"/>
-
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="@string/date"
-                        android:textColor="@color/black"
-                        android:paddingStart="15dp"
-                        android:layout_marginEnd="60dp"
-                        android:paddingEnd="15dp"
-                        android:textSize="12sp"
-                        android:gravity="end"/>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:baselineAligned="false"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="15dp">
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_marginStart="40dp">
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:drawableStart="@drawable/whitebacktick"
-                            android:text="@string/acceptButton"
-                            android:textColor="@color/greenColor"
-                            android:textSize="12sp"
-                            android:background="@drawable/acceptbtn"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"/>
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_marginEnd="45dp">
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:drawableStart="@drawable/xmark"
-                            android:text="@string/denyButton"
-                            android:textColor="@color/redColor"
-                            android:textSize="12sp"
-                            android:background="@drawable/denybtn"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"
-                            android:layout_alignParentEnd="true"/>
-                    </RelativeLayout>
-                </LinearLayout>
-            </LinearLayout>
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableStart="@drawable/usericon"-->
+<!--                    android:drawablePadding="15dp"-->
+<!--                    android:text="@string/user2"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:layout_marginStart="50dp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="@color/black"/>-->
 
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:paddingTop="20dp"
-                android:paddingBottom="20dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:background="@drawable/roundedcontainer">
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/noteColor"-->
+<!--                    android:text="@string/note2"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:layout_marginStart="60dp"-->
+<!--                    android:layout_marginEnd="35dp"-->
+<!--                    android:layout_marginTop="15dp"/>-->
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:drawableStart="@drawable/usericon"
-                    android:drawablePadding="15dp"
-                    android:text="@string/user3"
-                    android:textSize="20sp"
-                    android:layout_marginStart="60dp"
-                    android:gravity="center_vertical"
-                    android:textColor="@color/black"/>
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginTop="40dp"-->
+<!--                    android:layout_marginBottom="15dp">-->
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="@string/time"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:paddingStart="15dp"-->
+<!--                        android:paddingEnd="15dp"-->
+<!--                        android:layout_marginStart="60dp"-->
+<!--                        android:textSize="12sp"-->
+<!--                        android:gravity="start"/>-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="@string/date"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:paddingStart="15dp"-->
+<!--                        android:layout_marginEnd="60dp"-->
+<!--                        android:paddingEnd="15dp"-->
+<!--                        android:textSize="12sp"-->
+<!--                        android:gravity="end"/>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:baselineAligned="false"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginBottom="15dp">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_marginStart="40dp">-->
+<!--                        <Button-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:drawableStart="@drawable/whitebacktick"-->
+<!--                            android:text="@string/acceptButton"-->
+<!--                            android:textColor="@color/greenColor"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:background="@drawable/acceptbtn"-->
+<!--                            android:paddingStart="10dp"-->
+<!--                            android:paddingEnd="10dp"/>-->
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_marginEnd="45dp">-->
+<!--                        <Button-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:drawableStart="@drawable/xmark"-->
+<!--                            android:text="@string/denyButton"-->
+<!--                            android:textColor="@color/redColor"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:background="@drawable/denybtn"-->
+<!--                            android:paddingStart="10dp"-->
+<!--                            android:paddingEnd="10dp"-->
+<!--                            android:layout_alignParentEnd="true"/>-->
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
 
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/noteColor"
-                    android:text="@string/note3"
-                    android:textSize="12sp"
-                    android:layout_marginStart="60dp"
-                    android:layout_marginEnd="35dp"
-                    android:layout_marginTop="15dp"/>
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:paddingTop="20dp"-->
+<!--                android:paddingBottom="20dp"-->
+<!--                android:layout_marginTop="25dp"-->
+<!--                android:layout_marginStart="10dp"-->
+<!--                android:layout_marginEnd="10dp"-->
+<!--                android:background="@drawable/roundedcontainer">-->
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="40dp"
-                    android:layout_marginBottom="15dp">
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="@string/time"
-                        android:textColor="@color/black"
-                        android:paddingStart="15dp"
-                        android:paddingEnd="15dp"
-                        android:layout_marginStart="60dp"
-                        android:textSize="12sp"
-                        android:gravity="start"/>
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:drawableStart="@drawable/usericon"-->
+<!--                    android:drawablePadding="15dp"-->
+<!--                    android:text="@string/user3"-->
+<!--                    android:textSize="20sp"-->
+<!--                    android:layout_marginStart="50dp"-->
+<!--                    android:gravity="center_vertical"-->
+<!--                    android:textColor="@color/black"/>-->
 
-                    <TextView
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="@string/date"
-                        android:textColor="@color/black"
-                        android:paddingStart="15dp"
-                        android:layout_marginEnd="60dp"
-                        android:paddingEnd="15dp"
-                        android:textSize="12sp"
-                        android:gravity="end"/>
-                </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:baselineAligned="false"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="15dp">
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/noteColor"-->
+<!--                    android:text="@string/note3"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:layout_marginStart="60dp"-->
+<!--                    android:layout_marginEnd="35dp"-->
+<!--                    android:layout_marginTop="15dp"/>-->
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_marginStart="40dp">
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:drawableStart="@drawable/whitebacktick"
-                            android:text="@string/acceptButton"
-                            android:textColor="@color/greenColor"
-                            android:textSize="12sp"
-                            android:background="@drawable/acceptbtn"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"/>
-                    </RelativeLayout>
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginTop="40dp"-->
+<!--                    android:layout_marginBottom="15dp">-->
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="@string/time"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:paddingStart="15dp"-->
+<!--                        android:paddingEnd="15dp"-->
+<!--                        android:layout_marginStart="60dp"-->
+<!--                        android:textSize="12sp"-->
+<!--                        android:gravity="start"/>-->
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:layout_marginEnd="45dp">
-                        <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:drawableStart="@drawable/xmark"
-                            android:text="@string/denyButton"
-                            android:textColor="@color/redColor"
-                            android:textSize="12sp"
-                            android:background="@drawable/denybtn"
-                            android:paddingStart="10dp"
-                            android:paddingEnd="10dp"
-                            android:layout_alignParentEnd="true"/>
-                    </RelativeLayout>
-                </LinearLayout>
-            </LinearLayout>
+<!--                    <TextView-->
+<!--                        android:layout_width="0dp"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:text="@string/date"-->
+<!--                        android:textColor="@color/black"-->
+<!--                        android:paddingStart="15dp"-->
+<!--                        android:layout_marginEnd="60dp"-->
+<!--                        android:paddingEnd="15dp"-->
+<!--                        android:textSize="12sp"-->
+<!--                        android:gravity="end"/>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:baselineAligned="false"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:layout_marginBottom="15dp">-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_marginStart="40dp">-->
+<!--                        <Button-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:drawableStart="@drawable/whitebacktick"-->
+<!--                            android:text="@string/acceptButton"-->
+<!--                            android:textColor="@color/greenColor"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:background="@drawable/acceptbtn"-->
+<!--                            android:paddingStart="10dp"-->
+<!--                            android:paddingEnd="10dp"/>-->
+<!--                    </RelativeLayout>-->
+
+<!--                    <RelativeLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_weight="1"-->
+<!--                        android:layout_marginEnd="45dp">-->
+<!--                        <Button-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:drawableStart="@drawable/xmark"-->
+<!--                            android:text="@string/denyButton"-->
+<!--                            android:textColor="@color/redColor"-->
+<!--                            android:textSize="12sp"-->
+<!--                            android:background="@drawable/denybtn"-->
+<!--                            android:paddingStart="10dp"-->
+<!--                            android:paddingEnd="10dp"-->
+<!--                            android:layout_alignParentEnd="true"/>-->
+<!--                    </RelativeLayout>-->
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
 
 
 

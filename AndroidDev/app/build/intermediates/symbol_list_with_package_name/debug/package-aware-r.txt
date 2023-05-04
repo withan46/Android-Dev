@@ -2839,6 +2839,7 @@ id TOP_END
 id TOP_START
 id Welcome
 id accelerate
+id acceptButton
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -2904,6 +2905,8 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appDate
+id appTime
 id arc
 id asConfigured
 id async
@@ -2973,6 +2976,7 @@ id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
+id denyButton
 id dependency_ordering
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -3147,6 +3151,7 @@ id noState
 id none
 id normal
 id north
+id note
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -3168,6 +3173,9 @@ id password_toggle
 id pastBtn
 id path
 id pathRelative
+id patientName
+id patientbox
+id patientsParent
 id peekHeight
 id percent
 id pin
@@ -3518,6 +3526,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout patientboxlayout
 layout r7layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
