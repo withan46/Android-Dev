@@ -2959,6 +2959,7 @@ int id decor_content_parent 0x7f080090
 int id default_activity_button 0x7f080091
 int id deltaRelative 0x7f080092
 int id dependency_ordering 0x7f080093
+int id descriptionTextView 0x7f0801fb
 int id design_bottom_sheet 0x7f080094
 int id design_menu_item_action_area 0x7f080095
 int id design_menu_item_action_area_stub 0x7f080096
@@ -2985,7 +2986,6 @@ int id easeIn 0x7f0800aa
 int id easeInOut 0x7f0800ab
 int id easeOut 0x7f0800ac
 int id east 0x7f0800ad
-int id editTextTextMultiLine 0x7f0800ae
 int id edit_query 0x7f0800af
 int id elastic 0x7f0800b0
 int id embed 0x7f0800b1
@@ -3654,6 +3654,7 @@ int string mtrl_switch_track_decoration_path 0x7f0f008e
 int string mtrl_switch_track_path 0x7f0f008f
 int string mtrl_timepicker_cancel 0x7f0f0090
 int string mtrl_timepicker_confirm 0x7f0f0091
+int string no_description_added 0x7f0f009f
 int string password_toggle_content_description 0x7f0f0092
 int string path_password_eye 0x7f0f0093
 int string path_password_eye_mask_strike_through 0x7f0f0094
@@ -6803,3 +6804,4 @@ int[] styleable include { 0x7f030110 }
 int styleable include_constraintSet 0
 int xml backup_rules 0x7f120000
 int xml data_extraction_rules 0x7f120001
+int xml network_security_config 0x7f120002

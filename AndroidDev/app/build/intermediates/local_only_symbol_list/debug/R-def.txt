@@ -22,7 +22,7 @@ id Welcome
 id barrier2
 id button
 id createAccountButton
-id editTextTextMultiLine
+id descriptionTextView
 id first
 id loginButton
 id password
@@ -43,8 +43,10 @@ string _12_00_pm_23_3_2023
 string _26_years_old
 string anna_maria_dagmaer
 string app_name
+string no_description_added
 string profile_photo
 style AppTheme
 style Theme.AndroidDev
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

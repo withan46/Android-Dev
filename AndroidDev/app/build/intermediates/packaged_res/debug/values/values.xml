@@ -11,6 +11,7 @@
     <string name="_26_years_old">26 years old</string>
     <string name="anna_maria_dagmaer">Anna Maria Dagmaer</string>
     <string name="app_name">Android Dev</string>
+    <string name="no_description_added">No description added...</string>
     <string name="profile_photo">profile photo</string>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
 
