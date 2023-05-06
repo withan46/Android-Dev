@@ -2839,7 +2839,6 @@ id TOP_END
 id TOP_START
 id Welcome
 id accelerate
-id acceptButton
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -2896,6 +2895,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addButton
+id addText
 id alertTitle
 id aligned
 id all
@@ -2976,7 +2977,6 @@ id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
-id denyButton
 id dependency_ordering
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -3196,6 +3196,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id saveButton
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3450,7 +3451,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
-layout activity_r7
+layout activity_r8
 layout activity_second
 layout activity_third
 layout custom_dialog
@@ -3527,7 +3528,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout patientboxlayout
-layout r7layout
+layout r8layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

@@ -30,7 +30,8 @@ drawable usericon
 drawable whitebacktick
 drawable xmark
 id Welcome
-id acceptButton
+id addButton
+id addText
 id appDate
 id appTime
 id barrier2
@@ -40,7 +41,6 @@ id buttonContainer2
 id buttonContainer3
 id container
 id createAccountButton
-id denyButton
 id first
 id header
 id loginButton
@@ -55,16 +55,17 @@ id patientbox
 id patientsParent
 id registerTxt
 id requestsBtn
+id saveButton
 id screen
 id second
 id third
 id upcomingBtn
 layout activity_main
-layout activity_r7
+layout activity_r8
 layout activity_second
 layout activity_third
 layout patientboxlayout
-layout r7layout
+layout r8layout
 mipmap ic_launcher
 mipmap ic_launcher_round
 string acceptButton

@@ -1,170 +1,170 @@
 [
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_r7layout.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\r7layout.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_whitebacktick.jpg.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\whitebacktick.jpg"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_tick.jpg.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\tick.jpg"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_third.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_third.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_acceptbtn.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\acceptbtn.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_xmark.jpg.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\xmark.jpg"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_usericon.png.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\usericon.png"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_background_image_for_android.png.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\background_image_for_android.png"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_baseline_key_24.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\baseline_key_24.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_roundedcontainer.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\roundedcontainer.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_style_filled.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\button_style_filled.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_gray.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\button_gray.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_xmark.jpg.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\xmark.jpg"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_background.png.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\background.png"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_whitebacktick.jpg.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\whitebacktick.jpg"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\xml\\backup_rules.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_roundedcontainer.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\roundedcontainer.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_baseline_key_24.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\baseline_key_24.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_r7.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_r7.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_denybtn.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\denybtn.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\xml\\data_extraction_rules.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_second.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_second.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_roundedbtn.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\roundedbtn.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_third.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_third.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_baseline_email_24.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\baseline_email_24.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_gray.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\button_gray.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_acceptbtn.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\acceptbtn.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_background.png.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\background.png"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_background_image_for_android.png.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\background_image_for_android.png"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_style_filled.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\button_style_filled.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_usericon.png.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\usericon.png"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_patientboxlayout.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\patientboxlayout.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_tick.jpg.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\tick.jpg"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_r8.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_r8.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_r7layout.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/r7layout.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_patientboxlayout.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\patientboxlayout.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_r7layout.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\r7layout.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_r7.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_r7.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\baseline_email_24.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_r7conn.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\r7conn.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_r8layout.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\r8layout.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_second.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_second.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_denybtn.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\denybtn.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_logo.jpg.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\logo.jpg"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_logo.jpg.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\logo.jpg"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_roundedbtn.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\roundedbtn.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_style.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\button_style.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_style.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\button_style.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_patientboxlayut.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\patientboxlayut.xml"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v33\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\paulo\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v33\\ic_launcher.xml"
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_patientboxlayout.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/patientboxlayout.xml"
     }
 ]

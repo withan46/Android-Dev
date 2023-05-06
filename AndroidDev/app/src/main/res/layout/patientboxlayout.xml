@@ -1,4 +1,6 @@
 <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/patientbox"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -69,50 +71,45 @@
             android:gravity="end"/>
     </LinearLayout>
 
-    <LinearLayout
+    <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
-        android:baselineAligned="false"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="5dp"
-        android:layout_marginBottom="15dp">
+        android:hint="Add"
+        android:visibility="gone"
+        tools:visibility="gone" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginStart="40dp">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/acceptButton"
-                android:drawableStart="@drawable/whitebacktick"
-                android:text="@string/acceptButton"
-                android:textColor="@color/greenColor"
-                android:textSize="12sp"
-                android:background="@drawable/acceptbtn"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"/>
-        </RelativeLayout>
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/addText"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:hint="Add Description" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginEnd="45dp">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/denyButton"
-                android:drawableStart="@drawable/xmark"
-                android:text="@string/denyButton"
-                android:textColor="@color/redColor"
-                android:textSize="12sp"
-                android:background="@drawable/denybtn"
-                android:paddingStart="10dp"
-                android:paddingEnd="10dp"
-                android:layout_alignParentEnd="true"/>
-        </RelativeLayout>
-    </LinearLayout>
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="122dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@drawable/button_style_filled"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="closeBox"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal"
+        android:background="@drawable/button_style_filled"
+        android:gravity="center|center_horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="ADD DESCRIPTION"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+
 </LinearLayout>
 
