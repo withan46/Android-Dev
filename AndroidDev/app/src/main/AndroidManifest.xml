@@ -9,8 +9,14 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidDev"
+        android:theme="@style/AppTheme"
         tools:targetApi="31">
+        <activity
+            android:name=".R9second"
+            android:exported="false" />
+        <activity
+            android:name=".R9first"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

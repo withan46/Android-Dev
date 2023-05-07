@@ -3,13 +3,10 @@ package com.example.androiddev;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.res.XmlResourceParser;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.Toast;
-
-import org.xmlpull.v1.XmlPullParser;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void registerLink(View view){
-        Intent intent = new Intent(MainActivity.this, ThirdActivity.class);
+        Intent intent = new Intent(MainActivity.this, R9first.class);
         startActivity(intent);
     }
 }

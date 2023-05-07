@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Android Dev</string>
+    <string name="Search">Search</string>
+    <string name="arrange_an_appointment">Arrange an appointment</string>
+    <string name="select_clinic">Select clinic</string>
+    <string name="select_service">Select service</string>
+    <string name="time">Time</string>
+    <string name="_10_00_am">10:00 AM</string>
+    <string name="_11_00_am">11:00 AM</string>
+    <string name="_12_00_pm">12:00 PM</string>
+    <string name="_13_00_pm">13:00 PM</string>
+    <string name="_14_00_pm">14:00 PM</string>
+    <string name="_15_00_pm">15:00 PM</string>
+    <string name="_16_00_pm">16:00 PM</string>
+    <string name="_17_00_pm">17:00 PM</string>
+    <string name="date">Date</string>
+    <string name="book_appointment">Book appointment</string>
+    <string name="total">Total:</string>
 </resources>
