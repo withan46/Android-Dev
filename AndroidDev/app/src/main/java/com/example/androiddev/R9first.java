@@ -1,19 +1,24 @@
 package com.example.androiddev;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class R9first extends AppCompatActivity {
 
+    private final String myIP = "192.168.1.5";
     private Spinner spinner;
 
     @Override
@@ -21,15 +26,26 @@ public class R9first extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_r9);
 
-        spinner = (Spinner) findViewById(R.id.spinner);
+        OkHttpHandler httpHandler = new OkHttpHandler();
 
-        List<String> clinics = new ArrayList<>();
-        clinics.add("");
-        clinics.add("clinic 1");
-        clinics.add("clinic 2");
-        clinics.add("clinic 3");
+        Button searchButton = findViewById(R.id.search_button);
+        spinner = findViewById(R.id.spinner);
 
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, clinics);
+        List<String> clinicNames = new ArrayList<>();
+        List<Clinic> clinics;
+
+        try {
+            clinics = httpHandler.populateClinicDropDown("http://" + myIP + "/r9First.php");
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
+        clinicNames.add("");
+        for(Clinic clinic : clinics) {
+            clinicNames.add(clinic.getName());
+        }
+
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, clinicNames);
         spinner.setAdapter(arrayAdapter);
 
         spinner = findViewById(R.id.spinner);
@@ -42,7 +58,6 @@ public class R9first extends AppCompatActivity {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                TextView selectedText = (TextView) view;
 
                 if(id == 0) {
                     spinner.setSelection(0, false);
@@ -57,7 +72,19 @@ public class R9first extends AppCompatActivity {
                 placeholderText.setVisibility(View.VISIBLE);
             }
         });
+
+        searchButton.setOnClickListener(v -> {
+            long selectedClinic = spinner.getSelectedItemId();
+            if(selectedClinic != 0) {
+                String selectedVATNumber = Integer.toString(clinics.get((int) selectedClinic-1).getVatNumber());
+                Intent intent = new Intent(this, R9second.class);
+
+                intent.putExtra("clinicVAT", selectedVATNumber);
+                startActivity(intent);
+            }
+            else {
+                Toast.makeText(getApplicationContext(), "You have to pick a clinic first!", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
-
-
 }

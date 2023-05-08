@@ -2,11 +2,59 @@ package com.example.androiddev;
 
 public class Service {
 
-    String type;
-    Double price;
+        private int code;
+    private String name;
 
-    public Service(String type, Double price) {
-        this.type = type;
+    private String description;
+    private Double price;
+
+    private int clinicVATNumber;
+
+    public Service(int code, String name, String description, Double price, int clinicVATNumber) {
+        this.code = code;
+        this.name = name;
+        this.description = description;
         this.price = price;
+        this.clinicVATNumber = clinicVATNumber;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public int getClinicVATNumber() {
+        return clinicVATNumber;
+    }
+
+    public void setClinicVATNumber(int clinicVATNumber) {
+        this.clinicVATNumber = clinicVATNumber;
     }
 }
