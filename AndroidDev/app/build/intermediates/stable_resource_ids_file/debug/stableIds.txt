@@ -1082,6 +1082,7 @@ com.example.androiddev:style/ThemeOverlay.MaterialComponents.Dark.ActionBar = 0x
 com.example.androiddev:style/Base.Widget.AppCompat.ListView.Menu = 0x7f1000e4
 com.example.androiddev:integer/bottom_sheet_slide_duration = 0x7f090003
 com.example.androiddev:integer/app_bar_elevation_anim_duration = 0x7f090002
+com.example.androiddev:xml/network_security_config = 0x7f120002
 com.example.androiddev:layout/design_menu_item_action_area = 0x7f0b0027
 com.example.androiddev:integer/abc_config_activityShortDur = 0x7f090001
 com.example.androiddev:style/Widget.Material3.MaterialButtonToggleGroup = 0x7f10037d

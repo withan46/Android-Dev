@@ -56,10 +56,6 @@
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_select_clinic.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/select_clinic.xml"
-    },
-    {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
@@ -106,6 +102,10 @@
     {
         "merged": "com.example.androiddev.app-merged_res-29:/layout_create_new_service.xml.flat",
         "source": "com.example.androiddev.app-main-31:/layout/create_new_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\xml\\network_security_config.xml"
     },
     {
         "merged": "C:\\Users\\User\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
