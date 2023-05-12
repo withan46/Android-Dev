@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CreatePatient"
+    tools:context=".CreatePatientR3"
     >
 
     <TextView
@@ -101,15 +101,16 @@
         android:id="@+id/createPatientButton"
         android:layout_width="133dp"
         android:layout_height="34dp"
+        android:layout_marginBottom="24dp"
         android:background="@drawable/button_style_filled"
-        android:onClick="registerLink"
         android:text="Create"
         android:textAllCaps="false"
         android:textColor="#ffff"
+        android:onClick="createOnClick"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="467dp" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
