@@ -5,6 +5,7 @@ import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -14,6 +15,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -23,13 +25,21 @@ public class R9second extends AppCompatActivity {
 
     private ArrayList<Button> hourButtons, totalHourButtons, totalDayButtons;
 
+    private Button bookAppointment;
+
     private Drawable defaultBackground;
 
     private Drawable defaultHourBtnBackground;
 
     private Spinner dropdown;
 
+    private WeeklyPlan weeklyPlan;
+
+    private OkHttpHandler okHttpHandler;
+
     private final String myIP = "192.168.1.5";
+
+    private String patient_ssn = "100";
 
 
     @Override
@@ -40,24 +50,17 @@ public class R9second extends AppCompatActivity {
 
         Intent intent = getIntent();
         String clinicVAT = intent.getStringExtra("clinicVAT");
-        
-        OkHttpHandler okHttpHandler = new OkHttpHandler();
-        ArrayList<Appointment> appointments;
 
-        try {
-            appointments = okHttpHandler.getClinicAppointments("http://" + myIP + "/r9SecondAppointments.php?clinicVATNumber=" + clinicVAT);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+        this.defaultBackground = ContextCompat.getDrawable(this, R.drawable.weekplanbuttondefault);
+        this.defaultHourBtnBackground = ContextCompat.getDrawable(this, R.drawable.hour_button_default);
 
         String[] nameDay;
         final String[] selectedIndex = new String[1];
         final String[] selectedHour = new String[1];
         final String[] selectedServiceName = new String[1];
-        WeeklyPlan weeklyPlan = new WeeklyPlan();
 
-        this.defaultBackground = ContextCompat.getDrawable(this, R.drawable.weekplanbuttondefault);
-        this.defaultHourBtnBackground = ContextCompat.getDrawable(this, R.drawable.hour_button_default);
+        this.weeklyPlan = new WeeklyPlan();
+        this.okHttpHandler = new OkHttpHandler();
 
         Button tenHourBtn = findViewById(R.id.tenAM_button);
         Button elevenHourBtn = findViewById(R.id.elevenAM_button);
@@ -67,6 +70,16 @@ public class R9second extends AppCompatActivity {
         Button fifthteenHourBtn = findViewById(R.id.fifthteenPM_button);
         Button sixteenHourBtn = findViewById(R.id.sixteenPM_button);
         Button seventeenHourBtn = findViewById(R.id.seventeenPM_button);
+
+        Button firstBtn = findViewById(R.id.Monday_button);
+        Button secondBtn = findViewById(R.id.Tuesday_button);
+        Button thirdBtn = findViewById(R.id.Wednesday_button);
+        Button fourthBtn = findViewById(R.id.Thursday_button);
+        Button fifthBtn = findViewById(R.id.Friday_button);
+        Button sixthBtn = findViewById(R.id.Saturday_button);
+        Button seventhBtn = findViewById(R.id.Sunday_button);
+
+        this.bookAppointment = findViewById(R.id.book_appointment);
 
         this.totalHourButtons = new ArrayList<>();
         this.totalHourButtons.add(tenHourBtn);
@@ -80,18 +93,7 @@ public class R9second extends AppCompatActivity {
 
         this.hourButtons = new ArrayList<>(this.totalHourButtons);
 
-        Button bookAppointment = findViewById(R.id.book_appointment);
-
-        Button firstBtn = findViewById(R.id.Monday_button);
-        Button secondBtn = findViewById(R.id.Tuesday_button);
-        Button thirdBtn = findViewById(R.id.Wednesday_button);
-        Button fourthBtn = findViewById(R.id.Thursday_button);
-        Button fifthBtn = findViewById(R.id.Friday_button);
-        Button sixthBtn = findViewById(R.id.Saturday_button);
-        Button seventhBtn = findViewById(R.id.Sunday_button);
-
         this.totalDayButtons = new ArrayList<>();
-
         this.totalDayButtons.add(firstBtn);
         this.totalDayButtons.add(secondBtn);
         this.totalDayButtons.add(thirdBtn);
@@ -101,52 +103,23 @@ public class R9second extends AppCompatActivity {
         this.totalDayButtons.add(seventhBtn);
 
         TextView monthTextView = findViewById(R.id.Month_textView);
+        monthTextView.setText(getCurrentMonth());
 
-        monthTextView.setText(weeklyPlan.getCurrentMonth());
-
-        nameDay = weeklyPlan.getWeekDays();
-
-        firstBtn.setText(nameDay[0]);
-        secondBtn.setText(nameDay[1]);
-        thirdBtn.setText(nameDay[2]);
-        fourthBtn.setText(nameDay[3]);
-        fifthBtn.setText(nameDay[4]);
-        sixthBtn.setText(nameDay[5]);
-        seventhBtn.setText(nameDay[6]);
-
-        for(int i=0;i<this.totalDayButtons.size();i++) {
-            int index = i;
-            this.totalDayButtons.get(i).setOnClickListener(v -> {
-                resetWeeklyButtonClicked();
-                this.hourButtons = new ArrayList<>(this.totalHourButtons);
-                resetHourButtonClicked();
-
-                this.totalDayButtons.get(index).setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.weekplanbuttonpressed));
-                selectedIndex[0] = String.valueOf(index);
-                addAppointments(appointments, weeklyPlan, index);
-            });
-        }
-
-        for(Button btn : this.hourButtons) {
-            btn.setOnClickListener(v -> {
-
-                resetHourButtonClicked();
-                btn.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hour_button_pressed));
-                selectedHour[0] = btn.getText().toString();
-            });
-        }
-        
         List<Service> services;
         List<String> serviceNames = new ArrayList<>();
         serviceNames.add("");
         List<Double> servicePrices = new ArrayList<>();
         servicePrices.add(0.0);
 
-        try {
-            services = okHttpHandler.populateServiceDropDown("http://" + myIP + "/r9SecondServices.php?clinicVATNumber=" + clinicVAT);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+        nameDay = getNameDays();
+
+        deletePastAppointments();
+
+        setTotalDaysListener(clinicVAT, nameDay, selectedIndex);
+
+        setHourDaysListener(selectedHour);
+
+        services = getServices(clinicVAT);
 
         for(Service service: services){
             serviceNames.add(service.getName());
@@ -159,50 +132,9 @@ public class R9second extends AppCompatActivity {
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, serviceNames);
         dropdown.setAdapter(arrayAdapter);
 
-        dropdown = findViewById(R.id.servicedropdown);
+        setDropDownListener(selectedServiceName, servicePrices, placeholderText);
 
-        dropdown.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                TextView selectedText = (TextView) view;
-                TextView selectedService = findViewById(R.id.Total_textView);
-                selectedServiceName[0] = selectedText.getText().toString();
-
-                if(id == 0) {
-                    selectedService.setText("Total:");
-                    dropdown.setSelection(0, false);
-                    placeholderText.setVisibility(View.VISIBLE);
-                    return;
-                }
-                String formattedTotal = "Total: " + String.format("%,.2f", servicePrices.get((int) id));
-                selectedService.setText(formattedTotal);
-                placeholderText.setVisibility(View.GONE);
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-                placeholderText.setVisibility(View.VISIBLE);
-            }
-        });
-
-        bookAppointment.setOnClickListener(v ->
-            {
-                String date = weeklyPlan.getDate(Integer.parseInt(selectedIndex[0]));
-                try {
-                    boolean flag = okHttpHandler.bookAppointment("http://" + myIP + "/r9SecondBookAppointment.php?time=" + selectedHour[0] + "&date=" + date + "&tos=" + selectedServiceName[0] + "&clinicVATNumber=" + clinicVAT + "&accepted=False");
-
-                    if(flag) {
-                        Toast.makeText(getApplicationContext(), "Appointment booked successfully!", Toast.LENGTH_SHORT).show();
-                    }
-                    else {
-                        Toast.makeText(getApplicationContext(), "Something went wrong!Try again later", Toast.LENGTH_SHORT).show();
-                    }
-
-                } catch (Exception e) {
-                    throw new RuntimeException(e);
-                }
-            }
-        );
+        bookAppointmentListener(selectedIndex, selectedHour, selectedServiceName, clinicVAT);
     }
 
     private void addAppointments(ArrayList<Appointment> appointments, WeeklyPlan weeklyPlan, int index) {
@@ -254,5 +186,125 @@ public class R9second extends AppCompatActivity {
             btn.setClickable(true);
             btn.setBackground(this.defaultHourBtnBackground);
         }
+    }
+
+    private void deletePastAppointments() {
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                okHttpHandler.deletePastAppointments("http://" + myIP + "/r9SecondDeleteAppointments.php?localDate=" + LocalDate.now());
+            }
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private ArrayList<Appointment> getAppointments(String clinicVAT) {
+        ArrayList<Appointment> appointments;
+
+        try {
+            appointments = okHttpHandler.getClinicAppointments("http://" + myIP + "/r9SecondAppointments.php?clinicVATNumber=" + clinicVAT);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
+        return appointments;
+    }
+
+    private ArrayList<Service> getServices(String clinicVAT) {
+        ArrayList<Service> services;
+
+        try {
+            services = okHttpHandler.populateServiceDropDown("http://" + myIP + "/r9SecondServices.php?clinicVATNumber=" + clinicVAT);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
+        return services;
+    }
+
+    private String[] getNameDays() {
+        String[] nameDays;
+        nameDays = this.weeklyPlan.getWeekDays();
+
+        return nameDays;
+    }
+
+    private String getCurrentMonth() {
+        return this.weeklyPlan.getCurrentMonth();
+    }
+
+    private void setTotalDaysListener(String clinicVAT, String[] nameDay, String[] selectedIndex) {
+        ArrayList<Appointment> appointments = getAppointments(clinicVAT);
+
+        for(int i=0;i<this.totalDayButtons.size();i++) {
+            int index = i;
+            this.totalDayButtons.get(i).setText(nameDay[i]);
+            this.totalDayButtons.get(i).setOnClickListener(v -> {
+                resetWeeklyButtonClicked();
+                this.hourButtons = new ArrayList<>(this.totalHourButtons);
+                resetHourButtonClicked();
+
+                this.totalDayButtons.get(index).setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.weekplanbuttonpressed));
+                selectedIndex[0] = String.valueOf(index);
+                addAppointments(appointments, weeklyPlan, index);
+            });
+        }
+    }
+
+    private void setHourDaysListener(String[] selectedHour) {
+        for(Button btn : this.hourButtons) {
+            btn.setOnClickListener(v -> {
+                resetHourButtonClicked();
+                btn.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.hour_button_pressed));
+                selectedHour[0] = btn.getText().toString();
+            });
+        }
+    }
+
+    private void setDropDownListener(String[] selectedServiceName, List<Double> servicePrices, TextView placeholderText) {
+        dropdown.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                TextView selectedText = (TextView) view;
+                TextView selectedService = findViewById(R.id.Total_textView);
+                selectedServiceName[0] = selectedText.getText().toString();
+
+                if(id == 0) {
+                    selectedService.setText("Total:");
+                    dropdown.setSelection(0, false);
+                    placeholderText.setVisibility(View.VISIBLE);
+                    return;
+                }
+                String formattedTotal = "Total: " + String.format("%,.2f", servicePrices.get((int) id));
+                selectedService.setText(formattedTotal);
+                placeholderText.setVisibility(View.GONE);
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+                placeholderText.setVisibility(View.VISIBLE);
+            }
+        });
+    }
+
+    private void bookAppointmentListener(String[] selectedIndex, String[] selectedHour, String[] selectedServiceName, String clinicVAT ) {
+        this.bookAppointment.setOnClickListener(v ->
+                {
+                    String date = weeklyPlan.getDate(Integer.parseInt(selectedIndex[0]));
+                    try {
+                        boolean flag = okHttpHandler.bookAppointment("http://" + myIP + "/r9SecondBookAppointment.php?time=" + selectedHour[0] + "&date=" + date + "&tos=" + selectedServiceName[0] + "&clinicVATNumber="  + clinicVAT + "&patient_ssn=" + this.patient_ssn + "&accepted=False");
+
+                        if(flag) {
+                            Toast.makeText(getApplicationContext(), "Appointment booked successfully!", Toast.LENGTH_SHORT).show();
+                        }
+                        else {
+                            Toast.makeText(getApplicationContext(), "Something went wrong!Try again later", Toast.LENGTH_SHORT).show();
+                        }
+
+                    } catch (Exception e) {
+                        throw new RuntimeException(e);
+                    }
+                }
+        );
     }
 }

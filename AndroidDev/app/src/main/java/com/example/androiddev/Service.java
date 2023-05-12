@@ -2,7 +2,7 @@ package com.example.androiddev;
 
 public class Service {
 
-        private int code;
+    private String code;
     private String name;
 
     private String description;
@@ -10,7 +10,7 @@ public class Service {
 
     private int clinicVATNumber;
 
-    public Service(int code, String name, String description, Double price, int clinicVATNumber) {
+    public Service(String code, String name, String description, Double price, int clinicVATNumber) {
         this.code = code;
         this.name = name;
         this.description = description;
@@ -18,11 +18,11 @@ public class Service {
         this.clinicVATNumber = clinicVATNumber;
     }
 
-    public int getCode() {
+    public String getCode() {
         return code;
     }
 
-    public void setCode(int code) {
+    public void setCode(String code) {
         this.code = code;
     }
 

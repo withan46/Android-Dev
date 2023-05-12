@@ -1,7 +1,6 @@
 package com.example.androiddev;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,7 +17,6 @@ import java.util.List;
 
 public class R9first extends AppCompatActivity {
 
-    private final String myIP = "192.168.1.5";
     private Spinner spinner;
 
     @Override
@@ -35,6 +33,7 @@ public class R9first extends AppCompatActivity {
         List<Clinic> clinics;
 
         try {
+            String myIP = "192.168.1.5";
             clinics = httpHandler.populateClinicDropDown("http://" + myIP + "/r9First.php");
         } catch (Exception e) {
             throw new RuntimeException(e);

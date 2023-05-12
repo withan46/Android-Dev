@@ -1,7 +1,7 @@
 package com.example.androiddev;
 
 public class Clinic {
-        private int vatNumber;
+    private int vatNumber;
     private String name;
     private String address;
     private String phoneNumber;
