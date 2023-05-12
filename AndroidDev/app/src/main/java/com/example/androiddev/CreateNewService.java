@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class CreateNewService extends AppCompatActivity {
 
-    private final String myIP = "192.168.178.86";
+    private String myIP;
     private EditText name;
     private EditText code;
     private EditText price;
@@ -22,12 +22,13 @@ public class CreateNewService extends AppCompatActivity {
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.create_new_service);
+        Intent intent = getIntent();
+        clinic_vat_number = intent.getStringExtra("clinic_vat_number");
+        myIP = intent.getStringExtra("ip");
         name = findViewById(R.id.name_tb);
         code = findViewById(R.id.codeName_tb);
         price = findViewById(R.id.price_tb);
         description = findViewById(R.id.description_tb);
-        Intent intent = getIntent();
-        clinic_vat_number = intent.getStringExtra("clinic_vat_number");
     }
 
     public void createService(View view)  {
@@ -37,9 +38,9 @@ public class CreateNewService extends AppCompatActivity {
         try {
             boolean isSuccessful = okHttpHandler.createNewService(url);
             if(isSuccessful)
-                Toast.makeText(getApplicationContext(), "Service created successfully!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Service created successfully!", Toast.LENGTH_SHORT).show();
             else
-                Toast.makeText(getApplicationContext(), "Unable to create the service..", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Unable to create the service..", Toast.LENGTH_SHORT).show();
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

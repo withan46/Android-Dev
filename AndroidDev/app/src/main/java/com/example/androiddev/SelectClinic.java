@@ -12,12 +12,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class SelectClinic extends AppCompatActivity {
 
-    private final String myIP = "192.168.178.86";
+    private String myIP;
     private EditText nameTW;
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.select_clinic);
+        Intent parameters = getIntent();
+        myIP = parameters.getStringExtra("ip");
         nameTW = (EditText) findViewById(R.id.search_name_tb);
     }
 
@@ -30,10 +32,12 @@ public class SelectClinic extends AppCompatActivity {
             {
                 Intent intent = new Intent(SelectClinic.this, CreateNewService.class);
                 intent.putExtra("clinic_vat_number", clinic_vat_number);
+                intent.putExtra("ip", myIP);
+                Toast.makeText(getApplicationContext(), "Clinic selected successfully!", Toast.LENGTH_SHORT).show();
                 startActivity(intent);
             }
             else
-                Toast.makeText(getApplicationContext(), "Not a valid name!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Not a valid name!", Toast.LENGTH_LONG).show();
         } catch (Exception e) {
             e.printStackTrace();
         }

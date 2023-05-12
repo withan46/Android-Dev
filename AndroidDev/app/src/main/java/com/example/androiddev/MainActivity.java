@@ -13,6 +13,7 @@ import org.xmlpull.v1.XmlPullParser;
 
 public class MainActivity extends AppCompatActivity {
 
+    private final String myIP = "192.168.37.234";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void registerLink(View view){
         Intent intent = new Intent(MainActivity.this, SelectClinic.class);
+        intent.putExtra("ip", myIP);
         startActivity(intent);
     }
 }
