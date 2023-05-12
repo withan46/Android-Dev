@@ -7,7 +7,6 @@ import android.widget.TextView;
 
 public class R4 extends AppCompatActivity {
 
-    private final String myIP = "192.168.1.5";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,8 +18,9 @@ public class R4 extends AppCompatActivity {
 
     private String addDescription() {
 
-        String text = null;
-        int patientSSN = 123;
+        String text = "";
+        int patientSSN = 100;
+        String myIP = "192.168.1.5";
         String url= "http://"+ myIP +"/r4.php?patientSSN=" + patientSSN;
 
         try {

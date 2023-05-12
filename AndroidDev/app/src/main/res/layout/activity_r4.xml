@@ -8,7 +8,7 @@
     tools:context=".R4">
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView_Age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_26_years_old"
@@ -17,12 +17,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Name"
         app:layout_constraintVertical_bias="0.018" />
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView_Name"
         android:layout_width="163dp"
         android:layout_height="33dp"
         android:gravity="center_vertical"
@@ -37,7 +37,7 @@
         app:layout_constraintVertical_bias="0.277" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView_Date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/_12_00_pm_23_3_2023"
@@ -46,7 +46,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Age"
         app:layout_constraintVertical_bias="0.021" />
 
     <ScrollView
@@ -55,7 +55,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Date"
         app:layout_constraintVertical_bias="0.354">
 
         <LinearLayout
