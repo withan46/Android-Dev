@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
+    <color name="human_icon_background">#3996A9</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="age">Age</string>
+    <string name="all">All</string>
     <string name="app_name">Android Dev</string>
+    <string name="contact">Contact</string>
+    <string name="date">Date</string>
+    <string name="email">Email</string>
+    <string name="history">History</string>
+    <string name="name">Name</string>
+    <string name="number">Phone Number</string>
+    <string name="patients">Patients</string>
+    <string name="todays_appointments">Today\'s Appointments</string>
+    <string name="years">Years old</string>
     <style name="Theme.AndroidDev" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

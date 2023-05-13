@@ -27,6 +27,24 @@
         android:testOnly="true"
         android:theme="@style/Theme.AndroidDev" >
         <activity
+            android:name="com.example.androiddev.R5_3"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androiddev.R5_2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androiddev.R5_1_2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androiddev.R5_1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androiddev.patient_card"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androiddev.Patient"
+            android:exported="false" />
+        <activity
             android:name="com.example.androiddev.MainActivity"
             android:exported="true" >
             <intent-filter>
