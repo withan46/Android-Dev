@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -18,6 +19,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class R5_1 extends AppCompatActivity {
+    private final String myIP = "192.168.0.132";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +30,17 @@ public class R5_1 extends AppCompatActivity {
         List<Patient> patientList = new ArrayList<>();
         patientList.add(new Patient("John Doe", 25, "johndoe@example.com", "password123", "123-45-6789", "555-1234", "04/08/2023", "Allergies"));
         patientList.add(new Patient("Jane Doe", 32, "janedoe@example.com", "password456", "987-65-4321", "555-5678", "18/07/2023", "Back pain"));
-        patientList.add(new Patient("Mary Doe", 21,"marydoe@example.com", "password457", "987-65-4871", "555-5528", "19/10/2023", "Arm pain"));
+        patientList.add(new Patient("Mary Doe", 21, "marydoe@example.com", "password457", "987-65-4871", "555-5528", "19/10/2023", "Arm pain"));
+
+        // Create an instance of OkHttpHandler and call populateScrollView to fetch the patients data
+        /*OkHttpHandler okHttpHandler = new OkHttpHandler();
+        try {
+            patientList = okHttpHandler.populateScrollView("http://" + myIP + "/get_patients.php");
+        } catch (Exception e) {
+            e.printStackTrace();
+            return;
+        }*/
+
 
         // set text 'Patients' to SearchView on R5_1
         SearchView searchView = findViewById(R.id.patientsSearchView); // get reference to your SearchView
@@ -79,21 +92,23 @@ public class R5_1 extends AppCompatActivity {
 
                     // Start the activity
                     startActivity(intent);
-                }});
+                }
+            });
 
             // Add the card to the container
             linearLayout.addView(cardView);
         }
     }
 
-    public void goToAppointments(View view) {
+
+    /*public void goToAppointments(View view) {
         Intent intent = new Intent(this, R5_1_2.class);
         startActivity(intent);
     }
     public void goToAll(View view) {
         Intent intent = new Intent(this, R5_1.class);
         startActivity(intent);
-    }
+    }*/
 
 
 

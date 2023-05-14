@@ -18,17 +18,23 @@ public class R5_3 extends AppCompatActivity {
 
         // Switch from R5_1_2 (Today's appointments) to R5_1 (all patients)
         TextView myTextView = findViewById(R.id.historyText);
+
+        //Retrieve the Patient object that was clicked by the user
+        Patient patient = getIntent().getParcelableExtra("patient");
+
         myTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Start the new activity
                 Intent intent = new Intent(R5_3.this, R5_2.class);
+
+                // Pass the patient object to the intent
+                intent.putExtra("patient", patient);
+
+                // Start the activity
                 startActivity(intent);
             }
         });
-
-        //Retrieve the Patient object that was clicked by the user
-        Patient patient = getIntent().getParcelableExtra("patient");
 
         // Initialize the TextView and ImageView widgets
         TextView nameTextView = findViewById(R.id.patientName);

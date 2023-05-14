@@ -1,9 +1,5 @@
 [
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_r53.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/activity_r53.xml"
-    },
-    {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
@@ -72,12 +68,12 @@
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-mdpi_human_icon.png.flat",
-        "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\human_icon.png"
-    },
-    {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-mdpi_human_icon.png.flat",
+        "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\human_icon.png"
     },
     {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -144,6 +140,10 @@
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/xml_network_security_config.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/xml/network_security_config.xml"
+    },
+    {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxhdpi_human_icon.png.flat",
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxhdpi\\human_icon.png"
     },
@@ -162,10 +162,6 @@
     {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_r51.xml.flat",
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_r51.xml"
-    },
-    {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_r52.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/activity_r52.xml"
     },
     {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
