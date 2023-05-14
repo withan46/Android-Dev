@@ -44,31 +44,32 @@
         android:orientation="horizontal"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="15dp">
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/appTime"
-            android:layout_weight="1"
-            android:text=""
-            android:textColor="@color/black"
-            android:paddingStart="15dp"
-            android:paddingEnd="15dp"
-            android:layout_marginStart="60dp"
-            android:textSize="12sp"
-            android:gravity="start"/>
 
         <TextView
+            android:id="@+id/appTime"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:id="@+id/appDate"
+            android:layout_marginStart="50dp"
             android:layout_weight="1"
+            android:gravity="start"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
             android:text=""
             android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/appDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:layout_weight="1"
+            android:gravity="end"
             android:paddingStart="15dp"
-            android:layout_marginEnd="60dp"
             android:paddingEnd="15dp"
-            android:textSize="12sp"
-            android:gravity="end"/>
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="12sp" />
     </LinearLayout>
 
     <com.google.android.material.textfield.TextInputEditText

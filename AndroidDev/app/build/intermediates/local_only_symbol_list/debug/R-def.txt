@@ -87,3 +87,4 @@ string user3
 style Theme.AndroidDev
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

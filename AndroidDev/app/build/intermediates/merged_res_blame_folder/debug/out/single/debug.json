@@ -40,6 +40,10 @@
         "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/xml_network_security_config.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/xml/network_security_config.xml"
+    },
+    {
         "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_xmark.jpg.flat",
         "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\xmark.jpg"
     },
@@ -120,6 +124,10 @@
         "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
+        "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\xml\\network_security_config.xml"
+    },
+    {
         "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_baseline_email_24.xml.flat",
         "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\baseline_email_24.xml"
     },
@@ -162,9 +170,5 @@
     {
         "merged": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\komit\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_patientboxlayout.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/patientboxlayout.xml"
     }
 ]

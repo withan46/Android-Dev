@@ -11,27 +11,32 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
-import com.google.android.material.textfield.TextInputLayout;
 
 import java.util.*;
 
 public class R8 extends AppCompatActivity {
+
+    // IP of my Computer
+    String myIP = "192.168.1.254";
+
+    //Creating an arrayList of patients for testing.
+    ArrayList<AcceptedAppointments> patients = new ArrayList<>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        //Creating an arrayList of patients for testing.
+        // Creating HTTP handler Object
+        OkHttpHandler okHttpHandler = new OkHttpHandler();
 
+        ////// I NEED TO TAKE THIS "10000" NUMBER FROM ANOTHER R //////
+        String url1 = "http://"+ myIP +"/AndroidDev/getAcceptedAppointments.php?clinic_vat_number=" + 10000;
 
-        ArrayList<PatientInfo> patients = new ArrayList<>();
-        // Creating three patients.
-        PatientInfo pat1 = new PatientInfo("Domas Irena", "13.5.22", "13.45");
-        PatientInfo pat2 = new PatientInfo("Katrin Angharad", "17.5.22", "13.00");
-        PatientInfo pat3 = new PatientInfo("Joachim Mitsuaki", "17.5.22", "16.30");
+        try {
+            patients = okHttpHandler.getAcceptedAppointments(url1);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
 
-        //Adding patients to the array list.
-        patients.add(pat1);
-        patients.add(pat2);
-        patients.add(pat3);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.r8layout);
 
@@ -45,12 +50,11 @@ public class R8 extends AppCompatActivity {
              LinearLayout patientBox = (LinearLayout) inflater.inflate(R.layout.patientboxlayout, patientBoxParent, false);
 
 
-
-
-             // fetching the elements that vary and change dynamically based on the patient.
+             // Fetching the elements that vary and change dynamically based on the patient.
              TextView name = patientBox.findViewById(R.id.patientName);
              TextView date = patientBox.findViewById(R.id.appDate);
              TextView time = patientBox.findViewById(R.id.appTime);
+             TextView note = patientBox.findViewById(R.id.note);
 
              Button saveButton = patientBox.findViewById(R.id.saveButton);
              TextInputEditText addText = patientBox.findViewById(R.id.addText);
@@ -58,21 +62,19 @@ public class R8 extends AppCompatActivity {
              saveButton.setVisibility(View.GONE);
              addText.setVisibility(View.GONE);
 
-             // getting all the necessary data and adding it to the appropriate elements.
-             PatientInfo aPatient = patients.get(i);
+             // Getting all the necessary data and adding it to the appropriate elements.
+             AcceptedAppointments aPatient = patients.get(i);
              name.setText(aPatient.getPatientName());
              date.setText(aPatient.getAppointmentDate());
              time.setText(aPatient.getAppointmentTime());
+             note.setText("Service: "+aPatient.getTypeOfService());
 
 
              // Adding the layout containing a patient's information to its parent layout.
-
              patientBoxParent.addView(patientBox);
 
              //Getting the accept and deny appointment buttons, in order to add onClickListeners.
              Button addButton = patientBox.findViewById(R.id.addButton);
-
-
 
              addButton.setOnClickListener(new View.OnClickListener(){
                  @Override
@@ -89,21 +91,53 @@ public class R8 extends AppCompatActivity {
 
                          public void onClick (View v) {
 
+                             String descr = "";
+                             TextView name = patientBox.findViewById(R.id.patientName);
+                             AcceptedAppointments chosen = null;
+
                              // Getting String from Text Area
-                             String descr = addText.getText().toString();
-                             Toast.makeText(R8.this, "Description Saved", Toast.LENGTH_SHORT).show();
+                             if (!addText.getText().equals(null))
+                             {
+                                 descr = addText.getText().toString();
+                             }
+
+                             // Looking for the Patient whose Data and Description (History) we want to add to the Database
+                             for(AcceptedAppointments ap: patients)
+                             {
+                                 // If found, we set the chosen Object = to the one that was found
+                                 if ( (name.getText().toString()).equals(ap.getPatientName()) )
+                                 {
+                                     chosen = ap;   
+
+                                     // URL that will be used to Access .php file in the Database
+                                     String url3 = "http://"+myIP+"/AndroidDev/setHistory.php?patient_ssn=100&tos=%22%CE%91%CF%80%CE%BB%CE%AE%20%CE%A6%CF%85%CF%83%CE%B9%CE%BA%CE%BF%CE%B8%CE%B5%CF%81%CE%B1%CF%80%CE%B5%CE%AF%CE%B1%22&time=%2209:30:00%22&date=%222022-05-05%22&description=%22%CE%8C%CE%BB%CE%B1%20%CF%80%CE%AE%CE%B3%CE%B1%CE%BD%20%CE%BA%CE%B1%CE%BB%CE%AC%22";
+                                     String url2 = "http://"+myIP+"/AndroidDev/setHistory.php?patient_ssn='"+chosen.getSsn()+"'&tos='"+chosen.getTypeOfService()+"'&time='"+chosen.getAppointmentTime()+"'&date='"+chosen.getAppointmentDate()+"'&description='"+descr+"'";
+
+                                     OkHttpHandler okHttpHandler = new OkHttpHandler();
+                                     System.out.println(chosen.getTypeOfService());
+                                     try {
+                                         okHttpHandler.addHistory(url2);
+                                     } catch (Exception e) {
+                                         throw new RuntimeException();
+                                     }
+
+                                 }
+                             }
+
+
+                             Toast.makeText(R8.this, "Description Added", Toast.LENGTH_SHORT).show();
 
                              // Getting the patientBox layout (Buttons are each inside a relative layout, which is inside a linear layout, which is inside the patientBox)
                              LinearLayout parent = (LinearLayout) addButton.getParent();
-                             //Removing the patientBox
+
+                             //Making the patientBox Invisible
                              parent.setVisibility(View.GONE);
 
                          }
+
                      });
                  }
              });
          }
-
     }
-    
 }
