@@ -13,7 +13,7 @@ import org.xmlpull.v1.XmlPullParser;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String myIP = "192.168.37.234";
+    private final String myIP = "192.168.178.86";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
