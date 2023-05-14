@@ -26,7 +26,6 @@ public class OkHttpHandler {
         StrictMode.setThreadPolicy(policy);
     }
 
-
     ArrayList<Patient> populateScrollView(String url) throws Exception {
         ArrayList<Patient> patientsList = new ArrayList<>();
         OkHttpClient client = new OkHttpClient().newBuilder().build();
@@ -37,18 +36,40 @@ public class OkHttpHandler {
                 body).build();
         Response response = client.newCall(request).execute();
         String data = response.body().string();
-        //System.out.println("My Response: " + data);
+        System.out.println("My Response: " + data);
         try {
-            JSONObject json = new JSONObject(data);
-            Iterator<String> keys = json.keys();
-            while(keys.hasNext()) {
-                String name = keys.next();
-                String email = json.get(name).toString();
-                patientsList.add(new Patient(name, 23, email, "","","","",""));
+            JSONArray jsonArray = new JSONArray(data);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                String name = jsonObject.getString("name");
+                String email = jsonObject.getString("email");
+                String ssn = jsonObject.getString("ssn");
+                String phone = jsonObject.getString("phone");
+                String caseType;
+                if (!jsonObject.isNull("case")) {
+                    caseType = jsonObject.getString("case");
+                } else {
+                    caseType = null;
+                }
+                String nextAppointment;
+                if (!jsonObject.isNull("next_appointment_date")) {
+                    nextAppointment = jsonObject.getString("next_appointment_date");
+                } else {
+                    nextAppointment = null;
+                }
+                String nextAppointmentTime;
+                if (!jsonObject.isNull("next_appointment_time")) {
+                    nextAppointmentTime = jsonObject.getString("next_appointment_time");
+                } else {
+                    nextAppointmentTime = null;
+                }
+                patientsList.add(new Patient(name, email, ssn, phone, nextAppointment, nextAppointmentTime, caseType));
+                System.out.println(name + email + ssn + phone + caseType + nextAppointment + nextAppointmentTime);
             }
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
         return patientsList;
     }
 

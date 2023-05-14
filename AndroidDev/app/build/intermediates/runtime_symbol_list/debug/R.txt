@@ -2958,7 +2958,6 @@ int id currentState 0x7f08008c
 int id custom 0x7f08008d
 int id customPanel 0x7f08008e
 int id cut 0x7f08008f
-int id dateField 0x7f080090
 int id date_picker_actions 0x7f080091
 int id decelerate 0x7f080092
 int id decelerateAndComplete 0x7f080093
@@ -3160,9 +3159,6 @@ int id passwordTxt 0x7f080156
 int id password_toggle 0x7f080157
 int id path 0x7f080158
 int id pathRelative 0x7f080159
-int id patientAge 0x7f08015a
-int id patientAgeText 0x7f08015b
-int id patientCard 0x7f08015c
 int id patientCase 0x7f08015d
 int id patientImage 0x7f08015e
 int id patientLinearLayout 0x7f08015f
@@ -3178,7 +3174,6 @@ int id phoneNumberField 0x7f080168
 int id pin 0x7f080169
 int id position 0x7f08016a
 int id postLayout 0x7f08016b
-int id preparationMessage 0x7f08016c
 int id pressed 0x7f08016d
 int id progress_circular 0x7f08016e
 int id progress_horizontal 0x7f08016f
@@ -3446,15 +3441,15 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_allpatients_r5 0x7f0b0072
 int layout activity_main 0x7f0b001c
 int layout activity_patient 0x7f0b001d
 int layout activity_patient_card 0x7f0b001e
-int layout activity_r51 0x7f0b001f
-int layout activity_r512 0x7f0b0020
-int layout activity_r52 0x7f0b0021
-int layout activity_r53 0x7f0b0022
+int layout activity_patientcontact_r5 0x7f0b0073
+int layout activity_patienthistory_r5 0x7f0b0074
 int layout activity_second 0x7f0b0023
 int layout activity_third 0x7f0b0024
+int layout activity_todayspatients_r5 0x7f0b0075
 int layout custom_dialog 0x7f0b0025
 int layout design_bottom_navigation_item 0x7f0b0026
 int layout design_bottom_sheet_dialog 0x7f0b0027

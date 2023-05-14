@@ -2959,7 +2959,6 @@ id currentState
 id custom
 id customPanel
 id cut
-id dateField
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3161,9 +3160,6 @@ id passwordTxt
 id password_toggle
 id path
 id pathRelative
-id patientAge
-id patientAgeText
-id patientCard
 id patientCase
 id patientImage
 id patientLinearLayout
@@ -3179,7 +3175,6 @@ id phoneNumberField
 id pin
 id position
 id postLayout
-id preparationMessage
 id pressed
 id progress_circular
 id progress_horizontal
@@ -3447,15 +3442,15 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_allpatients_r5
 layout activity_main
 layout activity_patient
 layout activity_patient_card
-layout activity_r51
-layout activity_r512
-layout activity_r52
-layout activity_r53
+layout activity_patientcontact_r5
+layout activity_patienthistory_r5
 layout activity_second
 layout activity_third
+layout activity_todayspatients_r5
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
