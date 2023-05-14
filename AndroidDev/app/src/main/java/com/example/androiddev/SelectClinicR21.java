@@ -4,20 +4,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class SelectClinic extends AppCompatActivity {
+public class SelectClinicR21 extends AppCompatActivity {
 
     private String myIP;
     private EditText nameTW;
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.select_clinic);
+        setContentView(R.layout.select_clinic_r21);
         Intent parameters = getIntent();
         myIP = parameters.getStringExtra("ip");
         nameTW = (EditText) findViewById(R.id.search_name_tb);
@@ -30,7 +29,7 @@ public class SelectClinic extends AppCompatActivity {
             String clinic_vat_number = okHttpHandler.findClinic(url);
             if (!clinic_vat_number.equals(""))
             {
-                Intent intent = new Intent(SelectClinic.this, CreateNewService.class);
+                Intent intent = new Intent(SelectClinicR21.this, CreateNewServiceR22.class);
                 intent.putExtra("clinic_vat_number", clinic_vat_number);
                 intent.putExtra("ip", myIP);
                 Toast.makeText(getApplicationContext(), "Clinic selected successfully!", Toast.LENGTH_SHORT).show();

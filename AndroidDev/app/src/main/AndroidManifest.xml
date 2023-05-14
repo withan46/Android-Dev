@@ -30,8 +30,8 @@
         </activity>
         <activity android:name=".SecondActivity" />
         <activity android:name=".ThirdActivity" />
-        <activity android:name=".SelectClinic" />
-        <activity android:name=".CreateNewService" />
+        <activity android:name=".SelectClinicR21" />
+        <activity android:name=".CreateNewServiceR22" />
     </application>
 
 </manifest>

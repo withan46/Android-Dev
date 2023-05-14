@@ -9,7 +9,7 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class CreateNewService extends AppCompatActivity {
+public class CreateNewServiceR22 extends AppCompatActivity {
 
     private String myIP;
     private EditText name;
@@ -21,7 +21,7 @@ public class CreateNewService extends AppCompatActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.create_new_service);
+        setContentView(R.layout.create_new_service_r22);
         Intent intent = getIntent();
         clinic_vat_number = intent.getStringExtra("clinic_vat_number");
         myIP = intent.getStringExtra("ip");
