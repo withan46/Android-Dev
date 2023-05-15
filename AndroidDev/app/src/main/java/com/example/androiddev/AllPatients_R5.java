@@ -26,26 +26,27 @@ public class AllPatients_R5 extends AppCompatActivity {
         myIP = getIntent().getStringExtra("ip");
 
         List<Patient> patientList = new ArrayList<>();
-        patientList.add(new Patient("John Doe", "johndoe@example.com", "123-45-6789", "555-1234", "04/08/2023", "18:00", "Allergies"));
-        patientList.add(new Patient("Jane Doe", "janedoe@example.com", "987-65-4321", "555-5678", "18/07/2023", "13:00", "Back pain"));
-        patientList.add(new Patient("Mary Doe", "marydoe@example.com",  "987-65-4871", "555-5528", "19/10/2023", "17:00", "Arm pain"));
 
+        /*
         // set text 'Patients' to SearchView on R5_1
         SearchView searchView = findViewById(R.id.patientsSearchView); // get reference to your SearchView
         String queryText = "Patients"; // replace with your desired text
         searchView.setQuery(queryText, false); // set the query text and submit flag (false)
+        */
 
-        // Switch from R5_1_2 (Today's appointments) to R5_1 (all patients)
+        // Switch from AllPatients to Today's Appointments
         TextView myTextView = findViewById(R.id.appointmentsTextView);
         myTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // Start the new activity
                 Intent intent = new Intent(AllPatients_R5.this, TodaysPatients_R5.class);
+                intent.putExtra("ip", myIP);
                 startActivity(intent);
             }
         });
 
+        // Initialize ScrollView and linearLayout to display patient's info
         ScrollView scrollView = findViewById(R.id.patientsScrollView);
         LinearLayout linearLayout = scrollView.findViewById(R.id.patientLinearLayout);
 

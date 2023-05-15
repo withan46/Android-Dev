@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_patientcontact_r5.xml.flat",
-        "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_patientcontact_r5.xml"
-    },
-    {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_patientcontact_r5.xml.flat",
+        "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_patientcontact_r5.xml"
     },
     {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_style_filled_grey.xml.flat",
@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\human_icon_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\xml_network_security_config.xml.flat",
-        "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\xml\\network_security_config.xml"
-    },
-    {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_gray.xml.flat",
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\button_gray.xml"
+    },
+    {
+        "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\xml\\network_security_config.xml"
     },
     {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_style_filled_green.xml.flat",
@@ -76,12 +76,12 @@
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-mdpi_human_icon.png.flat",
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\human_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
@@ -136,6 +136,10 @@
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_todayspatients_r5.xml"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_patienthistory_r5.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/activity_patienthistory_r5.xml"
+    },
+    {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-mdpi_human_icon_round.png.flat",
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\human_icon_round.png"
     },
@@ -172,10 +176,6 @@
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_r51.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_allpatients_r5.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/activity_allpatients_r5.xml"
-    },
-    {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -190,6 +190,10 @@
     {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_third.xml.flat",
         "source": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_third.xml"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_patient_history_card.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/activity_patient_history_card.xml"
     },
     {
         "merged": "C:\\Users\\Lia\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable-v24_ic_launcher_foreground.xml.flat",

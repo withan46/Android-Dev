@@ -28,15 +28,19 @@ id barrier2
 id button
 id contactText
 id createAccountButton
+id date
+id description
 id email
 id emailField
 id first
+id historyLinearLayout
 id historyText
 id loginButton
 id nextAppointment
 id password
 id passwordTxt
 id patientCase
+id patientHistory
 id patientImage
 id patientLinearLayout
 id patientName
@@ -54,6 +58,7 @@ layout activity_allpatients_r5
 layout activity_main
 layout activity_patient
 layout activity_patient_card
+layout activity_patient_history_card
 layout activity_patientcontact_r5
 layout activity_patienthistory_r5
 layout activity_second

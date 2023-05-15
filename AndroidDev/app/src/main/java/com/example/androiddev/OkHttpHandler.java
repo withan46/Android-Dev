@@ -37,6 +37,7 @@ public class OkHttpHandler {
         Response response = client.newCall(request).execute();
         String data = response.body().string();
         System.out.println("My Response: " + data);
+
         try {
             JSONArray jsonArray = new JSONArray(data);
             for (int i = 0; i < jsonArray.length(); i++) {
@@ -49,21 +50,36 @@ public class OkHttpHandler {
                 if (!jsonObject.isNull("case")) {
                     caseType = jsonObject.getString("case");
                 } else {
-                    caseType = null;
+                    caseType = "-";
                 }
                 String nextAppointment;
                 if (!jsonObject.isNull("next_appointment_date")) {
                     nextAppointment = jsonObject.getString("next_appointment_date");
                 } else {
-                    nextAppointment = null;
+                    nextAppointment = "-";
                 }
                 String nextAppointmentTime;
                 if (!jsonObject.isNull("next_appointment_time")) {
                     nextAppointmentTime = jsonObject.getString("next_appointment_time");
                 } else {
-                    nextAppointmentTime = null;
+                    nextAppointmentTime = "";
                 }
-                patientsList.add(new Patient(name, email, ssn, phone, nextAppointment, nextAppointmentTime, caseType));
+                String historyDate;
+                if(!jsonObject.isNull("history_date")) {
+                    historyDate = jsonObject.getString(("history_date"));
+                } else {
+                    historyDate = "";
+                }
+                List<String> history = new ArrayList<>();
+                String historyTime;
+                if(!jsonObject.isNull("history_time")) {
+                    historyTime = jsonObject.getString(("history_time"));
+                    history.add(historyDate + " " + historyTime);
+                } else {
+                    historyTime = "";
+                }
+
+                patientsList.add(new Patient(name, email, ssn, phone, nextAppointment, nextAppointmentTime, caseType, history));
                 System.out.println(name + email + ssn + phone + caseType + nextAppointment + nextAppointmentTime);
             }
         } catch (JSONException e) {

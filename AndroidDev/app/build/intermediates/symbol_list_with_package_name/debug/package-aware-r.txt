@@ -2959,6 +2959,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id date
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2966,6 +2967,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -3032,6 +3034,7 @@ id grouping
 id groups
 id header_title
 id hideable
+id historyLinearLayout
 id historyText
 id home
 id homeAsUp
@@ -3161,6 +3164,7 @@ id password_toggle
 id path
 id pathRelative
 id patientCase
+id patientHistory
 id patientImage
 id patientLinearLayout
 id patientName
@@ -3446,6 +3450,7 @@ layout activity_allpatients_r5
 layout activity_main
 layout activity_patient
 layout activity_patient_card
+layout activity_patient_history_card
 layout activity_patientcontact_r5
 layout activity_patienthistory_r5
 layout activity_second

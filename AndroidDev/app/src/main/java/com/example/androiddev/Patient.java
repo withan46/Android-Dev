@@ -3,6 +3,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 import java.util.Date;
+import java.util.List;
 
 public class Patient implements Parcelable{
     private String name;
@@ -12,8 +13,9 @@ public class Patient implements Parcelable{
     private String Case;
     private String nextAppointment;
     private String nextAppointmentTime;
+    private List<String> history;
 
-    public Patient(String name, String email, String ssn, String phoneNumber, String nextAppointment, String nextAppointmentTime, String Case) {
+    public Patient(String name, String email, String ssn, String phoneNumber, String nextAppointment, String nextAppointmentTime, String Case, List<String> history) {
         this.name = name;
         this.email = email;
         this.ssn = ssn;
@@ -21,6 +23,7 @@ public class Patient implements Parcelable{
         this.nextAppointment = nextAppointment;
         this.nextAppointmentTime = nextAppointmentTime;
         this.Case = Case;
+        this.history = history;
     }
 
     // Getter methods
@@ -51,6 +54,10 @@ public class Patient implements Parcelable{
         return Case;
     }
 
+    public List<String> getHistory() {
+        return history;
+    }
+
     // public Date getDate() { return date; }
 
     // Methods required by Parcelable interface
@@ -61,6 +68,7 @@ public class Patient implements Parcelable{
         phoneNumber = in.readString();
         nextAppointment = in.readString();
         Case = in.readString();
+        history = in.createStringArrayList();
     }
 
     public static final Creator<Patient> CREATOR = new Creator<Patient>() {
@@ -88,6 +96,7 @@ public class Patient implements Parcelable{
         dest.writeString(phoneNumber);
         dest.writeString(nextAppointment);
         dest.writeString(Case);
+        dest.writeStringList(history);
     }
 
     // Setter methods
