@@ -103,12 +103,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Wi
 		ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:14:9-69
 	android:dataExtractionRules
 		ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:8:9-65
-activity#com.example.androiddev.R4
+activity#com.example.androiddev.r4ViewPatientDescription
 ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:18:13-31
+		ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:18:13-53
 activity#com.example.androiddev.MainActivity
 ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:20:9-28:20
 	android:exported

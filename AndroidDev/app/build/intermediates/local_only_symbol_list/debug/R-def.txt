@@ -22,7 +22,6 @@ id Welcome
 id barrier2
 id button
 id createAccountButton
-id descriptionTextView
 id first
 id loginButton
 id password
@@ -30,11 +29,12 @@ id passwordTxt
 id registerTxt
 id second
 id textView_Date
+id textView_Description
 id textView_Name
 id textView_tos
 id third
 layout activity_main
-layout activity_r4
+layout activity_r4_view_patient_description
 layout activity_second
 layout activity_third
 mipmap ic_launcher

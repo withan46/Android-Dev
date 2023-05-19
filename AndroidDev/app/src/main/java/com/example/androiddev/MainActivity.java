@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void registerLink(View view){
-        Intent intent = new Intent(MainActivity.this, R4.class);
+        Intent intent = new Intent(MainActivity.this, r4ViewPatientDescription.class);
         startActivity(intent);
     }
 }

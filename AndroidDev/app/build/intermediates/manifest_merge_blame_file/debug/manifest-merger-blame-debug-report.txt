@@ -50,8 +50,8 @@
 31-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:13:9-40
 32        <activity
 32-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:17:9-19:40
-33            android:name="com.example.androiddev.R4"
-33-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:18:13-31
+33            android:name="com.example.androiddev.r4ViewPatientDescription"
+33-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:18:13-53
 34            android:exported="false" />
 34-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:19:13-37
 35        <activity

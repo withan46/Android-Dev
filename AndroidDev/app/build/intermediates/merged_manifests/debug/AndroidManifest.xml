@@ -30,7 +30,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.androiddev.R4"
+            android:name="com.example.androiddev.r4ViewPatientDescription"
             android:exported="false" />
         <activity
             android:name="com.example.androiddev.MainActivity"
