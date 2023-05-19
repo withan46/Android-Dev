@@ -21,6 +21,7 @@ public class WeeklyPlan {
         }
     }
 
+    //--This method returns current local month--//
     public String getCurrentMonth() {
         String month, capitalizedMonth = null;
         if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
@@ -30,6 +31,7 @@ public class WeeklyPlan {
         return capitalizedMonth;
     }
 
+    //--This method gets the names and the days of the next 7 days (SUN 19)--//
     public String[] getWeekDays() {
         Integer[] days = new Integer[7];
         String[] nameDay = new String[7];
@@ -53,5 +55,4 @@ public class WeeklyPlan {
     public String getDate(int index) {
         return this.dates.get(index);
     }
-
 }

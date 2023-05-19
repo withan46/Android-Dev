@@ -21,6 +21,42 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Windows 10\\AndroidStudioProjects\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "139"
+                    },
+                    "to": {
+                        "startLines": "1972",
+                        "startColumns": "4",
+                        "startOffsets": "137298",
+                        "endLines": "1974",
+                        "endColumns": "12",
+                        "endOffsets": "137378"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows 10\\AndroidStudioProjects\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,10,11,12,13,14,1,3,16,15,4,5,6,17",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "67,340,388,436,484,532,580,628,676,17,110,763,724,185,242,301,826",
+                        "endColumns": "41,46,46,46,46,46,46,46,46,48,73,61,37,55,57,37,40",
+                        "endOffsets": "104,382,430,478,526,574,622,670,718,61,179,820,757,236,295,334,862"
+                    },
+                    "to": {
+                        "startLines": "1770,1771,1772,1773,1774,1775,1776,1777,1778,1807,1809,1810,1821,1944,1945,1949,1950",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "113563,113605,113652,113699,113746,113793,113840,113887,113934,115930,116129,116203,117731,135144,135200,135677,135715",
+                        "endColumns": "41,46,46,46,46,46,46,46,46,48,73,61,37,55,57,37,40",
+                        "endOffsets": "113600,113647,113694,113741,113788,113835,113882,113929,113976,115974,116198,116260,117764,135195,135253,135710,135751"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Windows 10\\.gradle\\caches\\transforms-3\\cf7ed2c7db25c1ed83dad3026c9a2688\\transformed\\transition-1.2.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
@@ -35,6 +71,25 @@
                         "startOffsets": "105708,105748,106880,107062,107117,108613,108667,108719,108768,108829",
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "105743,105790,106918,107112,107159,108662,108714,108763,108824,108874"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Windows 10\\AndroidStudioProjects\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "803"
+                    },
+                    "to": {
+                        "startLines": "6040",
+                        "startColumns": "4",
+                        "startOffsets": "416395",
+                        "endLines": "6052",
+                        "endColumns": "12",
+                        "endOffsets": "416963"
                     }
                 },
                 {
@@ -76,25 +131,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Windows 10\\AndroidStudioProjects\\AndoirdDev\\Android-Dev\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\themes.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "803"
-                    },
-                    "to": {
-                        "startLines": "6040",
-                        "startColumns": "4",
-                        "startOffsets": "416395",
-                        "endLines": "6052",
-                        "endColumns": "12",
-                        "endOffsets": "416963"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Windows 10\\.gradle\\caches\\transforms-3\\ce8e9fef21b12750b78ea8e6de235acd\\transformed\\lifecycle-viewmodel-2.5.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -109,23 +145,6 @@
                         "startOffsets": "109161",
                         "endColumns": "49",
                         "endOffsets": "109206"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Windows 10\\AndroidStudioProjects\\AndoirdDev\\Android-Dev\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,2,3,4,5,6,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "293,57,105,153,201,247,336",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "330,99,147,195,241,287,373"
-                    },
-                    "to": {
-                        "startLines": "619,871,872,873,884,885,888",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "31578,49831,49878,49925,50669,50714,50880",
-                        "endColumns": "41,46,46,46,44,44,41",
-                        "endOffsets": "31615,49873,49920,49967,50709,50754,50917"
                     }
                 },
                 {
@@ -277,6 +296,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Windows 10\\AndroidStudioProjects\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,2,3,4,5,6,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "293,57,105,153,201,247,336",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "330,99,147,195,241,287,373"
+                    },
+                    "to": {
+                        "startLines": "619,871,872,873,884,885,888",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "31578,49831,49878,49925,50669,50714,50880",
+                        "endColumns": "41,46,46,46,44,44,41",
+                        "endOffsets": "31615,49873,49920,49967,50709,50754,50917"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Windows 10\\.gradle\\caches\\transforms-3\\de00681d1b149848a0dab915e4ae741a\\transformed\\fragment-1.3.6\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,10",
@@ -293,42 +329,6 @@
                         "endLines": "1636,1668,1705,10925,10929",
                         "endColumns": "56,64,63,24,24",
                         "endOffsets": "105703,107356,109270,677433,677582"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Windows 10\\AndroidStudioProjects\\AndoirdDev\\Android-Dev\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "2,7,8,9,10,11,12,13,14,1,3,16,15,4,5,6,17",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "67,340,388,436,484,532,580,628,676,17,110,763,724,185,242,301,826",
-                        "endColumns": "41,46,46,46,46,46,46,46,46,48,73,61,37,55,57,37,40",
-                        "endOffsets": "104,382,430,478,526,574,622,670,718,61,179,820,757,236,295,334,862"
-                    },
-                    "to": {
-                        "startLines": "1770,1771,1772,1773,1774,1775,1776,1777,1778,1807,1809,1810,1821,1944,1945,1949,1950",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "113563,113605,113652,113699,113746,113793,113840,113887,113934,115930,116129,116203,117731,135144,135200,135677,135715",
-                        "endColumns": "41,46,46,46,46,46,46,46,46,48,73,61,37,55,57,37,40",
-                        "endOffsets": "113600,113647,113694,113741,113788,113835,113882,113929,113976,115974,116198,116260,117764,135195,135253,135710,135751"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Windows 10\\AndroidStudioProjects\\AndoirdDev\\Android-Dev\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "4",
-                        "endColumns": "12",
-                        "endOffsets": "139"
-                    },
-                    "to": {
-                        "startLines": "1972",
-                        "startColumns": "4",
-                        "startOffsets": "137298",
-                        "endLines": "1974",
-                        "endColumns": "12",
-                        "endOffsets": "137378"
                     }
                 },
                 {

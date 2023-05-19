@@ -2824,9 +2824,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
-id Friday_button
 id META
-id Monday_button
 id Month_textView
 id NO_DEBUG
 id SHIFT
@@ -2834,14 +2832,9 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id Saturday_button
-id Sunday_button
 id TOP_END
 id TOP_START
-id Thursday_button
 id Total_textView
-id Tuesday_button
-id Wednesday_button
 id Welcome
 id accelerate
 id accessibility_action_clickable_span
@@ -2910,6 +2903,7 @@ id animateToStart
 id antiClockwise
 id anticipate
 id arc
+id arrange_textView
 id asConfigured
 id async
 id auto
@@ -2972,7 +2966,15 @@ id customPanel
 id cut
 id date_picker_actions
 id date_textView
+id day1_button
+id day2_button
+id day3_button
+id day4_button
+id day5_button
+id day6_button
+id day7_button
 id day_text_view
+id days_scroll_bar
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -3050,6 +3052,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id hour_scroll_bar
 id icon
 id icon_group
 id ifRoom
@@ -3202,8 +3205,6 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
-id scroll_bar_1
-id scroll_bar_2
 id scrollable
 id search_badge
 id search_bar
@@ -3298,7 +3299,6 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
-id textView2
 id textView4
 id text_input_end_icon
 id text_input_error_icon
@@ -3459,8 +3459,8 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
-layout activity_r9
-layout activity_r9second
+layout activity_r9_book_appointment
+layout activity_r9_search_clinic
 layout activity_second
 layout activity_third
 layout custom_dialog

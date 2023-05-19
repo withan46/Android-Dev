@@ -1,166 +1,178 @@
 [
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/xml_backup_rules.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_hour_button_disabled.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\hour_button_disabled.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_text_view.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/text_view.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_hour_button_pressed.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\hour_button_pressed.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_text_view.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\text_view.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_weekplanbuttondefault.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/weekplanbuttondefault.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_weekplanbuttondefault.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\weekplanbuttondefault.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_view_page.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/view_page.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_style_filled.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\button_style_filled.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_button_style_filled.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/button_style_filled.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_background.png.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\background.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_hour_button_pressed.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/hour_button_pressed.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_baseline_email_24.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/baseline_email_24.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_r9.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/activity_r9.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_second.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/activity_second.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_weekplanbuttonpressed.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/weekplanbuttonpressed.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_hour_button_default.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\hour_button_default.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/xml_network_security_config.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/xml/network_security_config.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_button_gray.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/button_gray.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_weekplanbuttonpressed.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\weekplanbuttonpressed.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_r9_book_appointment.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_r9_book_appointment.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_r9_book_appointment.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/activity_r9_book_appointment.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_spinner_background.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/spinner_background.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_r9_search_clinic.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_r9_search_clinic.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_baseline_key_24.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/baseline_key_24.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_spinner_background.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\spinner_background.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_baseline_arrow_drop_down_24.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/baseline_arrow_drop_down_24.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_view_page.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\view_page.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_spinner_background_weeklyplan.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\spinner_background_weeklyplan.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_background_image_white.png.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/background_image_white.png"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_third.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/activity_third.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_background.png.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/background.png"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_r9.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_r9.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_background_image_for_android.png.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/background_image_for_android.png"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_hour_button_disabled.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/hour_button_disabled.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_r9second.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/activity_r9second.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\xml\\network_security_config.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_hour_button_default.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/hour_button_default.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_style.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\button_style.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_background_image_for_android.png.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\background_image_for_android.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_third.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_third.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_baseline_key_24.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\baseline_key_24.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v33\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_background_image_white.png.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\background_image_white.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_button_gray.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\button_gray.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_spinner_background_weeklyplan.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/spinner_background_weeklyplan.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_baseline_arrow_drop_down_24.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\baseline_arrow_drop_down_24.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_button_style.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/button_style.xml"
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\drawable_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\drawable\\baseline_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_second.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_second.xml"
+    },
+    {
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-29:\\layout_activity_r9second.xml.flat",
+        "source": "C:\\Users\\Windows 10\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-31:\\layout\\activity_r9second.xml"
     }
 ]
