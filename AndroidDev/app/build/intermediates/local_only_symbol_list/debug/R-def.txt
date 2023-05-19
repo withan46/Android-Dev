@@ -38,7 +38,7 @@ id third
 layout activity_main
 layout activity_second
 layout activity_third
-layout create_patient
+layout create_patient_r3
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

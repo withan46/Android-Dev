@@ -3429,7 +3429,7 @@ int layout abc_tooltip 0x7f0b001b
 int layout activity_main 0x7f0b001c
 int layout activity_second 0x7f0b001d
 int layout activity_third 0x7f0b001e
-int layout create_patient 0x7f0b001f
+int layout create_patient_r3 0x7f0b006e
 int layout custom_dialog 0x7f0b0020
 int layout design_bottom_navigation_item 0x7f0b0021
 int layout design_bottom_sheet_dialog 0x7f0b0022
