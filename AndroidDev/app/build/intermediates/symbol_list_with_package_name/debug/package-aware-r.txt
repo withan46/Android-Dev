@@ -3267,9 +3267,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
-id textView2
-id textView3
+id textView_Date
+id textView_Name
+id textView_tos
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

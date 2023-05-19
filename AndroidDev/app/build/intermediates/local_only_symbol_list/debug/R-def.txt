@@ -29,9 +29,9 @@ id password
 id passwordTxt
 id registerTxt
 id second
-id textView
-id textView2
-id textView3
+id textView_Date
+id textView_Name
+id textView_tos
 id third
 layout activity_main
 layout activity_r4
