@@ -31,7 +31,7 @@
             android:background="@color/white"
             android:paddingLeft="40dp"
             android:text="Description"
-            android:textColor="@color/black"
+            android:textColor="@color/purple_700"
             android:textSize="20sp" />
 
 
