@@ -63,8 +63,8 @@ layout activity_main
 layout activity_r7
 layout activity_second
 layout activity_third
-layout patientboxlayout
-layout r7layout
+layout appointment_container_layout_r7
+layout view_and_manage_appointment_requests_r7
 mipmap ic_launcher
 mipmap ic_launcher_round
 string acceptButton
@@ -86,3 +86,4 @@ string user3
 style Theme.AndroidDev
 xml backup_rules
 xml data_extraction_rules
+xml network_security_config

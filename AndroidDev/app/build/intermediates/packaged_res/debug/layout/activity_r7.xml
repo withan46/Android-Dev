@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".R7">
+    tools:context=".ViewAndManageAppointmentRequestsR7">
 
     <include
-        layout="@layout/r7layout"
+        layout="@layout/view_and_manage_appointment_requests_r7"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 
