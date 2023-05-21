@@ -28,7 +28,7 @@ public class PatientHistory_R5 extends AppCompatActivity {
         // Switch from Patient History to Patient Contact
         TextView myTextView = findViewById(R.id.contactText);
 
-        //Retrieve the Patient object that was clicked by the user
+        // Retrieve the Patient object that was clicked by the user
         Patient patient = getIntent().getParcelableExtra("patient");
 
         myTextView.setOnClickListener(new View.OnClickListener() {
