@@ -44,7 +44,7 @@
         </activity>
         <activity android:name="com.example.androiddev.SecondActivity" />
         <activity android:name="com.example.androiddev.ThirdActivity" />
-        <activity android:name="com.example.androiddev.R8" />
+        <activity android:name="com.example.androiddev.AddDescriptionR8" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

@@ -78,9 +78,9 @@
 46        <activity android:name="com.example.androiddev.ThirdActivity" />
 46-->C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:31:9-51
 46-->C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:31:19-48
-47        <activity android:name="com.example.androiddev.R8" />
-47-->C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:9-40
-47-->C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:19-37
+47        <activity android:name="com.example.androiddev.AddDescriptionR8" />
+47-->C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:9-54
+47-->C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:19-51
 48
 49        <provider
 49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\komit\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20

@@ -3453,6 +3453,7 @@ int layout activity_main 0x7f0b001c
 int layout activity_r8 0x7f0b001d
 int layout activity_second 0x7f0b001e
 int layout activity_third 0x7f0b001f
+int layout add_description_r8 0x7f0b006f
 int layout custom_dialog 0x7f0b0020
 int layout design_bottom_navigation_item 0x7f0b0021
 int layout design_bottom_sheet_dialog 0x7f0b0022
@@ -3527,7 +3528,6 @@ int layout notification_template_icon_group 0x7f0b0066
 int layout notification_template_part_chronometer 0x7f0b0067
 int layout notification_template_part_time 0x7f0b0068
 int layout patientboxlayout 0x7f0b0069
-int layout r8layout 0x7f0b006a
 int layout select_dialog_item_material 0x7f0b006b
 int layout select_dialog_multichoice_material 0x7f0b006c
 int layout select_dialog_singlechoice_material 0x7f0b006d

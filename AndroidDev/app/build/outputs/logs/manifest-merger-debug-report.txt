@@ -133,10 +133,10 @@ activity#com.example.androiddev.ThirdActivity
 ADDED from C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:31:9-51
 	android:name
 		ADDED from C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:31:19-48
-activity#com.example.androiddev.R8
-ADDED from C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:9-40
+activity#com.example.androiddev.AddDescriptionR8
+ADDED from C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:9-54
 	android:name
-		ADDED from C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:19-37
+		ADDED from C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:19-51
 uses-sdk
 INJECTED from C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\komit\Documents\UOM\Coding\AndroidStudio\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml

@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".R8">
+    tools:context=".AddDescriptionR8">
 
     <include
-        layout="@layout/r8layout"
+        layout="@layout/add_description_r8"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
 

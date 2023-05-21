@@ -64,8 +64,8 @@ layout activity_main
 layout activity_r8
 layout activity_second
 layout activity_third
+layout add_description_r8
 layout patientboxlayout
-layout r8layout
 mipmap ic_launcher
 mipmap ic_launcher_round
 string acceptButton
