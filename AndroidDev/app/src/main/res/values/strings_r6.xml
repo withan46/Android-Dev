@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Android Dev</string>
+
+    <string-array name="patient_name">
+        <item>Sumen Isak</item>
+        <item>Helen Petridou</item>
+        <item>Kostas Papadopoulos</item>
+    </string-array>
+
+    <string-array name="hour">
+        <item>14:00</item>
+        <item>17:00</item>
+        <item>12:00</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Back pain</item>
+        <item>Back pain</item>
+        <item>Back pain</item>
+    </string-array>
+
+    <!-- Map dates to appointments -->
+    <string-array name="appointment_dates">
+        <item>2023-05-20</item>
+        <item>2023-05-21</item>
+        <item>2023-05-22</item>
+    </string-array>
+
+    <string-array name="appointment_indices">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>

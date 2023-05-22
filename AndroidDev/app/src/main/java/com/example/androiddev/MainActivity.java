@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.r6_weekly_planner);
+        setContentView(R.layout.weekly_planner_r6);
     }
 
 

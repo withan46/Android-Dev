@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="appointment_dates">
+        <item>2023-05-20</item>
+        <item>2023-05-21</item>
+        <item>2023-05-22</item>
+    </string-array>
+    <string-array name="appointment_indices">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="description">
+        <item>Back pain</item>
+        <item>Back pain</item>
+        <item>Back pain</item>
+    </string-array>
+    <string-array name="hour">
+        <item>14:00</item>
+        <item>17:00</item>
+        <item>12:00</item>
+    </string-array>
+    <string-array name="patient_name">
+        <item>Sumen Isak</item>
+        <item>Helen Petridou</item>
+        <item>Kostas Papadopoulos</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
@@ -8,6 +33,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">Android Dev</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
     <style name="Theme.AndroidDev" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

@@ -1,146 +1,170 @@
 [
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/drawable_button_style.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/drawable/button_style.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/drawable_background_image_for_android.png.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/drawable/background_image_for_android.png"
+        "merged": "com.example.androiddev.app-merged_res-30:/xml_network_security_config_r6.xml.flat",
+        "source": "com.example.androiddev.app-main-32:/xml/network_security_config_r6.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/layout_activity_second.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/layout/activity_second.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_button_gray.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/button_gray.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/layout_activity_third.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/layout/activity_third.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_button_style_filled.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/button_style_filled.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/xml/data_extraction_rules.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/layout_appointment_item.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/layout/appointment_item.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/drawable_baseline_key_24.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/drawable/baseline_key_24.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/layout_r6_weekly_planner.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/layout/r6_weekly_planner.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/drawable_button_gray.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/drawable/button_gray.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/layout_activity_second.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/layout/activity_second.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/xml_backup_rules.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/font_noto_sans.ttf.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/font/noto_sans.ttf"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/layout_event_cell.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/layout/event_cell.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/layout_calendar_item.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/layout/calendar_item.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/layout/activity_main.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/layout_r6_weekly_plannertest2.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/layout/r6_weekly_plannertest2.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/drawable_baseline_email_24.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/drawable/baseline_email_24.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/layout_appointment_item_r6.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/layout/appointment_item_r6.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/layout_r6_weekly_planner.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/layout/r6_weekly_planner.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/layout_activity_main.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/xml_backup_rules.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/xml/backup_rules.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_baseline_email_24.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/baseline_email_24.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/layout_event_cell.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/layout/event_cell.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/layout_calendar_item_r6.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/layout/calendar_item_r6.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/drawable_button_style_filled.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/drawable/button_style_filled.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/layout_activity_event_edit.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/layout/activity_event_edit.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/drawable_r6_background.jpg.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/drawable/r6_background.jpg"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_background_image_for_android.png.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/background_image_for_android.png"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/font_noto_sans.ttf.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/font/noto_sans.ttf"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/drawable_background.png.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/drawable/background.png"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_background_r6.jpg.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/background_r6.jpg"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/xml_network_security_config.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/xml/network_security_config.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_nextarrow.png.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/nextarrow.png"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_baseline_key_24.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/baseline_key_24.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_r6_background.jpg.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/r6_background.jpg"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/layout_r6_weekly_planner.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/layout/r6_weekly_planner.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/layout_activity_third.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/layout/activity_third.xml"
     },
     {
-        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-29:/drawable_button_style_r6.xml.flat",
-        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-31:/drawable/button_style_r6.xml"
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_background.png.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/background.png"
+    },
+    {
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_button_style.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/button_style.xml"
+    },
+    {
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/layout_weekly_planner_r6.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/layout/weekly_planner_r6.xml"
+    },
+    {
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_r6_background.jpg.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/r6_background.jpg"
+    },
+    {
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_nextarrow.png.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/nextarrow.png"
+    },
+    {
+        "merged": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-merged_res-30:/drawable_button_style_r6.xml.flat",
+        "source": "/Users/demi/.gradle/daemon/7.5/com.example.androiddev.app-main-32:/drawable/button_style_r6.xml"
     }
 ]
