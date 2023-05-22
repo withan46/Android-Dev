@@ -44,6 +44,10 @@
         "source": "C:\\Users\\leont\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-7:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\leont\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-5:\\layout_show_economic_movements_r10.xml.flat",
+        "source": "C:\\Users\\leont\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-7:\\layout\\show_economic_movements_r10.xml"
+    },
+    {
         "merged": "C:\\Users\\leont\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-5:\\drawable_background.png.flat",
         "source": "C:\\Users\\leont\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-7:\\drawable\\background.png"
     },
@@ -54,6 +58,10 @@
     {
         "merged": "C:\\Users\\leont\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-5:\\drawable_baseline_key_24.xml.flat",
         "source": "C:\\Users\\leont\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-7:\\drawable\\baseline_key_24.xml"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-5:/layout_show_economic_movements_r10.xml.flat",
+        "source": "com.example.androiddev.app-main-7:/layout/show_economic_movements_r10.xml"
     },
     {
         "merged": "C:\\Users\\leont\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-5:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
@@ -102,10 +110,6 @@
     {
         "merged": "C:\\Users\\leont\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-5:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\leont\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-7:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.example.androiddev.app-merged_res-5:/layout_analytical_statement_of_financial_movements.xml.flat",
-        "source": "com.example.androiddev.app-main-7:/layout/analytical_statement_of_financial_movements.xml"
     },
     {
         "merged": "C:\\Users\\leont\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-5:\\drawable_ic_launcher_background.xml.flat",

@@ -18,11 +18,9 @@
     <string name="app_name">Android Dev</string>
     <string name="date">Date</string>
     <string name="description">Description</string>
-    <string name="ex1da">13/12/2022</string>
-    <string name="ex1de">Maintenance</string>
-    <string name="ex1p">50.00€</string>
     <string name="price">Cost</string>
     <string name="select">Select period of time</string>
+    <string name="title">Economic Movements</string>
     <style name="Theme.AndroidDev" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

@@ -34,7 +34,7 @@
             android:resource="@xml/network_security_config" />
 
         <activity
-            android:name="com.example.androiddev.analytical_statement_of_financial_movements"
+            android:name="com.example.androiddev.ShowEconomicMovementsR10"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

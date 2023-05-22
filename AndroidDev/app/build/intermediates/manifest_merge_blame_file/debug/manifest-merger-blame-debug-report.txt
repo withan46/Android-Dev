@@ -57,8 +57,8 @@
 35
 36        <activity
 36-->C:\Android Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:21:9-29:20
-37            android:name="com.example.androiddev.analytical_statement_of_financial_movements"
-37-->C:\Android Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:22:13-72
+37            android:name="com.example.androiddev.ShowEconomicMovementsR10"
+37-->C:\Android Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:22:13-53
 38            android:exported="true" >
 38-->C:\Android Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:23:13-36
 39            <intent-filter>

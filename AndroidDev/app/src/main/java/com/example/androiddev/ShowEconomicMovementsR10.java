@@ -9,6 +9,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.text.DateFormat;
@@ -24,14 +25,16 @@ public class ShowEconomicMovementsR10 extends AppCompatActivity {
 
     private ArrayList<Movement> movements = new ArrayList<>();
 
-    private final String patient_ssn = "100";
+    private final String patient_ssn = "111111111";
 
     private final String myIP = "192.168.1.195";
 
     private RecyclerView movementsRecView;
 
+    private ArrayList<Movement> selectedMovements;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         Objects.requireNonNull(getSupportActionBar()).hide();
 
         OkHttpHandler okHttpHandler = new OkHttpHandler();
@@ -53,13 +56,11 @@ public class ShowEconomicMovementsR10 extends AppCompatActivity {
         spinner.setAdapter(arrayAdapter);
 
         try {
-            String url = "http://" + myIP + "/get_economic_movements.php?patient_ssn=" + patient_ssn;
+            String url = "http://" + myIP + "/getEconomicMovementsR10.php?patient_ssn=" + patient_ssn;
             movements = okHttpHandler.populateEconimicMovements(url);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-
-
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long id) {
@@ -74,12 +75,12 @@ public class ShowEconomicMovementsR10 extends AppCompatActivity {
                 String data = spinner.getItemAtPosition(position).toString();
                 System.out.println(data);
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                    String url = "";
                     DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
                     Date date2;
                     Date date1;
 
                     String date = "";
+                    selectedMovements = new ArrayList<>();
 
                     if(data.equals("Last Month"))
                     {
@@ -107,13 +108,14 @@ public class ShowEconomicMovementsR10 extends AppCompatActivity {
                         }
                         if(date2.compareTo(date1)<=0)
                         {
-                            movementsRecView = findViewById(R.id.movementsRecyclerView);
-                            Adapter adapter = new Adapter();
-                            adapter.setMovements(movements);
-                            movementsRecView.setAdapter(adapter);
-                            System.out.println(m.getDate() + m.getCost() + m.getDescription());
+                            selectedMovements.add(m);
                         }
                     }
+                    movementsRecView = findViewById(R.id.movementsRecyclerView);
+                    EconomicMovementsR10Adapter adapter = new EconomicMovementsR10Adapter();
+                    adapter.setMovements(selectedMovements);
+                    movementsRecView.setAdapter(adapter);
+                    movementsRecView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
                 }
             }
             @Override
