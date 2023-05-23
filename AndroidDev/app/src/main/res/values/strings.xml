@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Android Dev</string>
+    <string name="button_text">Create</string>
+    <string name="name_text">Name</string>
+    <string name="codeName_text">Code Name</string>
+    <string name="price_text">Price</string>
+    <string name="description_text">Description:</string>
+    <string name="create_service_provision_text">Create Service Provision</string>
+    <string name="info_to_create_service_provision_text">Please enter info to create service provision</string>
+    <string name="select_a_clinic_text">Select a Clinic</string>
+    <string name="search_by_name_text">Search by Name</string>
+    <string name="search_text">Search</string>
 </resources>

@@ -28,8 +28,12 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:supportsRtl="true"
         android:testOnly="true"
+<<<<<<< HEAD
         android:theme="@style/Theme.AndroidDev"
         android:usesCleartextTraffic="true" >
+=======
+        android:theme="@style/AppTheme" >
+>>>>>>> 5-r2-create-a-new-service-code-name-desc
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@xml/network_security_config" />
@@ -45,10 +49,15 @@
         </activity>
         <activity android:name="com.example.androiddev.SecondActivity" />
         <activity android:name="com.example.androiddev.ThirdActivity" />
+<<<<<<< HEAD
         <activity android:name="com.example.androiddev.PatientActivityR1" />
         <activity android:name="com.example.androiddev.DoctorActivityR1" />
         <activity android:name="com.example.androiddev.PsfActivityR1" />
         <activity android:name="com.example.androiddev.RegisterClinicR1" />
+=======
+        <activity android:name="com.example.androiddev.SelectClinic" />
+        <activity android:name="com.example.androiddev.CreateNewService" />
+>>>>>>> 5-r2-create-a-new-service-code-name-desc
 
         <provider
             android:name="androidx.startup.InitializationProvider"

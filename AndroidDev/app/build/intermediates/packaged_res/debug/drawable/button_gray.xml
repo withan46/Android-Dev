@@ -4,7 +4,11 @@
     <item android:state_pressed="true">
         <shape android:shape="rectangle">
             <solid android:color="#ffff" />
+<<<<<<< HEAD
             <corners android:radius="5dp" />
+=======
+            <corners android:radius="25dp" />
+>>>>>>> 5-r2-create-a-new-service-code-name-desc
         </shape>
     </item>
 

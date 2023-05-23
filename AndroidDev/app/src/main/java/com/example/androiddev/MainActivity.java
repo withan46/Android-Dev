@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+<<<<<<< HEAD
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -17,6 +18,12 @@ public class MainActivity extends AppCompatActivity {
     private final String myIP = "192.168.2.4";
     private UserListR1 usl;
 
+=======
+
+public class MainActivity extends AppCompatActivity {
+
+    private final String myIP = "192.168.178.86";
+>>>>>>> 5-r2-create-a-new-service-code-name-desc
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,7 +33,12 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void registerLink(View view){
+<<<<<<< HEAD
         Intent intent = new Intent(MainActivity.this, PatientActivityR1.class);
+=======
+        Intent intent = new Intent(MainActivity.this, SelectClinicR21.class);
+        intent.putExtra("ip", myIP);
+>>>>>>> 5-r2-create-a-new-service-code-name-desc
         startActivity(intent);
     }
 
