@@ -2965,6 +2965,7 @@ id cos
 id counterclockwise
 id cradle
 id createButton
+id createPatientButton
 id create_button
 id create_service_header
 id create_service_info
@@ -3011,6 +3012,7 @@ id edit_query
 id elastic
 id email
 id emailTxt
+id email_field
 id embed
 id end
 id endToStart
@@ -3062,6 +3064,7 @@ id immediateStop
 id included
 id indeterminate
 id info
+id info_text
 id infosTxt
 id invisible
 id inward
@@ -3143,6 +3146,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id nameTxt
+id name_field
 id name_tb
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3184,6 +3188,7 @@ id patientTxt
 id peekHeight
 id percent
 id phoneNumberTxt
+id phonenumber_field
 id pin
 id position
 id postLayout
@@ -3195,6 +3200,7 @@ id radio
 id ratio
 id rectangles
 id registerClinicTxt
+id register_patient_text
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3269,6 +3275,7 @@ id square
 id src_atop
 id src_in
 id src_over
+id ssn_field
 id standard
 id start
 id startHorizontal
@@ -3462,6 +3469,7 @@ layout activity_main
 layout activity_second
 layout activity_third
 layout create_new_service_r22
+layout create_patient_r3
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

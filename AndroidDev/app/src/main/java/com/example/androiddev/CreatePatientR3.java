@@ -46,7 +46,7 @@ public class CreatePatientR3 extends Activity {
 
             try {
                 //add the patient's data to the database, through the PHP file
-                boolean successfulRegister = okHttpHandler.add_patient("http://" + myIP + "/Android_R3/createPatientR3.php?ssn=" + ssn + "&email=" + email
+                boolean successfulRegister = okHttpHandler.add_patient("http://" + myIP + "/flexFitDBServices/createPatientR3.php?ssn=" + ssn + "&email=" + email
                         + "&name=" + name + "&phone_number=" + phoneNumber + "&vat_reg_num=" + vatRegNum);
 
                 if (successfulRegister) { //if the registration has been successful, then a relative Toast is been shown

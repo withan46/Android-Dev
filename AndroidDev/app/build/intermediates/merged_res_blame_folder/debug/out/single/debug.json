@@ -88,6 +88,10 @@
         "source": "com.example.androiddev.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_create_patient_r3.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/create_patient_r3.xml"
+    },
+    {
         "merged": "com.example.androiddev.app-merged_res-29:/xml_backup_rules.xml.flat",
         "source": "com.example.androiddev.app-main-31:/xml/backup_rules.xml"
     },

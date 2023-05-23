@@ -37,6 +37,7 @@
         <activity android:name=".RegisterClinicR1"/>
         <activity android:name=".SelectClinicR21" />
         <activity android:name=".CreateNewServiceR22" />
+        <activity android:name=".CreatePatientR3" />
     </application>
 
 </manifest>
