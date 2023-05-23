@@ -74,6 +74,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array date_options
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2865,6 +2866,7 @@ drawable roundedbtn
 drawable roundedcontainer
 drawable spinner_background
 drawable spinner_background_weeklyplan
+drawable spinner_border
 drawable test_level_drawable
 drawable tick
 drawable tooltip_frame_dark
@@ -2891,6 +2893,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id Title
 id Total_textView
 id Welcome
 id accelerate
@@ -3036,6 +3039,7 @@ id contiguous
 id continuousVelocity
 id coordinator
 id cos
+id cost
 id counterclockwise
 id cradle
 id createButton
@@ -3082,7 +3086,6 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
-id doctorTxt
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3223,6 +3226,7 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id movementsRecyclerView
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -3305,6 +3309,7 @@ id patientsScrollView
 id patientsSearchView
 id peekHeight
 id percent
+id period
 id phoneNumber
 id phoneNumberField
 id phoneNumberTxt
@@ -3624,6 +3629,7 @@ layout activity_r8
 layout activity_r9_book_appointment
 layout activity_r9_search_clinic
 layout activity_second
+layout activity_show_economic_movements_r10
 layout activity_third
 layout activity_todayspatients_r5
 layout activity_view_and_manage_appointment_requests_r7
@@ -3669,6 +3675,7 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout movements_list_item
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -3786,6 +3793,7 @@ string contact
 string create_service_provision_text
 string date
 string denyButton
+string description
 string description_text
 string email
 string error_a11y_label
@@ -3909,6 +3917,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string patients
+string price
 string price_text
 string requests
 string search_by_name_text
@@ -3917,6 +3926,7 @@ string search_text
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string select
 string select_a_clinic_text
 string select_clinic
 string select_service
@@ -3924,6 +3934,7 @@ string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
 string time
+string title
 string todays_appointments
 string total
 string upcoming

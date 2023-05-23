@@ -54,72 +54,39 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <android.widget.Button
+        android:id="@+id/viewPatientsTxt"
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:background="@drawable/button_gray_tight_line"
+        android:drawableTop="@drawable/money_bag"
+        android:onClick="economicOnClick"
+        android:paddingTop="20dp"
+        android:text="View Economic Movement"
+        android:textAllCaps="false"
+        android:textColor="#3996A9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toEndOf="@+id/manageTxt"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <android.widget.Button
         android:id="@+id/manageTxt"
         android:layout_width="130dp"
         android:layout_height="110dp"
         android:background="@drawable/button_gray_tight_line"
         android:drawableTop="@drawable/appointment"
+        android:onClick="arrangeOnClick"
         android:paddingTop="20dp"
         android:text="Arrage an Appointment"
         android:textAllCaps="false"
         android:textColor="#3996A9"
-        android:onClick="arrangeOnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
-
-    <android.widget.Button
-        android:id="@+id/viewPatientsTxt"
-        android:layout_width="130dp"
-        android:layout_height="110dp"
-        android:background="@drawable/button_gray_tight_line"
-        android:text="View Economic Movement"
-        android:textAllCaps="false"
-        android:drawableTop="@drawable/money_bag"
-        android:paddingTop="20dp"
-        android:textColor="#3996A9"
-        android:onClick="economicOnClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/manageTxt"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <android.widget.Button
-        android:id="@+id/appointmentTxt"
-        android:layout_width="130dp"
-        android:layout_height="110dp"
-        android:background="@drawable/button_gray_tight_line"
-        android:drawableTop="@drawable/calendar"
-        android:paddingTop="20dp"
-        android:text="View your Appointment"
-        android:textAllCaps="false"
-        android:textColor="#3996A9"
-        android:onClick="viewOnClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.12"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/manageTxt"
-        app:layout_constraintVertical_bias="0.144" />
-
-    <android.widget.Button
-        android:id="@+id/doctorTxt"
-        android:layout_width="130dp"
-        android:layout_height="110dp"
-        android:background="@drawable/button_gray_tight_line"
-        android:drawableTop="@drawable/doctor"
-        android:paddingTop="20dp"
-        android:text="View Doctors"
-        android:textAllCaps="false"
-        android:textColor="#3996A9"
-        android:onClick="doctorOnClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/appointmentTxt"
-        app:layout_constraintTop_toBottomOf="@+id/viewPatientsTxt"
-        app:layout_constraintVertical_bias="0.138" />
+        app:layout_constraintVertical_bias="0.64" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

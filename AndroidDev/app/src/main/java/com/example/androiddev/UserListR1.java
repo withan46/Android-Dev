@@ -8,10 +8,10 @@ public class UserListR1 {
     ArrayList<UsersR1> userList = new ArrayList<UsersR1>();
 
     public UserListR1(String ip){
-        String url= "http://"+ip+"/flexFitDBServices/patient_data.php";
+        String url= "http://"+ip+"/flexFitDBServices/user_data.php";
 
         try {
-            OkHttpHandlerR1 okHttpHandler = new OkHttpHandlerR1();
+            OkHttpHandler okHttpHandler = new OkHttpHandler();
             userList = okHttpHandler.patient_data(url);
         } catch (Exception e) {
             e.printStackTrace();

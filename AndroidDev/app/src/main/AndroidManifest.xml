@@ -15,6 +15,9 @@
         android:theme="@style/Theme.AndroidDev"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+        <activity
+            android:name=".ShowEconomicMovementsR10"
+            android:exported="false" />
 
         <meta-data
             android:name="com.google.android.actions"
@@ -29,8 +32,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".ThirdActivity" />
         <activity android:name=".PatientActivityR1" />
         <activity android:name=".DoctorActivityR1" />
         <activity android:name=".PsfActivityR1" />
@@ -38,19 +39,19 @@
         <activity android:name=".SelectClinicR21" />
         <activity android:name=".CreateNewServiceR22" />
         <activity android:name=".CreatePatientR3" />
-        <activity android:name=".r4ViewPatientDescription" />
-        <activity android:name=".PatientContact_R5" />
-        <activity android:name=".PatientHistory_R5" />
-        <activity android:name=".TodaysPatients_R5" />
+        <activity android:name=".ViewPatientDescriptionR4" />
+        <activity android:name=".PatientContactR5" />
+        <activity android:name=".PatientHistoryR5" />
+        <activity android:name=".TodaysPatientsR5" />
         <activity android:name=".AllPatients_R5" />
-        <activity android:name=".patient_card" />
+        <activity android:name=".Patient_card" />
         <activity android:name=".Patient" />
         <activity android:name=".PatientHistoryCard" />
-        <activity android:name=".mainActivityR6" />
+        <activity android:name=".WeeklyPlannerR6" />
         <activity android:name=".ViewAndManageAppointmentRequestsR7" />
         <activity android:name=".AddDescriptionR8" />
-        <activity android:name=".R9SearchClinic" />
-        <activity android:name=".R9BookAppointment" />
+        <activity android:name=".SearchClinicR9" />
+        <activity android:name=".BookAppointmentR9" />
     </application>
 
 </manifest>

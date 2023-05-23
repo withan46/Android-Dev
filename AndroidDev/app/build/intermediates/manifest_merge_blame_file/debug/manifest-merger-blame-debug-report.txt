@@ -26,7 +26,7 @@
 17-->[androidx.core:core:1.9.0] C:\Users\witha\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:7:5-54:19
+19-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:7:5-55:19
 20        android:allowBackup="true"
 20-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -50,118 +50,119 @@
 31-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:15:9-48
 32        android:usesCleartextTraffic="true" >
 32-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:16:9-44
-33        <meta-data
-33-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:19:9-21:63
-34            android:name="com.google.android.actions"
-34-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:20:13-54
-35            android:resource="@xml/network_security_config" />
-35-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:21:13-60
+33        <activity
+33-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.androiddev.ShowEconomicMovementsR10"
+34-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:19:13-53
+35            android:exported="false" />
+35-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:20:13-37
 36
-37        <activity
-37-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:23:9-31:20
-38            android:name="com.example.androiddev.MainActivity"
-38-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:24:13-41
-39            android:exported="true" >
-39-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:25:13-36
-40            <intent-filter>
-40-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:26:13-30:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:27:17-69
-41-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:27:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:29:17-77
-43-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:29:27-74
-44            </intent-filter>
-45        </activity>
-46        <activity android:name="com.example.androiddev.SecondActivity" />
-46-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:9-52
-46-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:19-49
-47        <activity android:name="com.example.androiddev.ThirdActivity" />
-47-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:33:9-51
-47-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:33:19-48
-48        <activity android:name="com.example.androiddev.PatientActivityR1" />
-48-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:34:9-55
-48-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:34:19-52
-49        <activity android:name="com.example.androiddev.DoctorActivityR1" />
-49-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:35:9-54
-49-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:35:19-51
-50        <activity android:name="com.example.androiddev.PsfActivityR1" />
-50-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:36:9-51
-50-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:36:19-48
-51        <activity android:name="com.example.androiddev.RegisterClinicR1" />
-51-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:37:9-54
-51-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:37:19-51
-52        <activity android:name="com.example.androiddev.SelectClinicR21" />
-52-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:38:9-53
-52-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:38:19-50
-53        <activity android:name="com.example.androiddev.CreateNewServiceR22" />
-53-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:39:9-57
-53-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:39:19-54
-54        <activity android:name="com.example.androiddev.CreatePatientR3" />
-54-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:40:9-53
-54-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:40:19-50
-55        <activity android:name="com.example.androiddev.r4ViewPatientDescription" />
-55-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:41:9-62
-55-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:41:19-59
-56        <activity android:name="com.example.androiddev.PatientContact_R5" />
-56-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:42:9-55
-56-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:42:19-52
-57        <activity android:name="com.example.androiddev.PatientHistory_R5" />
-57-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:43:9-55
-57-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:43:19-52
-58        <activity android:name="com.example.androiddev.TodaysPatients_R5" />
-58-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:44:9-55
-58-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:44:19-52
-59        <activity android:name="com.example.androiddev.AllPatients_R5" />
-59-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:9-52
-59-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:19-49
-60        <activity android:name="com.example.androiddev.patient_card" />
-60-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:46:9-50
-60-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:46:19-47
-61        <activity android:name="com.example.androiddev.Patient" />
-61-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:47:9-45
-61-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:47:19-42
-62        <activity android:name="com.example.androiddev.PatientHistoryCard" />
-62-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:48:9-56
-62-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:48:19-53
-63        <activity android:name="com.example.androiddev.mainActivityR6" />
-63-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:49:9-52
-63-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:49:19-49
-64        <activity android:name="com.example.androiddev.ViewAndManageAppointmentRequestsR7" />
-64-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:50:9-72
-64-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:50:19-69
-65        <activity android:name="com.example.androiddev.AddDescriptionR8" />
-65-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:51:9-54
-65-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:51:19-51
-66        <activity android:name="com.example.androiddev.R9SearchClinic" />
-66-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:52:9-52
-66-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:52:19-49
-67        <activity android:name="com.example.androiddev.R9BookAppointment" />
-67-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:53:9-55
-67-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:53:19-52
-68
-69        <provider
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-70            android:name="androidx.startup.InitializationProvider"
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-71            android:authorities="com.example.androiddev.androidx-startup"
-71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-72            android:exported="false" >
-72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-73            <meta-data
-73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-75                android:value="androidx.startup" />
-75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-76            <meta-data
-76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-77-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-78                android:value="androidx.startup" />
-78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-79        </provider>
-80    </application>
-81
-82</manifest>
+37        <meta-data
+37-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:22:9-24:63
+38            android:name="com.google.android.actions"
+38-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:23:13-54
+39            android:resource="@xml/network_security_config" />
+39-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:24:13-60
+40
+41        <activity
+41-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:26:9-34:20
+42            android:name="com.example.androiddev.MainActivity"
+42-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:27:13-41
+43            android:exported="true" >
+43-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:28:13-36
+44            <intent-filter>
+44-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:29:13-33:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:30:17-69
+45-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:30:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:17-77
+47-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity android:name="com.example.androiddev.PatientActivityR1" />
+50-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:35:9-55
+50-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:35:19-52
+51        <activity android:name="com.example.androiddev.DoctorActivityR1" />
+51-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:36:9-54
+51-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:36:19-51
+52        <activity android:name="com.example.androiddev.PsfActivityR1" />
+52-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:37:9-51
+52-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:37:19-48
+53        <activity android:name="com.example.androiddev.RegisterClinicR1" />
+53-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:38:9-54
+53-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:38:19-51
+54        <activity android:name="com.example.androiddev.SelectClinicR21" />
+54-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:39:9-53
+54-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:39:19-50
+55        <activity android:name="com.example.androiddev.CreateNewServiceR22" />
+55-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:40:9-57
+55-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:40:19-54
+56        <activity android:name="com.example.androiddev.CreatePatientR3" />
+56-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:41:9-53
+56-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:41:19-50
+57        <activity android:name="com.example.androiddev.ViewPatientDescriptionR4" />
+57-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:42:9-62
+57-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:42:19-59
+58        <activity android:name="com.example.androiddev.PatientContactR5" />
+58-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:43:9-54
+58-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:43:19-51
+59        <activity android:name="com.example.androiddev.PatientHistoryR5" />
+59-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:44:9-54
+59-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:44:19-51
+60        <activity android:name="com.example.androiddev.TodaysPatientsR5" />
+60-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:9-54
+60-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:19-51
+61        <activity android:name="com.example.androiddev.AllPatients_R5" />
+61-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:46:9-52
+61-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:46:19-49
+62        <activity android:name="com.example.androiddev.Patient_card" />
+62-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:47:9-50
+62-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:47:19-47
+63        <activity android:name="com.example.androiddev.Patient" />
+63-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:48:9-45
+63-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:48:19-42
+64        <activity android:name="com.example.androiddev.PatientHistoryCard" />
+64-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:49:9-56
+64-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:49:19-53
+65        <activity android:name="com.example.androiddev.WeeklyPlannerR6" />
+65-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:50:9-53
+65-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:50:19-50
+66        <activity android:name="com.example.androiddev.ViewAndManageAppointmentRequestsR7" />
+66-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:51:9-72
+66-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:51:19-69
+67        <activity android:name="com.example.androiddev.AddDescriptionR8" />
+67-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:52:9-54
+67-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:52:19-51
+68        <activity android:name="com.example.androiddev.SearchClinicR9" />
+68-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:53:9-52
+68-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:53:19-49
+69        <activity android:name="com.example.androiddev.BookAppointmentR9" />
+69-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:54:9-55
+69-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:54:19-52
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+73            android:authorities="com.example.androiddev.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+81        </provider>
+82    </application>
+83
+84</manifest>

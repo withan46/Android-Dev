@@ -58,50 +58,34 @@
         android:layout_height="110dp"
         android:background="@drawable/button_gray_tight_line"
         android:drawableTop="@drawable/clinic"
+        android:onClick="addPhysiotherapyOnClick"
         android:paddingTop="20dp"
         android:text="Add Physiotherapy Center"
         android:textAllCaps="false"
         android:textColor="#3996A9"
-        android:onClick="addPhysiotherapyOnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.626" />
 
     <android.widget.Button
         android:id="@+id/viewPatientsTxt"
         android:layout_width="130dp"
         android:layout_height="110dp"
         android:background="@drawable/button_gray_tight_line"
+        android:drawableTop="@drawable/vehicle"
+        android:onClick="createServiceOnClick"
+        android:paddingTop="20dp"
         android:text="Create Service Provision"
         android:textAllCaps="false"
-        android:drawableTop="@drawable/vehicle"
-        android:paddingTop="20dp"
         android:textColor="#3996A9"
-        android:onClick="createServiceOnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toEndOf="@+id/manageTxt"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <android.widget.Button
-        android:id="@+id/appointmentTxt"
-        android:layout_width="130dp"
-        android:layout_height="110dp"
-        android:background="@drawable/button_gray_tight_line"
-        android:drawableTop="@drawable/documents"
-        android:paddingTop="20dp"
-        android:text="View Physiotherapy Centers"
-        android:textAllCaps="false"
-        android:textColor="#3996A9"
-        android:onClick="viewPhysiotherapyOnClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.12"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/manageTxt"
-        app:layout_constraintVertical_bias="0.144" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

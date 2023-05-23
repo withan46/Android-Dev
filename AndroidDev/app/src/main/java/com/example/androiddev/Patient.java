@@ -1,11 +1,12 @@
 package com.example.androiddev;
+
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import java.util.Date;
 import java.util.List;
 
-public class Patient implements Parcelable{
+public class Patient implements Parcelable {
     private String name;
     private String email;
     private String ssn;
@@ -48,7 +49,9 @@ public class Patient implements Parcelable{
         return nextAppointment;
     }
 
-    public String getNextAppointmentTime() { return nextAppointmentTime;}
+    public String getNextAppointmentTime() {
+        return nextAppointmentTime;
+    }
 
     public String getCase() {
         return Case;
@@ -124,7 +127,7 @@ public class Patient implements Parcelable{
         this.Case = Case;
     }
 
-    public int getImageResource(){
+    public int getImageResource() {
         return R.mipmap.human_icon;
     }
 }

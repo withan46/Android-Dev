@@ -18,7 +18,7 @@ public class SelectClinicR21 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.select_clinic_r21);
         Intent parameters = getIntent();
-        myIP = parameters.getStringExtra("ip");
+        myIP = parameters.getStringExtra("Ip");
         nameTW = (EditText) findViewById(R.id.search_name_tb);
     }
 

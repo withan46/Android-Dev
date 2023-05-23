@@ -10,11 +10,9 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.SearchView;
 import android.widget.TextView;
-import android.widget.SearchView.OnQueryTextListener;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class AllPatients_R5 extends AppCompatActivity {
     private String myIP;
@@ -23,8 +21,9 @@ public class AllPatients_R5 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_allpatients_r5);
-        Objects.requireNonNull(getSupportActionBar()).hide();
-        myIP = getIntent().getStringExtra("ip");
+        Intent intent = getIntent();
+        myIP = intent.getStringExtra("Ip");
+        String vatRegNum = intent.getStringExtra("vat_reg_num");
 
         List<Patient> patientList;
 
@@ -34,8 +33,9 @@ public class AllPatients_R5 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Start the new activity
-                Intent intent = new Intent(AllPatients_R5.this, TodaysPatients_R5.class);
-                intent.putExtra("ip", myIP);
+                Intent intent = new Intent(AllPatients_R5.this, TodaysPatientsR5.class);
+                intent.putExtra("Ip", myIP);
+                intent.putExtra("vat_reg_num", vatRegNum);
                 startActivity(intent);
             }
         });
@@ -47,7 +47,7 @@ public class AllPatients_R5 extends AppCompatActivity {
         // Create an instance of OkHttpHandler and call populateScrollView to fetch the patients data
         OkHttpHandler okHttpHandler = new OkHttpHandler();
         try {
-            patientList = okHttpHandler.populateScrollView("http://" + myIP + "/flexFitDBServices/get_patients.php");
+            patientList = okHttpHandler.populateScrollView("http://" + myIP + "/flexFitDBServices/get_patients.php?vatRegNum=" + vatRegNum);
         } catch (Exception e) {
             e.printStackTrace();
             return;
@@ -99,9 +99,10 @@ public class AllPatients_R5 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Create an Intent to start the PatientDetailsActivity
-                Intent intent = new Intent(AllPatients_R5.this, PatientContact_R5.class);
+                Intent intent = new Intent(AllPatients_R5.this, PatientContactR5.class);
 
                 // Pass the patient object to the intent
+                intent.putExtra("Ip", myIP);
                 intent.putExtra("patient", patient);
 
                 // Start the activity

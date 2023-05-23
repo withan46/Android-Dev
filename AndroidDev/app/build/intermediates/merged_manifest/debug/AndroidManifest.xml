@@ -30,6 +30,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.AndroidDev"
         android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.example.androiddev.ShowEconomicMovementsR10"
+            android:exported="false" />
+
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@xml/network_security_config" />
@@ -43,8 +47,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.androiddev.SecondActivity" />
-        <activity android:name="com.example.androiddev.ThirdActivity" />
         <activity android:name="com.example.androiddev.PatientActivityR1" />
         <activity android:name="com.example.androiddev.DoctorActivityR1" />
         <activity android:name="com.example.androiddev.PsfActivityR1" />
@@ -52,19 +54,19 @@
         <activity android:name="com.example.androiddev.SelectClinicR21" />
         <activity android:name="com.example.androiddev.CreateNewServiceR22" />
         <activity android:name="com.example.androiddev.CreatePatientR3" />
-        <activity android:name="com.example.androiddev.r4ViewPatientDescription" />
-        <activity android:name="com.example.androiddev.PatientContact_R5" />
-        <activity android:name="com.example.androiddev.PatientHistory_R5" />
-        <activity android:name="com.example.androiddev.TodaysPatients_R5" />
+        <activity android:name="com.example.androiddev.ViewPatientDescriptionR4" />
+        <activity android:name="com.example.androiddev.PatientContactR5" />
+        <activity android:name="com.example.androiddev.PatientHistoryR5" />
+        <activity android:name="com.example.androiddev.TodaysPatientsR5" />
         <activity android:name="com.example.androiddev.AllPatients_R5" />
-        <activity android:name="com.example.androiddev.patient_card" />
+        <activity android:name="com.example.androiddev.Patient_card" />
         <activity android:name="com.example.androiddev.Patient" />
         <activity android:name="com.example.androiddev.PatientHistoryCard" />
-        <activity android:name="com.example.androiddev.mainActivityR6" />
+        <activity android:name="com.example.androiddev.WeeklyPlannerR6" />
         <activity android:name="com.example.androiddev.ViewAndManageAppointmentRequestsR7" />
         <activity android:name="com.example.androiddev.AddDescriptionR8" />
-        <activity android:name="com.example.androiddev.R9SearchClinic" />
-        <activity android:name="com.example.androiddev.R9BookAppointment" />
+        <activity android:name="com.example.androiddev.SearchClinicR9" />
+        <activity android:name="com.example.androiddev.BookAppointmentR9" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

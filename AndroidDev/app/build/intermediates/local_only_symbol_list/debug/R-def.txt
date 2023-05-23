@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array date_options
 color background
 color black
 color greenColor
@@ -52,6 +53,7 @@ drawable roundedbtn
 drawable roundedcontainer
 drawable spinner_background
 drawable spinner_background_weeklyplan
+drawable spinner_border
 drawable tick
 drawable usericon
 drawable vehicle
@@ -61,6 +63,7 @@ drawable whitebacktick
 drawable xmark
 font noto_sans
 id Month_textView
+id Title
 id Total_textView
 id Welcome
 id acceptButton
@@ -88,6 +91,7 @@ id cellDayText
 id codeName_tb
 id contactText
 id container
+id cost
 id createButton
 id createPatientButton
 id create_button
@@ -108,7 +112,6 @@ id days_scroll_bar
 id denyButton
 id description
 id description_tb
-id doctorTxt
 id elevenAM_button
 id email
 id emailField
@@ -131,12 +134,14 @@ id logo
 id manageTxt
 id meetings
 id monthYearTV
+id movementsRecyclerView
 id nameTxt
 id name_field
 id name_tb
 id nextAppointment
 id niceDay
 id note
+id parent
 id password
 id passwordTxt
 id pastBtn
@@ -153,6 +158,7 @@ id patientbox
 id patientsParent
 id patientsScrollView
 id patientsSearchView
+id period
 id phoneNumber
 id phoneNumberField
 id phoneNumberTxt
@@ -203,6 +209,7 @@ layout activity_r8
 layout activity_r9_book_appointment
 layout activity_r9_search_clinic
 layout activity_second
+layout activity_show_economic_movements_r10
 layout activity_third
 layout activity_todayspatients_r5
 layout activity_view_and_manage_appointment_requests_r7
@@ -213,6 +220,7 @@ layout calendar_item_r6
 layout create_new_service_r22
 layout create_patient_r3
 layout doctor_activity
+layout movements_list_item
 layout patient_activity
 layout patientboxlayout
 layout pfs_activity
@@ -248,6 +256,7 @@ string contact
 string create_service_provision_text
 string date
 string denyButton
+string description
 string description_text
 string email
 string history
@@ -263,14 +272,17 @@ string note3
 string number
 string past
 string patients
+string price
 string price_text
 string requests
 string search_by_name_text
 string search_text
+string select
 string select_a_clinic_text
 string select_clinic
 string select_service
 string time
+string title
 string todays_appointments
 string total
 string upcoming

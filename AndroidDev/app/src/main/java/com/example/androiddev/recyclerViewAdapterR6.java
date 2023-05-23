@@ -13,9 +13,9 @@ import java.util.ArrayList;
 
 public class recyclerViewAdapterR6 extends RecyclerView.Adapter<recyclerViewAdapterR6.MyViewHolder> {
     private Context context;
-    private ArrayList<createAppointmentItemsR6> appointments;
+    private ArrayList<CreateAppointmentItemsR6> appointments;
 
-    public recyclerViewAdapterR6(Context context, ArrayList<createAppointmentItemsR6> appointments) {
+    public recyclerViewAdapterR6(Context context, ArrayList<CreateAppointmentItemsR6> appointments) {
         this.context = context;
         this.appointments = appointments;
     }
@@ -30,7 +30,7 @@ public class recyclerViewAdapterR6 extends RecyclerView.Adapter<recyclerViewAdap
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        createAppointmentItemsR6 appointment = appointments.get(position);
+        CreateAppointmentItemsR6 appointment = appointments.get(position);
         holder.patientName.setText(appointment.getPatient_name());
         holder.hour.setText(appointment.getTime());
         holder.description.setText(appointment.getDescription());

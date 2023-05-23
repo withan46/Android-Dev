@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="date_options">
+        <item>Last Month</item>
+        <item>Last Year</item>
+        <item>From the start</item>
+    </string-array>
     <color name="background">#E4E4E4</color>
     <color name="black">#FF000000</color>
     <color name="greenColor">#8FD14F</color>
@@ -35,6 +40,7 @@
     <string name="create_service_provision_text">Create Service Provision</string>
     <string name="date">Date</string>
     <string name="denyButton">Deny</string>
+    <string name="description">Description</string>
     <string name="description_text">Description:</string>
     <string name="email">Email</string>
     <string name="history">History</string>
@@ -50,14 +56,17 @@
     <string name="number">Phone Number</string>
     <string name="past">Past</string>
     <string name="patients">Patients</string>
+    <string name="price">Cost</string>
     <string name="price_text">Price</string>
     <string name="requests">Request</string>
     <string name="search_by_name_text">Search by Name</string>
     <string name="search_text">Search</string>
+    <string name="select">Select period of time</string>
     <string name="select_a_clinic_text">Select a Clinic</string>
     <string name="select_clinic">Select clinic</string>
     <string name="select_service">Select service</string>
     <string name="time">Time</string>
+    <string name="title">Economic Movements</string>
     <string name="todays_appointments">Today\'s Appointments</string>
     <string name="total">Total:</string>
     <string name="upcoming">Upcoming</string>

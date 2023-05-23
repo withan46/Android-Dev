@@ -2,6 +2,7 @@ package com.example.androiddev;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,14 +18,12 @@ public class ViewAndManageAppointmentRequestsR7 extends AppCompatActivity {
     private String clinicVatNumber;
     ArrayList<Appointment> appointments = new ArrayList<>();
 
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        this.ip = "192.168.2.4";
-        this.clinicVatNumber = "10000";
+        Intent intent = getIntent();
 
+        this.ip = intent.getStringExtra("Ip");
+        this.clinicVatNumber = intent.getStringExtra("clinic_vat_number");
 
         //Creating an OkhttpHandler object to manage any communication with the database.
 
@@ -43,14 +42,14 @@ public class ViewAndManageAppointmentRequestsR7 extends AppCompatActivity {
         // Fetching the parent of the appointment container, inside which an appointment's information will be visible.
         LinearLayout appointmentContainerParent = findViewById(R.id.patientsParent);
 
+        LinearLayout buttonContainer = findViewById(R.id.buttonContainer3);
+        Button pastButton = (Button) buttonContainer.getChildAt(0);
+
         for(int i = 0 ; i < appointments.size() ; i++){
 
             // Getting the layout needed, in order to add appointment containers inside the currently visible layout.
             LayoutInflater inflater = LayoutInflater.from(this);
             LinearLayout appointmentContainer = (LinearLayout) inflater.inflate(R.layout.appointment_container_layout_r7, appointmentContainerParent, false);
-
-
-
 
 
             // fetching the elements that vary and change dynamically based on the appointment.
@@ -79,6 +78,7 @@ public class ViewAndManageAppointmentRequestsR7 extends AppCompatActivity {
             Button acceptButton = appointmentContainer.findViewById(R.id.acceptButton);
             Button denyButton = appointmentContainer.findViewById(R.id.denyButton);
 
+
             acceptButton.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public void onClick(View v){
@@ -106,6 +106,16 @@ public class ViewAndManageAppointmentRequestsR7 extends AppCompatActivity {
                 }
             });
 
+            pastButton.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View v){
+                    Intent intent = new Intent(ViewAndManageAppointmentRequestsR7.this, AddDescriptionR8.class);
+                    intent.putExtra("Ip", ip);
+                    intent.putExtra("clinic_vat_number", clinicVatNumber);
+
+                    startActivity(intent);
+                }
+            });
         }
 
     }

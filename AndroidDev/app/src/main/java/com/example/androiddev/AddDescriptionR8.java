@@ -2,6 +2,7 @@ package com.example.androiddev;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,8 +17,8 @@ import java.util.*;
 
 public class AddDescriptionR8 extends AppCompatActivity {
 
-    // IP of my Computer
-    String myIP = "192.168.2.4";
+    private String myIP;
+    private String clinicVATNumber;
 
     //Creating an arrayList of patients for testing.
     ArrayList<AcceptedAppointments> patients = new ArrayList<>();
@@ -25,10 +26,14 @@ public class AddDescriptionR8 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        Intent intent = getIntent();
+        this.myIP = intent.getStringExtra("Ip");
+        this.clinicVATNumber = intent.getStringExtra("clinic_vat_number");
+
         // Creating HTTP handler Object
         OkHttpHandler okHttpHandler = new OkHttpHandler();
 
-        String url1 = "http://"+ myIP +"/flexFitDBServices/getAcceptedAppointmentsR8.php?clinic_vat_number=" + 10000;
+        String url1 = "http://"+ this.myIP +"/flexFitDBServices/getAcceptedAppointmentsR8.php?clinic_vat_number=" + this.clinicVATNumber;
 
         try {
             patients = okHttpHandler.getAcceptedAppointments(url1);
@@ -41,6 +46,9 @@ public class AddDescriptionR8 extends AppCompatActivity {
 
         // Fetching the parentlayout
         LinearLayout patientBoxParent = findViewById(R.id.patientsParent);
+
+        LinearLayout buttonContainer = findViewById(R.id.buttonContainer2);
+        Button requestButton = (Button) buttonContainer.getChildAt(0);
 
          for(int i = 0 ; i < patients.size() ; i++){
 
@@ -115,7 +123,6 @@ public class AddDescriptionR8 extends AppCompatActivity {
                                      String url2 = "http://"+myIP+"/flexFitDBServices/setHistoryR8.php?patient_ssn='"+chosen.getSsn()+"'&tos='"+chosen.getTypeOfService()+"'&time='"+chosen.getAppointmentTime()+"'&date='"+chosen.getAppointmentDate()+"'&description='"+descr+"'";
 
                                      OkHttpHandler okHttpHandler = new OkHttpHandler();
-                                     System.out.println(chosen.getTypeOfService());
                                      try {
                                          okHttpHandler.addHistory(url2);
                                      } catch (Exception e) {
@@ -140,5 +147,16 @@ public class AddDescriptionR8 extends AppCompatActivity {
                  }
              });
          }
+
+        requestButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(AddDescriptionR8.this, ViewAndManageAppointmentRequestsR7.class);
+                intent.putExtra("Ip", myIP);
+                intent.putExtra("clinic_vat_number", clinicVATNumber);
+
+                startActivity(intent);
+            }
+        });
     }
 }

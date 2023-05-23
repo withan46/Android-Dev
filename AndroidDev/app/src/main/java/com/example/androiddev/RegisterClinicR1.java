@@ -1,6 +1,7 @@
 package com.example.androiddev;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Patterns;
@@ -14,13 +15,16 @@ import androidx.annotation.Nullable;
 
 public class RegisterClinicR1 extends Activity {
 
-    private final String myIP = "192.168.2.4";
+    private String myIP;
 
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register_clinic);
+
+        Intent intent = getIntent();
+        this.myIP = intent.getStringExtra("Ip");
 
         TextView vatNumberTextView = (TextView) findViewById(R.id.vatNumberTxt);
         TextView nameTextView = (TextView) findViewById(R.id.nameTxt);
@@ -48,7 +52,7 @@ public class RegisterClinicR1 extends Activity {
                         String url = "http://" + myIP + "/flexfitDBServices/clinic_data.php?vat_number=" + vatNumber +
                                 "&name=" + name + "&address=" + address + "&phone_number=" + phone + "&email=" + email;
                         try {
-                            OkHttpHandlerR1 okHttpHandler = new OkHttpHandlerR1();
+                            OkHttpHandler okHttpHandler = new OkHttpHandler();
                             okHttpHandler.clinic_data(url);
                             Toast.makeText(getApplicationContext(), "Selection Logged",
                                     Toast.LENGTH_SHORT).show();

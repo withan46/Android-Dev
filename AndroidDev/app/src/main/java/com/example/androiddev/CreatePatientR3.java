@@ -14,7 +14,7 @@ public class CreatePatientR3 extends Activity {
     private String email;
     private String phoneNumber;
     private String ssn;
-    private String vatRegNum = "1000"; //this is a dummy value! the real value will be taken by the landing page of the doctor...
+    private String vatRegNum; //this is a dummy value! the real value will be taken by the landing page of the doctor...
     private Button registerButton;
     private String myIP;
 
@@ -23,8 +23,9 @@ public class CreatePatientR3 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.create_patient_r3);
 
-        Intent parameters = getIntent();
-        myIP = parameters.getStringExtra("ip");
+        Intent intent = getIntent();
+        this.myIP = intent.getStringExtra("Ip");
+        this.vatRegNum = intent.getStringExtra("vat_reg_num");
 
     }
 
