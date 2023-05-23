@@ -1664,23 +1664,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\witha\\AndroidStudioProjects\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "48",
-                        "endOffsets": "61"
-                    },
-                    "to": {
-                        "startLines": "1798",
-                        "startColumns": "4",
-                        "startOffsets": "115512",
-                        "endColumns": "48",
-                        "endOffsets": "115556"
-                    }
-                },
-                {
                     "source": "C:\\Users\\witha\\.gradle\\caches\\transforms-3\\e5ed6143adbb4e76284add51ce427304\\transformed\\appcompat-resources-1.6.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
@@ -1700,22 +1683,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\witha\\AndroidStudioProjects\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\witha\\AndroidStudioProjects\\Android-Dev\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "2",
+                        "startLines": "1",
                         "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "813"
+                        "startOffsets": "17",
+                        "endColumns": "48",
+                        "endOffsets": "61"
                     },
                     "to": {
-                        "startLines": "6021",
+                        "startLines": "1798",
                         "startColumns": "4",
-                        "startOffsets": "415525",
-                        "endLines": "6033",
-                        "endColumns": "12",
-                        "endOffsets": "416103"
+                        "startOffsets": "115512",
+                        "endColumns": "48",
+                        "endOffsets": "115556"
                     }
                 },
                 {
@@ -1901,7 +1882,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\witha\\AndroidStudioProjects\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\witha\\AndroidStudioProjects\\Android-Dev\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\themes.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "813"
+                    },
+                    "to": {
+                        "startLines": "6021",
+                        "startColumns": "4",
+                        "startOffsets": "415525",
+                        "endLines": "6033",
+                        "endColumns": "12",
+                        "endOffsets": "416103"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\witha\\AndroidStudioProjects\\Android-Dev\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "7,2,3,4,5,6,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -4338,7 +4338,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\witha\\AndroidStudioProjects\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values-night\\themes.xml",
+                    "source": "C:\\Users\\witha\\AndroidStudioProjects\\Android-Dev\\Android-Dev\\AndroidDev\\app\\src\\main\\res\\values-night\\themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

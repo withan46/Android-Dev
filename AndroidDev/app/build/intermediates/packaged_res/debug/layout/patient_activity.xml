@@ -4,35 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
-    tools:context=".PatientActivity">
+    android:background="@drawable/background_image_blue"
+    tools:context=".PatientActivityR1">
 
     <TextView
         android:id="@+id/hello"
-        android:layout_width="150dp"
-        android:layout_height="75dp"
-        android:text="Hello User!"
+        android:layout_width="220dp"
+        android:layout_height="42dp"
         android:textColor="@color/white"
-        android:textSize="30dp"
+        android:textSize="25sp"
         android:textStyle="bold"
+        android:singleLine="true"
+        android:ellipsize="end"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.134" />
+        app:layout_constraintVertical_bias="0.133" />
+
 
     <TextView
         android:id="@+id/niceDay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="544dp"
         android:text="Have a nice day"
         android:textColor="@color/white"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/hello"
         app:layout_constraintVertical_bias="0.0" />
@@ -47,17 +48,17 @@
         android:textColor="@android:color/darker_gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintHorizontal_bias="0.537"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <android.widget.Button
-        android:id="@+id/arrangeTxt"
+        android:id="@+id/manageTxt"
         android:layout_width="130dp"
         android:layout_height="110dp"
         android:background="@drawable/button_gray_tight_line"
-        android:drawableTop="@drawable/calendar"
+        android:drawableTop="@drawable/appointment"
         android:paddingTop="20dp"
         android:text="Arrage an Appointment"
         android:textAllCaps="false"
@@ -71,7 +72,7 @@
         app:layout_constraintVertical_bias="0.499" />
 
     <android.widget.Button
-        android:id="@+id/economicTxt"
+        android:id="@+id/viewPatientsTxt"
         android:layout_width="130dp"
         android:layout_height="110dp"
         android:background="@drawable/button_gray_tight_line"
@@ -83,7 +84,7 @@
         android:onClick="economicOnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/arrangeTxt"
+        app:layout_constraintStart_toEndOf="@+id/manageTxt"
         app:layout_constraintTop_toTopOf="parent" />
 
     <android.widget.Button
@@ -91,7 +92,7 @@
         android:layout_width="130dp"
         android:layout_height="110dp"
         android:background="@drawable/button_gray_tight_line"
-        android:drawableTop="@drawable/appointment"
+        android:drawableTop="@drawable/calendar"
         android:paddingTop="20dp"
         android:text="View your Appointment"
         android:textAllCaps="false"
@@ -101,7 +102,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.12"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/arrangeTxt"
+        app:layout_constraintTop_toBottomOf="@+id/manageTxt"
         app:layout_constraintVertical_bias="0.144" />
 
     <android.widget.Button
@@ -118,7 +119,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/appointmentTxt"
-        app:layout_constraintTop_toBottomOf="@+id/economicTxt"
+        app:layout_constraintTop_toBottomOf="@+id/viewPatientsTxt"
         app:layout_constraintVertical_bias="0.138" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

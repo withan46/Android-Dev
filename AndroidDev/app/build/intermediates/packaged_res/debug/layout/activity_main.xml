@@ -5,11 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_image_for_android"
+    android:background="@drawable/background_image"
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/third"
+        android:id="@+id/email"
         android:layout_width="206dp"
         android:layout_height="41dp"
         android:background="@drawable/button_gray"
@@ -33,6 +33,7 @@
         android:text="Sign In"
         android:textAllCaps="false"
         android:textColor="#3996a9"
+        android:onClick="signInOnClick"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.464"
@@ -54,22 +55,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/loginButton" />
 
-    <android.widget.Button
-        android:id="@+id/createAccountButton"
-        android:layout_width="220dp"
-        android:layout_height="43dp"
-        android:background="@drawable/button_style_filled"
-        android:onClick="registerLink"
-        android:text="Create Account"
-        android:textAllCaps="false"
-        android:textColor="#ffff"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.464"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logOutTxt"
-        app:layout_constraintVertical_bias="0.544" />
-
     <EditText
         android:id="@+id/password"
         android:layout_width="211dp"
@@ -81,9 +66,9 @@
         android:hint="Password"
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintHorizontal_bias="0.445"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/third" />
+        app:layout_constraintTop_toBottomOf="@id/email" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier2"
@@ -100,7 +85,7 @@
         android:textSize="20dp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/third"
+        app:layout_constraintBottom_toTopOf="@+id/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.129"
         app:layout_constraintStart_toStartOf="parent"
