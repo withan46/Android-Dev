@@ -38,8 +38,6 @@ public class Appointment {
         return patient_name;
     }
 
-
-
     public String getTime() {
         return time;
     }

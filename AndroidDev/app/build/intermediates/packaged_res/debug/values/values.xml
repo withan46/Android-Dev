@@ -12,12 +12,23 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="Search">Search</string>
+    <string name="_10_00_am">10:00 AM</string>
+    <string name="_11_00_am">11:00 AM</string>
+    <string name="_12_00_pm">12:00 PM</string>
     <string name="_12_00_pm_23_3_2023">12:00 PM 23/3/2023</string>
+    <string name="_13_00_pm">13:00 PM</string>
+    <string name="_14_00_pm">14:00 PM</string>
+    <string name="_15_00_pm">15:00 PM</string>
+    <string name="_16_00_pm">16:00 PM</string>
+    <string name="_17_00_pm">17:00 PM</string>
     <string name="acceptButton">Accept</string>
     <string name="age">Age</string>
     <string name="all">All</string>
     <string name="anna_maria_dagmaer">Anna Maria Dagmaer</string>
     <string name="app_name">Android Dev</string>
+    <string name="arrange_an_appointment">Arrange an appointment</string>
+    <string name="book_appointment">Book appointment</string>
     <string name="button_text">Create</string>
     <string name="codeName_text">Code Name</string>
     <string name="contact">Contact</string>
@@ -44,8 +55,11 @@
     <string name="search_by_name_text">Search by Name</string>
     <string name="search_text">Search</string>
     <string name="select_a_clinic_text">Select a Clinic</string>
-    <string name="time">15.30</string>
+    <string name="select_clinic">Select clinic</string>
+    <string name="select_service">Select service</string>
+    <string name="time">Time</string>
     <string name="todays_appointments">Today\'s Appointments</string>
+    <string name="total">Total:</string>
     <string name="upcoming">Upcoming</string>
     <string name="user1">Domas Irena</string>
     <string name="user2">Katrina Angharad</string>
@@ -56,7 +70,7 @@
     </style>
     <style name="Theme.AndroidDev" parent="Theme.AppCompat.Light.NoActionBar">
         
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">#3996A9</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         

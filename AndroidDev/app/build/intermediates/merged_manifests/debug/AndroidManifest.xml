@@ -63,6 +63,8 @@
         <activity android:name="com.example.androiddev.mainActivityR6" />
         <activity android:name="com.example.androiddev.ViewAndManageAppointmentRequestsR7" />
         <activity android:name="com.example.androiddev.AddDescriptionR8" />
+        <activity android:name="com.example.androiddev.R9SearchClinic" />
+        <activity android:name="com.example.androiddev.R9BookAppointment" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

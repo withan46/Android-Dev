@@ -49,7 +49,8 @@
         <activity android:name=".mainActivityR6" />
         <activity android:name=".ViewAndManageAppointmentRequestsR7" />
         <activity android:name=".AddDescriptionR8" />
-
+        <activity android:name=".R9SearchClinic" />
+        <activity android:name=".R9BookAppointment" />
     </application>
 
 </manifest>

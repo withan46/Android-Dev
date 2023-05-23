@@ -2736,6 +2736,7 @@ drawable background_image
 drawable background_image_blue
 drawable background_image_white
 drawable background_r6
+drawable baseline_arrow_drop_down_24
 drawable baseline_email_24
 drawable baseline_key_24
 drawable btn_checkbox_checked_mtrl
@@ -2765,6 +2766,9 @@ drawable doctor
 drawable documents
 drawable flex
 drawable flexfitsubtlenoback_white
+drawable hour_button_default
+drawable hour_button_disabled
+drawable hour_button_pressed
 drawable human_icon_foreground
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
@@ -2859,12 +2863,16 @@ drawable patient
 drawable profile_photo
 drawable roundedbtn
 drawable roundedcontainer
+drawable spinner_background
+drawable spinner_background_weeklyplan
 drawable test_level_drawable
 drawable tick
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable usericon
 drawable vehicle
+drawable weekplanbuttondefault
+drawable weekplanbuttonpressed
 drawable whitebacktick
 drawable xmark
 font noto_sans
@@ -2874,6 +2882,7 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id META
+id Month_textView
 id NO_DEBUG
 id SHIFT
 id SHOW_ALL
@@ -2882,6 +2891,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id Total_textView
 id Welcome
 id accelerate
 id acceptButton
@@ -2960,6 +2970,7 @@ id appointmentTxt
 id appointmentsRecyclerView
 id appointmentsTextView
 id arc
+id arrange_textView
 id asConfigured
 id async
 id auto
@@ -2973,6 +2984,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id book_appointment
 id bottom
 id bounce
 id bounceBoth
@@ -3037,7 +3049,17 @@ id customPanel
 id cut
 id date
 id date_picker_actions
+id date_textView
+id day1_button
+id day2_button
+id day3_button
+id day4_button
+id day5_button
+id day6_button
+id day7_button
 id dayOfWeek
+id day_text_view
+id days_scroll_bar
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -3076,6 +3098,7 @@ id easeOut
 id east
 id edit_query
 id elastic
+id elevenAM_button
 id email
 id emailField
 id emailTxt
@@ -3089,6 +3112,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fade
+id fifthteenPM_button
 id fill
 id fill_horizontal
 id fill_vertical
@@ -3105,6 +3129,7 @@ id flex_start
 id flip
 id floating
 id forever
+id fourteenPM_button
 id fragment_container_view_tag
 id frost
 id fullscreen_header
@@ -3126,6 +3151,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id hour_scroll_bar
 id icon
 id icon_group
 id ifRoom
@@ -3284,6 +3310,8 @@ id phoneNumberField
 id phoneNumberTxt
 id phonenumber_field
 id pin
+id placeholder_service_dropdown
+id placeholder_text
 id position
 id postLayout
 id pressed
@@ -3347,6 +3375,8 @@ id select_clinic_info
 id select_dialog_listview
 id selected
 id selection_type
+id servicedropdown
+id seventeenPM_button
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -3354,6 +3384,7 @@ id showCustom
 id showHome
 id showTitle
 id sin
+id sixteenPM_button
 id skipCollapsed
 id skipped
 id slide
@@ -3367,6 +3398,7 @@ id space_between
 id space_evenly
 id spacer
 id special_effects_controller_view_tag
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -3403,6 +3435,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id tenAM_button
 id text
 id text2
 id textEnd
@@ -3412,6 +3445,7 @@ id textStart
 id textTop
 id textView
 id textView14
+id textView4
 id textView_Date
 id textView_Description
 id textView_Name
@@ -3425,6 +3459,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id thirteenPM_button
 id time
 id title
 id titleDividerNoCustom
@@ -3441,6 +3476,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id twelvePM_button
 id unchecked
 id uniform
 id unlabeled
@@ -3452,6 +3488,7 @@ id vertical_only
 id view
 id viewPatientsTxt
 id view_offset_helper
+id view_pager
 id view_transition
 id view_tree_lifecycle_owner
 id view_tree_on_back_pressed_dispatcher_owner
@@ -3584,6 +3621,8 @@ layout activity_patientcontact_r5
 layout activity_patienthistory_r5
 layout activity_r4_view_patient_description
 layout activity_r8
+layout activity_r9_book_appointment
+layout activity_r9_search_clinic
 layout activity_second
 layout activity_third
 layout activity_todayspatients_r5
@@ -3677,13 +3716,24 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout text_view
+layout view_page
 layout weekly_planner_r6
 mipmap human_icon
 mipmap human_icon_round
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+string Search
+string _10_00_am
+string _11_00_am
+string _12_00_pm
 string _12_00_pm_23_3_2023
+string _13_00_pm
+string _14_00_pm
+string _15_00_pm
+string _16_00_pm
+string _17_00_pm
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3718,6 +3768,8 @@ string androidx_startup
 string anna_maria_dagmaer
 string app_name
 string appbar_scrolling_view_behavior
+string arrange_an_appointment
+string book_appointment
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
@@ -3866,11 +3918,14 @@ string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
 string select_a_clinic_text
+string select_clinic
+string select_service
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
 string time
 string todays_appointments
+string total
 string upcoming
 string user1
 string user2

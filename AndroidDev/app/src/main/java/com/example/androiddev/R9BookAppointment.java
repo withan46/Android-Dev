@@ -54,7 +54,7 @@ public class R9BookAppointment extends AppCompatActivity {
         //------------------------------------------------//
 
         //Will be received from previous R and IP from Main activity//
-        this.myIP = "192.168.1.5";
+        this.myIP = "192.168.2.4";
         this.patient_ssn = "111111111";
         //----------------------------------------------------------//
 
@@ -158,9 +158,9 @@ public class R9BookAppointment extends AppCompatActivity {
         //---------------------------------------//
     }
 
-    private void addAppointments(ArrayList<Appointment> appointments, WeeklyPlan weeklyPlan, int index) {
+    private void addAppointments(ArrayList<AppointmentR9> appointments, WeeklyPlan weeklyPlan, int index) {
         ArrayList<Button> tempArray = this.hourButtons;
-        for(Appointment app : appointments) {
+        for(AppointmentR9 app : appointments) {
             if(weeklyPlan.getName(index, app.getDate())) {
                 checkAcceptedTimes(app, tempArray);
             }
@@ -168,7 +168,7 @@ public class R9BookAppointment extends AppCompatActivity {
     }
 
     //--This method checks if the days have some appointment in a specific hour. If it does, the button becomes disabled and red--//
-    private void checkAcceptedTimes(Appointment app, ArrayList<Button> tempArray) {
+    private void checkAcceptedTimes(AppointmentR9 app, ArrayList<Button> tempArray) {
         Iterator<Button> iter = tempArray.iterator();
         while(iter.hasNext()) {
             Button btn = iter.next();
@@ -216,7 +216,7 @@ public class R9BookAppointment extends AppCompatActivity {
     private void deletePastAppointments() {
         try {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                okHttpHandler.deletePastAppointments("http://" + myIP + "/r9DeleteAppointments.php?localDate=" + LocalDate.now());
+                okHttpHandler.deletePastAppointments("http://" + myIP + "/flexFitDBServices/r9DeleteAppointments.php?localDate=" + LocalDate.now());
             }
         } catch (Exception e) {
             throw new RuntimeException(e);
@@ -224,11 +224,11 @@ public class R9BookAppointment extends AppCompatActivity {
     }
 
     //--Receiving all the appointments-//
-    private ArrayList<Appointment> getAppointments(String clinicVAT) {
-        ArrayList<Appointment> appointments;
+    private ArrayList<AppointmentR9> getAppointments(String clinicVAT) {
+        ArrayList<AppointmentR9> appointments;
 
         try {
-            appointments = okHttpHandler.getClinicAppointments("http://" + myIP + "/r9GetAppointments.php?clinicVATNumber=" + clinicVAT);
+            appointments = okHttpHandler.getClinicAppointments("http://" + myIP + "/flexFitDBServices/r9GetAppointments.php?clinicVATNumber=" + clinicVAT);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -241,7 +241,7 @@ public class R9BookAppointment extends AppCompatActivity {
         ArrayList<Service> services;
 
         try {
-            services = okHttpHandler.populateServiceDropDown("http://" + myIP + "/r9GetServices.php?clinicVATNumber=" + clinicVAT);
+            services = okHttpHandler.populateServiceDropDown("http://" + myIP + "/flexFitDBServices/r9GetServices.php?clinicVATNumber=" + clinicVAT);
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -263,7 +263,7 @@ public class R9BookAppointment extends AppCompatActivity {
     }
 
     private void setTotalDaysListener(String clinicVAT, String[] nameDay, String[] selectedIndex) {
-        ArrayList<Appointment> appointments = getAppointments(clinicVAT);
+        ArrayList<AppointmentR9> appointments = getAppointments(clinicVAT);
 
         for(int i=0;i<this.totalDayButtons.size();i++) {
             int index = i;
@@ -325,7 +325,7 @@ public class R9BookAppointment extends AppCompatActivity {
                     else {
                         String date = weeklyPlan.getDate(Integer.parseInt(selectedIndex[0]));
                         try {
-                            boolean flag = okHttpHandler.bookAppointment("http://" + myIP + "/r9BookAppointment.php?time=" + selectedHour[0] + "&date=" + date + "&tos=" + selectedServiceName[0] + "&clinicVATNumber="  + clinicVAT + "&patient_ssn=" + this.patient_ssn + "&accepted=False");
+                            boolean flag = okHttpHandler.bookAppointment("http://" + myIP + "/flexFitDBServices/r9BookAppointment.php?time=" + selectedHour[0] + "&date=" + date + "&tos=" + selectedServiceName[0] + "&clinicVATNumber="  + clinicVAT + "&patient_ssn=" + this.patient_ssn + "&accepted=False");
 
                             if(flag) {
                                 Toast.makeText(getApplicationContext(), "Appointment booked successfully!", Toast.LENGTH_SHORT).show();

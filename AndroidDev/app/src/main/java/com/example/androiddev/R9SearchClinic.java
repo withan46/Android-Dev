@@ -28,7 +28,7 @@ public class R9SearchClinic extends AppCompatActivity {
         OkHttpHandler httpHandler = new OkHttpHandler();
 
         //Will be received from previous R and IP from Main activity//
-        this.myIP = "192.168.1.5";
+        this.myIP = "192.168.2.4";
         //----------------------------------------------------------//
 
         Button searchButton = findViewById(R.id.search_button);
@@ -39,7 +39,7 @@ public class R9SearchClinic extends AppCompatActivity {
         List<Clinic> clinics;
 
         try {
-            clinics = httpHandler.populateClinicDropDown("http://" + myIP + "/r9SearchClinic.php");
+            clinics = httpHandler.populateClinicDropDown("http://" + myIP + "/flexFitDBServices/r9SearchClinic.php");
         } catch (Exception e) {
             throw new RuntimeException(e);
         }

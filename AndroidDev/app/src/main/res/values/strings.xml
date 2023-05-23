@@ -23,13 +23,11 @@
     <string name="age">Age</string>
     <string name="number">Phone Number</string>
     <string name="email">Email</string>
-    <string name="date">Date</string>
     <string name="meetings">Meetings</string>
     <string name="imagedesc">App Logo</string>
     <string name="upcoming">Upcoming</string>
     <string name="requests">Request</string>
     <string name="past">Past</string>
-    <string name="time">15.30</string>
     <string name="acceptButton">Accept</string>
     <string name="denyButton">Deny</string>
     <string name="user1">Domas Irena</string>
@@ -38,4 +36,20 @@
     <string name="note1">Note: Problems with back pain</string>
     <string name="note2">Note: Sports Massage</string>
     <string name="note3">Note: Medium-Competitive</string>
+    <string name="Search">Search</string>
+    <string name="arrange_an_appointment">Arrange an appointment</string>
+    <string name="select_clinic">Select clinic</string>
+    <string name="select_service">Select service</string>
+    <string name="time">Time</string>
+    <string name="_10_00_am">10:00 AM</string>
+    <string name="_11_00_am">11:00 AM</string>
+    <string name="_12_00_pm">12:00 PM</string>
+    <string name="_13_00_pm">13:00 PM</string>
+    <string name="_14_00_pm">14:00 PM</string>
+    <string name="_15_00_pm">15:00 PM</string>
+    <string name="_16_00_pm">16:00 PM</string>
+    <string name="_17_00_pm">17:00 PM</string>
+    <string name="date">Date</string>
+    <string name="book_appointment">Book appointment</string>
+    <string name="total">Total:</string>
 </resources>
