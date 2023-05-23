@@ -35,6 +35,32 @@
             android:resource="@xml/network_security_config" />
 
         <activity
+            android:name="com.example.androiddev.PatientHistoryCard"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/network_security_config" />
+
+        <activity
+            android:name="com.example.androiddev.PatientContact_R5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androiddev.PatientHistory_R5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androiddev.TodaysPatients_R5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androiddev.AllPatients_R5"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androiddev.patient_card"
+            android:exported="false" />
+        <activity
+            android:name="com.example.androiddev.Patient"
+            android:exported="false" />
+        <activity
             android:name="com.example.androiddev.MainActivity"
             android:exported="true" >
             <intent-filter>
