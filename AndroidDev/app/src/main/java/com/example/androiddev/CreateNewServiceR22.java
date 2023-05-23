@@ -32,7 +32,7 @@ public class CreateNewServiceR22 extends AppCompatActivity {
     }
 
     public void createService(View view)  {
-        String url= "http://"+myIP+"/FlexFit/createNewService.php?" + "code=" + code.getText() + "&name=" + name.getText() + "&description=" + description.getText()
+        String url= "http://"+myIP+"/flexFitDBServices/createNewService.php?" + "code=" + code.getText() + "&name=" + name.getText() + "&description=" + description.getText()
                 + "&price=" + price.getText() + "&clinic_vat_number=" + clinic_vat_number;
         OkHttpHandler okHttpHandler = new OkHttpHandler();
         try {

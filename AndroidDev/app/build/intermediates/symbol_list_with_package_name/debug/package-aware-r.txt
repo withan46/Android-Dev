@@ -2705,12 +2705,8 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable background
 drawable background_image
-<<<<<<< HEAD
 drawable background_image_blue
 drawable background_image_white
-=======
-drawable background_image_for_android
->>>>>>> 5-r2-create-a-new-service-code-name-desc
 drawable baseline_email_24
 drawable baseline_key_24
 drawable btn_checkbox_checked_mtrl
@@ -2968,14 +2964,10 @@ id coordinator
 id cos
 id counterclockwise
 id cradle
-<<<<<<< HEAD
 id createButton
-=======
-id createAccountButton
 id create_button
 id create_service_header
 id create_service_info
->>>>>>> 5-r2-create-a-new-service-code-name-desc
 id currentState
 id custom
 id customPanel
@@ -3150,11 +3142,8 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
-<<<<<<< HEAD
 id nameTxt
-=======
 id name_tb
->>>>>>> 5-r2-create-a-new-service-code-name-desc
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3472,7 +3461,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_second
 layout activity_third
-layout create_new_service
+layout create_new_service_r22
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3547,13 +3536,10 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-<<<<<<< HEAD
 layout patient_activity
 layout pfs_activity
 layout register_clinic
-=======
-layout select_clinic
->>>>>>> 5-r2-create-a-new-service-code-name-desc
+layout select_clinic_r21
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material

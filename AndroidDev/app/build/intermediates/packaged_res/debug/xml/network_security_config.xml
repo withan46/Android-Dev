@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <domain-config cleartextTrafficPermitted="true">
-<<<<<<< HEAD
         <domain includeSubdomains="true">192.168.2.4</domain>
-=======
-        <domain includeSubdomains="true">192.168.178.86</domain>
->>>>>>> 5-r2-create-a-new-service-code-name-desc
     </domain-config>
 </network-security-config>

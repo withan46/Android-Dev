@@ -23,7 +23,7 @@ public class SelectClinicR21 extends AppCompatActivity {
     }
 
     public void searchClinic(View view) {
-        String url= "http://"+myIP+"/FlexFit/findClinic.php?name=" + nameTW.getText();
+        String url= "http://"+myIP+"/flexFitDBServices/findClinic.php?name=" + nameTW.getText();
         try {
             OkHttpHandler okHttpHandler = new OkHttpHandler();
             String clinic_vat_number = okHttpHandler.findClinic(url);
