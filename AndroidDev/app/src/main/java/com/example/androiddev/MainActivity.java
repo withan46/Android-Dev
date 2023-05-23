@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Objects.requireNonNull(getSupportActionBar()).hide();
+//        Objects.requireNonNull(getSupportActionBar()).hide();
     }
 
 
     public void registerLink(View view){
-        Intent intent = new Intent(MainActivity.this, ViewAndManageAppointmentRequestsR7.class);
+        Intent intent = new Intent(MainActivity.this, AddDescriptionR8.class);
         intent.putExtra("ip", myIP);
         startActivity(intent);
     }

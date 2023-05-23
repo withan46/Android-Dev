@@ -17,7 +17,7 @@ import java.util.*;
 public class AddDescriptionR8 extends AppCompatActivity {
 
     // IP of my Computer
-    String myIP = "192.168.1.41";
+    String myIP = "192.168.2.4";
 
     //Creating an arrayList of patients for testing.
     ArrayList<AcceptedAppointments> patients = new ArrayList<>();
@@ -28,8 +28,7 @@ public class AddDescriptionR8 extends AppCompatActivity {
         // Creating HTTP handler Object
         OkHttpHandler okHttpHandler = new OkHttpHandler();
 
-        ////// I NEED TO TAKE THIS "10000" NUMBER FROM ANOTHER R //////
-        String url1 = "http://"+ myIP +"/AndroidDev/getAcceptedAppointmentsR8.php?clinic_vat_number=" + 10000;
+        String url1 = "http://"+ myIP +"/flexFitDBServices/getAcceptedAppointmentsR8.php?clinic_vat_number=" + 10000;
 
         try {
             patients = okHttpHandler.getAcceptedAppointments(url1);
@@ -93,6 +92,9 @@ public class AddDescriptionR8 extends AppCompatActivity {
 
                              String descr = "";
                              TextView name = patientBox.findViewById(R.id.patientName);
+                             TextView time = patientBox.findViewById(R.id.appTime);
+                             TextView date = patientBox.findViewById(R.id.appDate);
+
                              AcceptedAppointments chosen = null;
 
                              // Getting String from Text Area
@@ -105,12 +107,12 @@ public class AddDescriptionR8 extends AppCompatActivity {
                              for(AcceptedAppointments ap: patients)
                              {
                                  // If found, we set the chosen Object = to the one that was found
-                                 if ( (name.getText().toString()).equals(ap.getPatientName()) )
+                                 if ( (name.getText().toString()).equals(ap.getPatientName()) && time.getText().toString().equals(ap.getAppointmentTime()) && date.getText().toString().equals(ap.getAppointmentDate()))
                                  {
-                                     chosen = ap;   
+                                     chosen = ap;
 
                                      // URL that will be used to Access .php file in the Database
-                                     String url2 = "http://"+myIP+"/AndroidDev/setHistoryR8.php?patient_ssn='"+chosen.getSsn()+"'&tos='"+chosen.getTypeOfService()+"'&time='"+chosen.getAppointmentTime()+"'&date='"+chosen.getAppointmentDate()+"'&description='"+descr+"'";
+                                     String url2 = "http://"+myIP+"/flexFitDBServices/setHistoryR8.php?patient_ssn='"+chosen.getSsn()+"'&tos='"+chosen.getTypeOfService()+"'&time='"+chosen.getAppointmentTime()+"'&date='"+chosen.getAppointmentDate()+"'&description='"+descr+"'";
 
                                      OkHttpHandler okHttpHandler = new OkHttpHandler();
                                      System.out.println(chosen.getTypeOfService());

@@ -26,7 +26,7 @@
 17-->[androidx.core:core:1.9.0] C:\Users\witha\.gradle\caches\transforms-3\ec4f76f6c0c02de8ba18086e7bd9baf5\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:7:5-52:19
+19-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:7:5-53:19
 20        android:allowBackup="true"
 20-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -131,28 +131,31 @@
 64        <activity android:name="com.example.androiddev.ViewAndManageAppointmentRequestsR7" />
 64-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:50:9-72
 64-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:50:19-69
-65
-66        <provider
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-67            android:name="androidx.startup.InitializationProvider"
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-68            android:authorities="com.example.androiddev.androidx-startup"
-68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-69            android:exported="false" >
-69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-70            <meta-data
-70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-72                android:value="androidx.startup" />
-72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-73            <meta-data
-73-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-75                android:value="androidx.startup" />
-75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-76        </provider>
-77    </application>
-78
-79</manifest>
+65        <activity android:name="com.example.androiddev.AddDescriptionR8" />
+65-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:51:9-54
+65-->C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:51:19-51
+66
+67        <provider
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+69            android:authorities="com.example.androiddev.androidx-startup"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+70            android:exported="false" >
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+71            <meta-data
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+73                android:value="androidx.startup" />
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\witha\.gradle\caches\transforms-3\791b39fe68826e8543c46f2d7f8b152e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+76                android:value="androidx.startup" />
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\witha\.gradle\caches\transforms-3\86041ab2b0d2128b301212662b855cec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+77        </provider>
+78    </application>
+79
+80</manifest>

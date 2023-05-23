@@ -2780,6 +2780,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
+drawable logo
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -2859,6 +2860,7 @@ drawable profile_photo
 drawable roundedbtn
 drawable roundedcontainer
 drawable test_level_drawable
+drawable tick
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable usericon
@@ -2939,6 +2941,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addButton
+id addText
 id addressTxt
 id alertTitle
 id aligned
@@ -3301,6 +3305,7 @@ id rounded
 id row
 id row_index_key
 id row_reverse
+id saveButton
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3578,10 +3583,12 @@ layout activity_patient_history_card
 layout activity_patientcontact_r5
 layout activity_patienthistory_r5
 layout activity_r4_view_patient_description
+layout activity_r8
 layout activity_second
 layout activity_third
 layout activity_todayspatients_r5
 layout activity_view_and_manage_appointment_requests_r7
+layout add_description_r8
 layout appointment_container_layout_r7
 layout appointment_item_r6
 layout calendar_item_r6
@@ -3662,6 +3669,7 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout patient_activity
+layout patientboxlayout
 layout pfs_activity
 layout register_clinic
 layout select_clinic_r21

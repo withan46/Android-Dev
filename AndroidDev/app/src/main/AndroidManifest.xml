@@ -48,6 +48,7 @@
         <activity android:name=".PatientHistoryCard" />
         <activity android:name=".mainActivityR6" />
         <activity android:name=".ViewAndManageAppointmentRequestsR7" />
+        <activity android:name=".AddDescriptionR8" />
 
     </application>
 

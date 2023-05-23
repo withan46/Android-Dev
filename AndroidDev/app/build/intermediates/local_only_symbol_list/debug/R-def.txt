@@ -38,6 +38,7 @@ drawable flexfitsubtlenoback_white
 drawable human_icon_foreground
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable logo
 drawable medical
 drawable money_bag
 drawable nextarrow
@@ -45,6 +46,7 @@ drawable patient
 drawable profile_photo
 drawable roundedbtn
 drawable roundedcontainer
+drawable tick
 drawable usericon
 drawable vehicle
 drawable whitebacktick
@@ -52,6 +54,8 @@ drawable xmark
 font noto_sans
 id Welcome
 id acceptButton
+id addButton
+id addText
 id addressTxt
 id allPatientsButton
 id appDate
@@ -131,6 +135,7 @@ id price_tb
 id registerClinicTxt
 id register_patient_text
 id requestsBtn
+id saveButton
 id screen
 id search_name_tb
 id second
@@ -156,10 +161,12 @@ layout activity_patient_history_card
 layout activity_patientcontact_r5
 layout activity_patienthistory_r5
 layout activity_r4_view_patient_description
+layout activity_r8
 layout activity_second
 layout activity_third
 layout activity_todayspatients_r5
 layout activity_view_and_manage_appointment_requests_r7
+layout add_description_r8
 layout appointment_container_layout_r7
 layout appointment_item_r6
 layout calendar_item_r6
@@ -167,6 +174,7 @@ layout create_new_service_r22
 layout create_patient_r3
 layout doctor_activity
 layout patient_activity
+layout patientboxlayout
 layout pfs_activity
 layout register_clinic
 layout select_clinic_r21
