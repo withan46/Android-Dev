@@ -1321,6 +1321,7 @@ int color accent_material_dark 0x7f050019
 int color accent_material_light 0x7f05001a
 int color androidx_core_ripple_material_light 0x7f05001b
 int color androidx_core_secondary_text_default_material_light 0x7f05001c
+int color background 0x7f050285
 int color background_floating_material_dark 0x7f05001d
 int color background_floating_material_light 0x7f05001e
 int color background_material_dark 0x7f05001f
@@ -1384,6 +1385,7 @@ int color error_color_material_dark 0x7f050058
 int color error_color_material_light 0x7f050059
 int color foreground_material_dark 0x7f05005a
 int color foreground_material_light 0x7f05005b
+int color greenColor 0x7f050286
 int color highlighted_text_material_dark 0x7f05005c
 int color highlighted_text_material_light 0x7f05005d
 int color human_icon_background 0x7f05005e
@@ -1907,6 +1909,7 @@ int color mtrl_textinput_disabled_color 0x7f050263
 int color mtrl_textinput_filled_box_default_background_color 0x7f050264
 int color mtrl_textinput_focused_box_stroke_color 0x7f050265
 int color mtrl_textinput_hovered_box_stroke_color 0x7f050266
+int color noteColor 0x7f050287
 int color notification_action_color_filter 0x7f050267
 int color notification_icon_bg_color 0x7f050268
 int color primary_dark_material_dark 0x7f050269
@@ -1920,6 +1923,7 @@ int color primary_text_disabled_material_light 0x7f050270
 int color purple_200 0x7f050271
 int color purple_500 0x7f050272
 int color purple_700 0x7f050273
+int color redColor 0x7f050288
 int color ripple_material_dark 0x7f050274
 int color ripple_material_light 0x7f050275
 int color secondary_text_default_material_dark 0x7f050276
@@ -2722,6 +2726,7 @@ int drawable abc_textfield_search_activated_mtrl_alpha 0x7f070074
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f070075
 int drawable abc_textfield_search_material 0x7f070076
 int drawable abc_vector_test 0x7f070077
+int drawable acceptbtn 0x7f0700fb
 int drawable appointment 0x7f070078
 int drawable avd_hide_password 0x7f070079
 int drawable avd_show_password 0x7f07007a
@@ -2749,6 +2754,7 @@ int drawable button_style_filled_grey 0x7f07008f
 int drawable button_style_r6 0x7f070090
 int drawable calendar 0x7f070091
 int drawable clinic 0x7f070092
+int drawable denybtn 0x7f0700fc
 int drawable design_fab_background 0x7f070093
 int drawable design_ic_visibility 0x7f070094
 int drawable design_ic_visibility_off 0x7f070095
@@ -2849,10 +2855,15 @@ int drawable notification_tile_bg 0x7f0700f3
 int drawable notify_panel_notification_icon_bg 0x7f0700f4
 int drawable patient 0x7f0700f5
 int drawable profile_photo 0x7f0700f6
+int drawable roundedbtn 0x7f0700fd
+int drawable roundedcontainer 0x7f0700fe
 int drawable test_level_drawable 0x7f0700f7
 int drawable tooltip_frame_dark 0x7f0700f8
 int drawable tooltip_frame_light 0x7f0700f9
+int drawable usericon 0x7f0700ff
 int drawable vehicle 0x7f0700fa
+int drawable whitebacktick 0x7f070100
+int drawable xmark 0x7f070101
 int font noto_sans 0x7f080000
 int id ALT 0x7f090000
 int id BOTTOM_END 0x7f090001
@@ -2870,6 +2881,7 @@ int id TOP_END 0x7f09000c
 int id TOP_START 0x7f09000d
 int id Welcome 0x7f09000e
 int id accelerate 0x7f09000f
+int id acceptButton 0x7f090246
 int id accessibility_action_clickable_span 0x7f090010
 int id accessibility_custom_action_0 0x7f090011
 int id accessibility_custom_action_1 0x7f090012
@@ -2937,6 +2949,8 @@ int id animateToEnd 0x7f09004f
 int id animateToStart 0x7f090050
 int id antiClockwise 0x7f090051
 int id anticipate 0x7f090052
+int id appDate 0x7f090247
+int id appTime 0x7f090248
 int id appointmentTxt 0x7f090053
 int id appointmentsRecyclerView 0x7f090054
 int id appointmentsTextView 0x7f090055
@@ -2961,6 +2975,9 @@ int id bounceEnd 0x7f090067
 int id bounceStart 0x7f090068
 int id button 0x7f090069
 int id button2 0x7f09006a
+int id buttonContainer 0x7f090249
+int id buttonContainer2 0x7f09024a
+int id buttonContainer3 0x7f09024b
 int id buttonPanel 0x7f09006b
 int id button_next 0x7f09006c
 int id button_previous 0x7f09006d
@@ -3021,6 +3038,7 @@ int id decelerateAndComplete 0x7f0900a3
 int id decor_content_parent 0x7f0900a4
 int id default_activity_button 0x7f0900a5
 int id deltaRelative 0x7f0900a6
+int id denyButton 0x7f09024c
 int id dependency_ordering 0x7f0900a7
 int id description 0x7f0900a8
 int id description_tb 0x7f0900a9
@@ -3093,6 +3111,7 @@ int id graph_wrap 0x7f0900eb
 int id group_divider 0x7f0900ec
 int id grouping 0x7f0900ed
 int id groups 0x7f0900ee
+int id header 0x7f09024d
 int id header_title 0x7f0900ef
 int id hello 0x7f0900f0
 int id hideable 0x7f0900f1
@@ -3133,6 +3152,7 @@ int id listMode 0x7f090113
 int id list_item 0x7f090114
 int id logOutTxt 0x7f090115
 int id loginButton 0x7f090116
+int id logo 0x7f09024e
 int id m3_side_sheet 0x7f090117
 int id manageTxt 0x7f090118
 int id marquee 0x7f090119
@@ -3160,6 +3180,7 @@ int id material_timepicker_ok_button 0x7f09012e
 int id material_timepicker_view 0x7f09012f
 int id material_value_index 0x7f090130
 int id matrix 0x7f090131
+int id meetings 0x7f09024f
 int id message 0x7f090132
 int id middle 0x7f090133
 int id mini 0x7f090134
@@ -3215,6 +3236,7 @@ int id noState 0x7f090165
 int id none 0x7f090166
 int id normal 0x7f090167
 int id north 0x7f090168
+int id note 0x7f090250
 int id notification_background 0x7f090169
 int id notification_main_column 0x7f09016a
 int id notification_main_column_container 0x7f09016b
@@ -3234,6 +3256,7 @@ int id parent_matrix 0x7f090178
 int id password 0x7f090179
 int id passwordTxt 0x7f09017a
 int id password_toggle 0x7f09017b
+int id pastBtn 0x7f090251
 int id path 0x7f09017c
 int id pathRelative 0x7f09017d
 int id patientCase 0x7f09017e
@@ -3245,6 +3268,8 @@ int id patientPicture 0x7f090183
 int id patientTxt 0x7f090184
 int id patient_card 0x7f090185
 int id patient_name 0x7f090186
+int id patientbox 0x7f090252
+int id patientsParent 0x7f090253
 int id patientsScrollView 0x7f090187
 int id patientsSearchView 0x7f090188
 int id peekHeight 0x7f090189
@@ -3265,6 +3290,7 @@ int id ratio 0x7f090197
 int id rectangles 0x7f090198
 int id registerClinicTxt 0x7f090199
 int id register_patient_text 0x7f09019a
+int id requestsBtn 0x7f090254
 int id reverseSawtooth 0x7f09019b
 int id right 0x7f09019c
 int id rightToLeft 0x7f09019d
@@ -3413,6 +3439,7 @@ int id unchecked 0x7f09022b
 int id uniform 0x7f09022c
 int id unlabeled 0x7f09022d
 int id up 0x7f09022e
+int id upcomingBtn 0x7f090255
 int id useLogo 0x7f09022f
 int id vatNumberTxt 0x7f090230
 int id vertical_only 0x7f090231
@@ -3553,6 +3580,8 @@ int layout activity_r4_view_patient_description 0x7f0c0023
 int layout activity_second 0x7f0c0024
 int layout activity_third 0x7f0c0025
 int layout activity_todayspatients_r5 0x7f0c0026
+int layout activity_view_and_manage_appointment_requests_r7 0x7f0c007e
+int layout appointment_container_layout_r7 0x7f0c007f
 int layout appointment_item_r6 0x7f0c0027
 int layout calendar_item_r6 0x7f0c0028
 int layout create_new_service_r22 0x7f0c0029
@@ -3673,6 +3702,7 @@ int string abc_searchview_description_voice 0x7f100018
 int string abc_shareactionprovider_share_with 0x7f100019
 int string abc_shareactionprovider_share_with_application 0x7f10001a
 int string abc_toolbar_collapse_description 0x7f10001b
+int string acceptButton 0x7f1000b3
 int string age 0x7f10001c
 int string all 0x7f10001d
 int string androidx_startup 0x7f10001e
@@ -3694,6 +3724,7 @@ int string codeName_text 0x7f10002d
 int string contact 0x7f10002e
 int string create_service_provision_text 0x7f10002f
 int string date 0x7f100030
+int string denyButton 0x7f1000b4
 int string description_text 0x7f100031
 int string email 0x7f100032
 int string error_a11y_label 0x7f100033
@@ -3704,6 +3735,7 @@ int string fab_transformation_sheet_behavior 0x7f100037
 int string hide_bottom_view_on_scroll_behavior 0x7f100038
 int string history 0x7f100039
 int string icon_content_description 0x7f10003a
+int string imagedesc 0x7f1000b5
 int string info_to_create_service_provision_text 0x7f10003b
 int string item_view_role_description 0x7f10003c
 int string m3_sys_motion_easing_emphasized 0x7f10003d
@@ -3739,6 +3771,7 @@ int string material_timepicker_minute 0x7f10005a
 int string material_timepicker_pm 0x7f10005b
 int string material_timepicker_select_time 0x7f10005c
 int string material_timepicker_text_input_mode_description 0x7f10005d
+int string meetings 0x7f1000b6
 int string mtrl_badge_numberless_content_description 0x7f10005e
 int string mtrl_checkbox_button_icon_path_checked 0x7f10005f
 int string mtrl_checkbox_button_icon_path_group_name 0x7f100060
@@ -3804,14 +3837,19 @@ int string mtrl_timepicker_confirm 0x7f10009b
 int string name 0x7f10009c
 int string name_text 0x7f10009d
 int string no_description_added 0x7f10009e
+int string note1 0x7f1000b7
+int string note2 0x7f1000b8
+int string note3 0x7f1000b9
 int string number 0x7f10009f
 int string password_toggle_content_description 0x7f1000a0
+int string past 0x7f1000ba
 int string path_password_eye 0x7f1000a1
 int string path_password_eye_mask_strike_through 0x7f1000a2
 int string path_password_eye_mask_visible 0x7f1000a3
 int string path_password_strike_through 0x7f1000a4
 int string patients 0x7f1000a5
 int string price_text 0x7f1000a6
+int string requests 0x7f1000bb
 int string search_by_name_text 0x7f1000a7
 int string search_menu_title 0x7f1000a8
 int string search_text 0x7f1000a9
@@ -3822,7 +3860,12 @@ int string select_a_clinic_text 0x7f1000ad
 int string side_sheet_accessibility_pane_title 0x7f1000ae
 int string side_sheet_behavior 0x7f1000af
 int string status_bar_notification_info_overflow 0x7f1000b0
+int string time 0x7f1000bc
 int string todays_appointments 0x7f1000b1
+int string upcoming 0x7f1000bd
+int string user1 0x7f1000be
+int string user2 0x7f1000bf
+int string user3 0x7f1000c0
 int string years 0x7f1000b2
 int style AlertDialog_AppCompat 0x7f110000
 int style AlertDialog_AppCompat_Light 0x7f110001

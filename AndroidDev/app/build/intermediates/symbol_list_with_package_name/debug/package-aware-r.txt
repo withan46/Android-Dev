@@ -1322,6 +1322,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color background
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1385,6 +1386,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color greenColor
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color human_icon_background
@@ -1908,6 +1910,7 @@ color mtrl_textinput_disabled_color
 color mtrl_textinput_filled_box_default_background_color
 color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
+color noteColor
 color notification_action_color_filter
 color notification_icon_bg_color
 color primary_dark_material_dark
@@ -1921,6 +1924,7 @@ color primary_text_disabled_material_light
 color purple_200
 color purple_500
 color purple_700
+color redColor
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2723,6 +2727,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable acceptbtn
 drawable appointment
 drawable avd_hide_password
 drawable avd_show_password
@@ -2750,6 +2755,7 @@ drawable button_style_filled_grey
 drawable button_style_r6
 drawable calendar
 drawable clinic
+drawable denybtn
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -2850,10 +2856,15 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable patient
 drawable profile_photo
+drawable roundedbtn
+drawable roundedcontainer
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable usericon
 drawable vehicle
+drawable whitebacktick
+drawable xmark
 font noto_sans
 id ALT
 id BOTTOM_END
@@ -2871,6 +2882,7 @@ id TOP_END
 id TOP_START
 id Welcome
 id accelerate
+id acceptButton
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
 id accessibility_custom_action_1
@@ -2938,6 +2950,8 @@ id animateToEnd
 id animateToStart
 id antiClockwise
 id anticipate
+id appDate
+id appTime
 id appointmentTxt
 id appointmentsRecyclerView
 id appointmentsTextView
@@ -2962,6 +2976,9 @@ id bounceEnd
 id bounceStart
 id button
 id button2
+id buttonContainer
+id buttonContainer2
+id buttonContainer3
 id buttonPanel
 id button_next
 id button_previous
@@ -3022,6 +3039,7 @@ id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
 id deltaRelative
+id denyButton
 id dependency_ordering
 id description
 id description_tb
@@ -3094,6 +3112,7 @@ id graph_wrap
 id group_divider
 id grouping
 id groups
+id header
 id header_title
 id hello
 id hideable
@@ -3134,6 +3153,7 @@ id listMode
 id list_item
 id logOutTxt
 id loginButton
+id logo
 id m3_side_sheet
 id manageTxt
 id marquee
@@ -3161,6 +3181,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id meetings
 id message
 id middle
 id mini
@@ -3216,6 +3237,7 @@ id noState
 id none
 id normal
 id north
+id note
 id notification_background
 id notification_main_column
 id notification_main_column_container
@@ -3235,6 +3257,7 @@ id parent_matrix
 id password
 id passwordTxt
 id password_toggle
+id pastBtn
 id path
 id pathRelative
 id patientCase
@@ -3246,6 +3269,8 @@ id patientPicture
 id patientTxt
 id patient_card
 id patient_name
+id patientbox
+id patientsParent
 id patientsScrollView
 id patientsSearchView
 id peekHeight
@@ -3266,6 +3291,7 @@ id ratio
 id rectangles
 id registerClinicTxt
 id register_patient_text
+id requestsBtn
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3414,6 +3440,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id upcomingBtn
 id useLogo
 id vatNumberTxt
 id vertical_only
@@ -3554,6 +3581,8 @@ layout activity_r4_view_patient_description
 layout activity_second
 layout activity_third
 layout activity_todayspatients_r5
+layout activity_view_and_manage_appointment_requests_r7
+layout appointment_container_layout_r7
 layout appointment_item_r6
 layout calendar_item_r6
 layout create_new_service_r22
@@ -3674,6 +3703,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string acceptButton
 string age
 string all
 string androidx_startup
@@ -3695,6 +3725,7 @@ string codeName_text
 string contact
 string create_service_provision_text
 string date
+string denyButton
 string description_text
 string email
 string error_a11y_label
@@ -3705,6 +3736,7 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string history
 string icon_content_description
+string imagedesc
 string info_to_create_service_provision_text
 string item_view_role_description
 string m3_sys_motion_easing_emphasized
@@ -3740,6 +3772,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string meetings
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -3805,14 +3838,19 @@ string mtrl_timepicker_confirm
 string name
 string name_text
 string no_description_added
+string note1
+string note2
+string note3
 string number
 string password_toggle_content_description
+string past
 string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string patients
 string price_text
+string requests
 string search_by_name_text
 string search_menu_title
 string search_text
@@ -3823,7 +3861,12 @@ string select_a_clinic_text
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
+string time
 string todays_appointments
+string upcoming
+string user1
+string user2
+string user3
 string years
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

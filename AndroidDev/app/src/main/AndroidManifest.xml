@@ -20,7 +20,6 @@
             android:name="com.google.android.actions"
             android:resource="@xml/network_security_config" />
 
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -46,8 +45,10 @@
         <activity android:name=".AllPatients_R5" />
         <activity android:name=".patient_card" />
         <activity android:name=".Patient" />
-        <activity android:name=".PatientHistoryCard"/>
-        <activity android:name=".mainActivityR6"/>
+        <activity android:name=".PatientHistoryCard" />
+        <activity android:name=".mainActivityR6" />
+        <activity android:name=".ViewAndManageAppointmentRequestsR7" />
+
     </application>
 
 </manifest>

@@ -61,6 +61,7 @@
         <activity android:name="com.example.androiddev.Patient" />
         <activity android:name="com.example.androiddev.PatientHistoryCard" />
         <activity android:name="com.example.androiddev.mainActivityR6" />
+        <activity android:name="com.example.androiddev.ViewAndManageAppointmentRequestsR7" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

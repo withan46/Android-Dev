@@ -2,11 +2,33 @@ package com.example.androiddev;
 
 import android.os.*;
 import android.widget.Toast;
+import android.os.StrictMode;
 
-import org.json.*;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import java.io.IOException;
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.CertificateException;
+import java.security.cert.X509Certificate;
+import java.util.ArrayList;
+
+import okhttp3.FormBody;
+import okhttp3.MediaType;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.RequestBody;
+import okhttp3.Response;
+import org.json.*;
+
+import java.security.SecureRandom;
 import java.util.*;
+
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.TrustManager;
+import javax.net.ssl.X509TrustManager;
+
 import okhttp3.*;
 
 public class OkHttpHandler {
@@ -23,12 +45,12 @@ public class OkHttpHandler {
         RequestBody body = RequestBody.create("", MediaType.parse("text/plain"));
         Request request = new Request.Builder().url(url).method("POST", body).build();
         Response response = client.newCall(request).execute();
-        if(response.isSuccessful()) {
+        if (response.isSuccessful()) {
             data = response.body().string();
             try {
                 JSONObject json = new JSONObject(data);
                 Iterator<String> keys = json.keys();
-                while(keys.hasNext()) {
+                while (keys.hasNext()) {
                     String key = keys.next();
                     clinic_vat_number = json.get(key).toString();
                 }
@@ -79,7 +101,7 @@ public class OkHttpHandler {
             String time = "";
             String date = "";
             String tos = "";
-            while(keys.hasNext()) {
+            while (keys.hasNext()) {
                 patientSSN = keys.next();
                 description = json.getJSONObject(patientSSN).getString("description").toString();
                 time = json.getJSONObject(patientSSN).getString("time").toString();
@@ -132,14 +154,14 @@ public class OkHttpHandler {
                     nextAppointmentTime = "";
                 }
                 String historyDate;
-                if(!jsonObject.isNull("history_date")) {
+                if (!jsonObject.isNull("history_date")) {
                     historyDate = jsonObject.getString(("history_date"));
                 } else {
                     historyDate = "";
                 }
                 List<String> history = new ArrayList<>();
                 String historyTime;
-                if(!jsonObject.isNull("history_time")) {
+                if (!jsonObject.isNull("history_time")) {
                     historyTime = jsonObject.getString(("history_time"));
                     history.add(historyDate + " " + historyTime);
                 } else {
@@ -155,7 +177,7 @@ public class OkHttpHandler {
         return patientsList;
     }
 
-    public ArrayList<weeklyPlannerDataR6> populateWeeklyPlanner (String url) throws IOException {
+    public ArrayList<weeklyPlannerDataR6> populateWeeklyPlanner(String url) throws IOException {
         ArrayList<weeklyPlannerDataR6> weeklyPlannerDatumR6s = new ArrayList<>();
         OkHttpClient client = new OkHttpClient().newBuilder().build();
         RequestBody body = RequestBody.create("", MediaType.parse("text/plain"));
@@ -169,13 +191,12 @@ public class OkHttpHandler {
             List<String> tos = new ArrayList<>();
             List<String> names = new ArrayList<>();
 
-            while(keys.hasNext()) {
+            while (keys.hasNext()) {
                 String date = keys.next();
                 times = Arrays.asList(json.getJSONObject(date).getString("grouped_times").split(","));
                 tos = Arrays.asList(json.getJSONObject(date).getString("grouped_tos").split(","));
                 names = Arrays.asList(json.getJSONObject(date).getString("grouped_names").split(","));
-                for (int i=0 ; i< times.size() ; i++)
-                {
+                for (int i = 0; i < times.size(); i++) {
                     weeklyPlannerDatumR6s.add(new weeklyPlannerDataR6(times.get(i), tos.get(i), names.get(i)));
                 }
 
@@ -184,5 +205,115 @@ public class OkHttpHandler {
             e.printStackTrace();
         }
         return weeklyPlannerDatumR6s;
+    }
+
+    public OkHttpClient customSSL() throws KeyManagementException, NoSuchAlgorithmException{
+        TrustManager[] trustAllCerts = new TrustManager[]{new X509TrustManager() {
+            public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException {
+            }
+
+            public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException {
+            }
+
+            public X509Certificate[] getAcceptedIssuers() {
+                return new X509Certificate[0];
+            }
+        }};
+
+        // Create a SSL context with the trust manager
+        SSLContext sslContext = SSLContext.getInstance("TLS");
+        sslContext.init(null, trustAllCerts, new SecureRandom());
+
+        // Configure OkHttpClient to use the custom SSL context
+        OkHttpClient client = new OkHttpClient.Builder()
+                .sslSocketFactory(sslContext.getSocketFactory(), (X509TrustManager) trustAllCerts[0])
+                .hostnameVerifier((hostname, session) -> true)
+                .build();
+        return client;
+    }
+
+    public void fetchData(ArrayList<Appointment> appointmentsList, String url) throws IOException, KeyManagementException, NoSuchAlgorithmException {
+        String appointments = "no data";
+
+
+        // Create a trust manager that accepts all certificates
+
+
+        RequestBody body = RequestBody.create("", MediaType.parse("text/plain"));
+        Request request = new Request.Builder().url(url).method("POST", body).build();
+
+        //Fetching the data from the database
+        OkHttpClient client = customSSL();
+        Response response = client.newCall(request).execute();
+        if (response.isSuccessful())
+            appointments = response.body().string();
+        try{
+            //Storing every appointment's information in variables.
+            JSONArray jsonAppointments = new JSONArray(appointments);
+            for(int i =0 ; i < jsonAppointments.length() ; i ++){
+                JSONObject patientInformation = jsonAppointments.getJSONObject(i);
+                String patientSSN = patientInformation.getString("ssn");
+                String patientName = patientInformation.getString("name");
+                String appointmentDate = patientInformation.getString("date");
+                String appointmentTime = patientInformation.getString("time");
+                String appointmentNote = patientInformation.getString("tos");
+                int appointmentID = patientInformation.getInt("id");
+                //Creating a new appointment object, based on the information of the current appointment.
+                Appointment appointment = new Appointment(patientSSN, patientName, appointmentDate, appointmentTime, appointmentNote,appointmentID);
+                //Adding the appointment to the appointments' list.
+                appointmentsList.add(appointment);
+
+
+            }
+            response.body().close();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+
+
+    }
+
+    public void onAcceptClicked(int appointmentID, String url){
+
+
+        RequestBody requestBody = new FormBody.Builder().add("appointment_id", String.valueOf(appointmentID)).build();
+        Request request = new Request.Builder().url(url).post(requestBody).build();
+
+        try{
+            // changing the state of an appointment from false to true.
+            OkHttpClient client = customSSL();
+            Response response = client.newCall(request).execute();
+            response.body().close();
+        }catch(IOException  e){
+            e.printStackTrace();
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        } catch (KeyManagementException e) {
+            throw new RuntimeException(e);
+        }
+
+
+    }
+
+    public void onDenyClicked(int appointmentID, String url){
+
+
+        RequestBody requestBody = new FormBody.Builder().add("appointment_id", String.valueOf(appointmentID)).build();
+        Request request = new Request.Builder().url(url).post(requestBody).build();
+
+        try{
+            // deleting an appointment from the database.
+            OkHttpClient client = customSSL();
+
+            Response response = client.newCall(request).execute();
+
+            response.body().close();
+        }catch(IOException  e){
+            e.printStackTrace();
+        } catch (NoSuchAlgorithmException e) {
+            throw new RuntimeException(e);
+        } catch (KeyManagementException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

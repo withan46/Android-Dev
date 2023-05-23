@@ -1,322 +1,358 @@
 [
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-hdpi_human_icon.png.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-hdpi/human_icon.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_button_style_filled.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\button_style_filled.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_patient_activity.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\patient_activity.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xxhdpi_human_icon.png.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xxhdpi/human_icon.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\font_noto_sans.ttf.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\font\\noto_sans.ttf"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-hdpi_human_icon_round.png.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-hdpi/human_icon_round.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_appointment_item_r6.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/appointment_item_r6.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_documents.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\documents.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_patient.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/activity_patient.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_create_new_service_r22.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\create_new_service_r22.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/xml_backup_rules.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xxhdpi_human_icon_round.png.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xxhdpi/human_icon_round.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.androiddev.app-merged_res-30:/drawable_xmark.jpg.flat",
+        "source": "com.example.androiddev.app-main-32:/drawable/xmark.jpg"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-anydpi-v26_human_icon_round.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-anydpi-v26/human_icon_round.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_background_image.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\background_image.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_patient.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/patient.png"
+        "merged": "com.example.androiddev.app-merged_res-30:/drawable_denybtn.xml.flat",
+        "source": "com.example.androiddev.app-main-32:/drawable/denybtn.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_doctor_activity.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/doctor_activity.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_calendar.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\calendar.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_register_clinic.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/register_clinic.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-mdpi_human_icon.png.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-mdpi/human_icon.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-anydpi-v26_human_icon_round.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-anydpi-v26\\human_icon_round.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_clinic.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/clinic.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_activity_r4_view_patient_description.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\activity_r4_view_patient_description.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/font_noto_sans.ttf.flat",
-        "source": "com.example.androiddev.app-main-32:/font/noto_sans.ttf"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_profile_photo.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\profile_photo.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_weekly_planner_r6.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/weekly_planner_r6.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_select_clinic_r21.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/select_clinic_r21.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-hdpi_human_icon_round.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-hdpi\\human_icon_round.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "com.example.androiddev.app-merged_res-30:/drawable_acceptbtn.xml.flat",
+        "source": "com.example.androiddev.app-main-32:/drawable/acceptbtn.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_r4_view_patient_description.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/activity_r4_view_patient_description.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xhdpi_human_icon.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xhdpi\\human_icon.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_baseline_email_24.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/baseline_email_24.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_patient.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\patient.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_baseline_key_24.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/baseline_key_24.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_vehicle.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\vehicle.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_create_new_service_r22.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/create_new_service_r22.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_activity_todayspatients_r5.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\activity_todayspatients_r5.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/xml_network_security_config.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/xml/network_security_config.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_button_gray.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\button_gray.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_allpatients_r5.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/activity_allpatients_r5.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_button_style_r6.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\button_style_r6.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xhdpi_human_icon_round.png.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xhdpi/human_icon_round.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_register_clinic.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\register_clinic.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_background_image.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/background_image.png"
+        "merged": "com.example.androiddev.app-merged_res-30:/drawable_roundedcontainer.xml.flat",
+        "source": "com.example.androiddev.app-main-32:/drawable/roundedcontainer.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_create_patient_r3.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/create_patient_r3.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_activity_second.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\activity_second.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_profile_photo.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/profile_photo.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_background_image_blue.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\background_image_blue.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_calendar.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/calendar.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_calendar_item_r6.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\calendar_item_r6.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_button_style_filled_grey.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/button_style_filled_grey.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_human_icon_foreground.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\human_icon_foreground.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_third.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/activity_third.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_weekly_planner_r6.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\weekly_planner_r6.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_background_image_white.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/background_image_white.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_background.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\background.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_medical.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/medical.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_background_image_white.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\background_image_white.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_appointment.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/appointment.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_baseline_key_24.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\baseline_key_24.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_flex.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/flex.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_activity_patienthistory_r5.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\activity_patienthistory_r5.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_patientcontact_r5.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/activity_patientcontact_r5.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\xml\\network_security_config.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_button_style_r6.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/button_style_r6.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_pfs_activity.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\pfs_activity.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_button_gray.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/button_gray.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_flex.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\flex.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xxxhdpi_human_icon_round.png.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xxxhdpi/human_icon_round.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_clinic.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\clinic.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_patient_activity.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/patient_activity.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-mdpi_human_icon.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-mdpi\\human_icon.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-anydpi-v33/ic_launcher.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_button_style_filled_green.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\button_style_filled_green.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-anydpi-v26_human_icon.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-anydpi-v26/human_icon.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_medical.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\medical.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_activity_patient.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\activity_patient.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_money_bag.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/money_bag.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-anydpi-v33\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_button_style.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/button_style.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_appointment_item_r6.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\appointment_item_r6.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_second.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/activity_second.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xxhdpi_human_icon_round.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xxhdpi\\human_icon_round.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-mdpi_human_icon_round.png.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-mdpi/human_icon_round.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_flexfitsubtlenoback_white.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/flexfitsubtlenoback_white.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_activity_patient_history_card.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\activity_patient_history_card.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_documents.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/documents.png"
+        "merged": "com.example.androiddev.app-merged_res-30:/drawable_whitebacktick.jpg.flat",
+        "source": "com.example.androiddev.app-main-32:/drawable/whitebacktick.jpg"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_vehicle.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/vehicle.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_create_patient_r3.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\create_patient_r3.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_background_r6.jpg.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\background_r6.jpg"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_nextarrow.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\nextarrow.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xxxhdpi_human_icon.png.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xxxhdpi/human_icon.png"
+        "merged": "com.example.androiddev.app-merged_res-30:/drawable_usericon.png.flat",
+        "source": "com.example.androiddev.app-main-32:/drawable/usericon.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_activity_patient_card.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\activity_patient_card.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_calendar_item_r6.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/calendar_item_r6.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_doctor_activity.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\doctor_activity.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\baseline_email_24.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_background_image_blue.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/background_image_blue.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_nextarrow.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/nextarrow.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xxxhdpi_human_icon.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xxxhdpi\\human_icon.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xhdpi_human_icon.png.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xhdpi/human_icon.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xhdpi_human_icon_round.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xhdpi\\human_icon_round.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_patient_history_card.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/activity_patient_history_card.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_doctor.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\doctor.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_human_icon_foreground.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/human_icon_foreground.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_activity_third.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\activity_third.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_todayspatients_r5.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/activity_todayspatients_r5.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_main.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/activity_main.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_doctor.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/doctor.png"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_money_bag.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\money_bag.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_patient_card.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/activity_patient_card.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_appointment.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\appointment.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_button_style_filled_green.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/button_style_filled_green.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_button_style_filled.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/button_style_filled.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xxhdpi_human_icon.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xxhdpi\\human_icon.png"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.androiddev.app-main-32:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_view_and_manage_appointment_requests_r7.xml.flat",
+        "source": "com.example.androiddev.app-main-32:/layout/activity_view_and_manage_appointment_requests_r7.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_activity_patienthistory_r5.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/activity_patienthistory_r5.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_activity_allpatients_r5.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\activity_allpatients_r5.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_background_r6.jpg.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/background_r6.jpg"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_button_gray_tight_line.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/button_gray_tight_line.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_button_style.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\button_style.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/layout_pfs_activity.xml.flat",
-        "source": "com.example.androiddev.app-main-32:/layout/pfs_activity.xml"
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_select_clinic_r21.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\select_clinic_r21.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-30:/drawable_background.png.flat",
-        "source": "com.example.androiddev.app-main-32:/drawable/background.png"
+        "merged": "com.example.androiddev.app-merged_res-30:/layout_appointment_container_layout_r7.xml.flat",
+        "source": "com.example.androiddev.app-main-32:/layout/appointment_container_layout_r7.xml"
+    },
+    {
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-anydpi-v26_human_icon.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-anydpi-v26\\human_icon.xml"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-30:/drawable_roundedbtn.xml.flat",
+        "source": "com.example.androiddev.app-main-32:/drawable/roundedbtn.xml"
+    },
+    {
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-xxxhdpi_human_icon_round.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-xxxhdpi\\human_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_flexfitsubtlenoback_white.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\flexfitsubtlenoback_white.png"
+    },
+    {
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-mdpi_human_icon_round.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-mdpi\\human_icon_round.png"
+    },
+    {
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\mipmap-hdpi_human_icon.png.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\mipmap-hdpi\\human_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_button_style_filled_grey.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\button_style_filled_grey.xml"
+    },
+    {
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\drawable_button_gray_tight_line.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\drawable\\button_gray_tight_line.xml"
+    },
+    {
+        "merged": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-merged_res-30:\\layout_activity_patientcontact_r5.xml.flat",
+        "source": "C:\\Users\\witha\\.gradle\\daemon\\7.5\\com.example.androiddev.app-main-32:\\layout\\activity_patientcontact_r5.xml"
     }
 ]

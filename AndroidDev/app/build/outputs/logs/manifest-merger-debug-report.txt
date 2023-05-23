@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-53:12
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-54:12
 MERGED from [com.google.android.flexbox:flexbox:3.0.0] C:\Users\witha\.gradle\caches\transforms-3\56cfb35b92d613df9f515412927e9752\transformed\flexbox-3.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\witha\.gradle\caches\transforms-3\1d6008e40b174b18ef5fa9ea4cd35014\transformed\material-1.8.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\witha\.gradle\caches\transforms-3\4b929ab10fd806b94f86bd527f89dd0a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
@@ -45,22 +45,22 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\witha\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\witha\.gradle\caches\transforms-3\dc95db927df936e003ea23f2b843af5c\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\witha\.gradle\caches\transforms-3\4a128805ae54552b7183634231e39ff5\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\witha\.gradle\caches\transforms-3\ae4109ec1e873f2074e4c3a60211a759\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-53:12
-INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-54:12
+INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-54:12
 	package
 		INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-54:12
 		INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-54:12
 		INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-53:12
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:1-54:12
 		INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:2:11-69
@@ -69,7 +69,7 @@ ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidD
 	android:name
 		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:7:5-51:19
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:7:5-52:19
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\witha\.gradle\caches\transforms-3\1d6008e40b174b18ef5fa9ea4cd35014\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.8.0] C:\Users\witha\.gradle\caches\transforms-3\1d6008e40b174b18ef5fa9ea4cd35014\transformed\material-1.8.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\witha\.gradle\caches\transforms-3\4b929ab10fd806b94f86bd527f89dd0a\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -113,93 +113,97 @@ ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidD
 	android:name
 		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:20:13-54
 activity#com.example.androiddev.MainActivity
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:23:9-31:20
 	android:exported
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:25:13-41
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:24:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.example.androiddev.SecondActivity
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:33:9-52
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:9-52
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:33:19-49
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:32:19-49
 activity#com.example.androiddev.ThirdActivity
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:34:9-51
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:33:9-51
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:34:19-48
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:33:19-48
 activity#com.example.androiddev.PatientActivityR1
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:35:9-55
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:34:9-55
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:35:19-52
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:34:19-52
 activity#com.example.androiddev.DoctorActivityR1
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:36:9-54
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:35:9-54
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:36:19-51
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:35:19-51
 activity#com.example.androiddev.PsfActivityR1
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:37:9-51
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:36:9-51
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:37:19-48
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:36:19-48
 activity#com.example.androiddev.RegisterClinicR1
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:38:9-54
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:37:9-54
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:38:19-51
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:37:19-51
 activity#com.example.androiddev.SelectClinicR21
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:39:9-53
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:38:9-53
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:39:19-50
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:38:19-50
 activity#com.example.androiddev.CreateNewServiceR22
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:40:9-57
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:39:9-57
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:40:19-54
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:39:19-54
 activity#com.example.androiddev.CreatePatientR3
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:41:9-53
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:40:9-53
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:41:19-50
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:40:19-50
 activity#com.example.androiddev.r4ViewPatientDescription
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:42:9-62
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:41:9-62
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:42:19-59
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:41:19-59
 activity#com.example.androiddev.PatientContact_R5
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:42:9-55
+	android:name
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:42:19-52
+activity#com.example.androiddev.PatientHistory_R5
 ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:43:9-55
 	android:name
 		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:43:19-52
-activity#com.example.androiddev.PatientHistory_R5
+activity#com.example.androiddev.TodaysPatients_R5
 ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:44:9-55
 	android:name
 		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:44:19-52
-activity#com.example.androiddev.TodaysPatients_R5
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:9-55
-	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:19-52
 activity#com.example.androiddev.AllPatients_R5
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:46:9-52
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:9-52
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:46:19-49
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:19-49
 activity#com.example.androiddev.patient_card
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:47:9-50
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:46:9-50
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:47:19-47
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:46:19-47
 activity#com.example.androiddev.Patient
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:48:9-45
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:47:9-45
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:48:19-42
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:47:19-42
 activity#com.example.androiddev.PatientHistoryCard
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:49:9-55
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:48:9-56
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:49:19-53
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:48:19-53
 activity#com.example.androiddev.mainActivityR6
-ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:50:9-51
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:49:9-52
 	android:name
-		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:50:19-49
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:49:19-49
+activity#com.example.androiddev.ViewAndManageAppointmentRequestsR7
+ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:50:9-72
+	android:name
+		ADDED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:50:19-69
 uses-sdk
 INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\witha\AndroidStudioProjects\Android-Dev\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml
