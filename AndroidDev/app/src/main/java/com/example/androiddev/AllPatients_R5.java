@@ -47,7 +47,7 @@ public class AllPatients_R5 extends AppCompatActivity {
         // Create an instance of OkHttpHandler and call populateScrollView to fetch the patients data
         OkHttpHandler okHttpHandler = new OkHttpHandler();
         try {
-            patientList = okHttpHandler.populateScrollView("http://" + myIP + "/get_patients.php");
+            patientList = okHttpHandler.populateScrollView("http://" + myIP + "/flexFitDBServices/get_patients.php");
         } catch (Exception e) {
             e.printStackTrace();
             return;

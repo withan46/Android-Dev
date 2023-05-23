@@ -13,4 +13,15 @@
     <string name="anna_maria_dagmaer">Anna Maria Dagmaer</string>
     <string name="_12_00_pm_23_3_2023">12:00 PM 23/3/2023</string>
     <string name="no_description_added">No description added...</string>
+    <string name="patients">Patients</string>
+    <string name="all">All</string>
+    <string name="todays_appointments">Today\'s Appointments</string>
+    <string name="years">Years old</string>
+    <string name="history">History</string>
+    <string name="contact">Contact</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="number">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="date">Date</string>
 </resources>

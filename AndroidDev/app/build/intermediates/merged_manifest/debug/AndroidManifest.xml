@@ -35,32 +35,6 @@
             android:resource="@xml/network_security_config" />
 
         <activity
-            android:name="com.example.androiddev.PatientHistoryCard"
-            android:exported="false" />
-
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/network_security_config" />
-
-        <activity
-            android:name="com.example.androiddev.PatientContact_R5"
-            android:exported="false" />
-        <activity
-            android:name="com.example.androiddev.PatientHistory_R5"
-            android:exported="false" />
-        <activity
-            android:name="com.example.androiddev.TodaysPatients_R5"
-            android:exported="false" />
-        <activity
-            android:name="com.example.androiddev.AllPatients_R5"
-            android:exported="false" />
-        <activity
-            android:name="com.example.androiddev.patient_card"
-            android:exported="false" />
-        <activity
-            android:name="com.example.androiddev.Patient"
-            android:exported="false" />
-        <activity
             android:name="com.example.androiddev.MainActivity"
             android:exported="true" >
             <intent-filter>
@@ -79,6 +53,13 @@
         <activity android:name="com.example.androiddev.CreateNewServiceR22" />
         <activity android:name="com.example.androiddev.CreatePatientR3" />
         <activity android:name="com.example.androiddev.r4ViewPatientDescription" />
+        <activity android:name="com.example.androiddev.PatientContact_R5" />
+        <activity android:name="com.example.androiddev.PatientHistory_R5" />
+        <activity android:name="com.example.androiddev.TodaysPatients_R5" />
+        <activity android:name="com.example.androiddev.AllPatients_R5" />
+        <activity android:name="com.example.androiddev.patient_card" />
+        <activity android:name="com.example.androiddev.Patient" />
+        <activity android:name="com.example.androiddev.PatientHistoryCard" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

@@ -91,4 +91,65 @@ public class OkHttpHandler {
 
         return history;
     }
+
+    ArrayList<Patient> populateScrollView(String url) throws Exception {
+        ArrayList<Patient> patientsList = new ArrayList<>();
+        OkHttpClient client = new OkHttpClient().newBuilder().build();
+        RequestBody body = RequestBody.create("",
+                MediaType.parse("text/plain"));
+
+        Request request = new Request.Builder().url(url).method("POST",
+                body).build();
+        Response response = client.newCall(request).execute();
+        String data = response.body().string();
+
+        try {
+            JSONArray jsonArray = new JSONArray(data);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject jsonObject = jsonArray.getJSONObject(i);
+                String name = jsonObject.getString("name");
+                String email = jsonObject.getString("email");
+                String ssn = jsonObject.getString("ssn");
+                String phone = jsonObject.getString("phone");
+                String caseType;
+                if (!jsonObject.isNull("case")) {
+                    caseType = jsonObject.getString("case");
+                } else {
+                    caseType = "-";
+                }
+                String nextAppointment;
+                if (!jsonObject.isNull("next_appointment_date")) {
+                    nextAppointment = jsonObject.getString("next_appointment_date");
+                } else {
+                    nextAppointment = "-";
+                }
+                String nextAppointmentTime;
+                if (!jsonObject.isNull("next_appointment_time")) {
+                    nextAppointmentTime = jsonObject.getString("next_appointment_time");
+                } else {
+                    nextAppointmentTime = "";
+                }
+                String historyDate;
+                if(!jsonObject.isNull("history_date")) {
+                    historyDate = jsonObject.getString(("history_date"));
+                } else {
+                    historyDate = "";
+                }
+                List<String> history = new ArrayList<>();
+                String historyTime;
+                if(!jsonObject.isNull("history_time")) {
+                    historyTime = jsonObject.getString(("history_time"));
+                    history.add(historyDate + " " + historyTime);
+                } else {
+                    historyTime = "";
+                }
+
+                patientsList.add(new Patient(name, email, ssn, phone, nextAppointment, nextAppointmentTime, caseType, history));
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+
+        return patientsList;
+    }
 }

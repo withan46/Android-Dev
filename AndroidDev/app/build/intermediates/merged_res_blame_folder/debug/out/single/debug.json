@@ -4,12 +4,24 @@
         "source": "com.example.androiddev.app-main-31:/drawable/calendar.png"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-anydpi-v26_human_icon.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-anydpi-v26/human_icon.xml"
+    },
+    {
         "merged": "com.example.androiddev.app-merged_res-29:/layout_patient_activity.xml.flat",
         "source": "com.example.androiddev.app-main-31:/layout/patient_activity.xml"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xxhdpi_human_icon_round.png.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-xxhdpi/human_icon_round.png"
+    },
+    {
         "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "com.example.androiddev.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-hdpi_human_icon.png.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-hdpi/human_icon.png"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable_button_style_filled.xml.flat",
@@ -24,8 +36,16 @@
         "source": "com.example.androiddev.app-main-31:/drawable/baseline_email_24.xml"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xxxhdpi_human_icon.png.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-xxxhdpi/human_icon.png"
+    },
+    {
         "merged": "com.example.androiddev.app-merged_res-29:/layout_doctor_activity.xml.flat",
         "source": "com.example.androiddev.app-main-31:/layout/doctor_activity.xml"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_todayspatients_r5.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/activity_todayspatients_r5.xml"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_main.xml.flat",
@@ -52,6 +72,10 @@
         "source": "com.example.androiddev.app-main-31:/drawable/background_image_blue.png"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xhdpi_human_icon.png.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-xhdpi/human_icon.png"
+    },
+    {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable_doctor.png.flat",
         "source": "com.example.androiddev.app-main-31:/drawable/doctor.png"
     },
@@ -62,6 +86,18 @@
     {
         "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_third.xml.flat",
         "source": "com.example.androiddev.app-main-31:/layout/activity_third.xml"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/drawable_human_icon_foreground.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/drawable/human_icon_foreground.xml"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_patient_card.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/activity_patient_card.xml"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_patientcontact_r5.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/activity_patientcontact_r5.xml"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable_background.png.flat",
@@ -92,6 +128,10 @@
         "source": "com.example.androiddev.app-main-31:/layout/create_patient_r3.xml"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-mdpi_human_icon_round.png.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-mdpi/human_icon_round.png"
+    },
+    {
         "merged": "com.example.androiddev.app-merged_res-29:/xml_backup_rules.xml.flat",
         "source": "com.example.androiddev.app-main-31:/xml/backup_rules.xml"
     },
@@ -112,12 +152,24 @@
         "source": "com.example.androiddev.app-main-31:/drawable/profile_photo.png"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/drawable_button_style_filled_grey.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/drawable/button_style_filled_grey.xml"
+    },
+    {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable_flex.png.flat",
         "source": "com.example.androiddev.app-main-31:/drawable/flex.png"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable_documents.png.flat",
         "source": "com.example.androiddev.app-main-31:/drawable/documents.png"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_patienthistory_r5.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/activity_patienthistory_r5.xml"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/drawable_button_style_filled_green.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/drawable/button_style_filled_green.xml"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
@@ -128,12 +180,16 @@
         "source": "com.example.androiddev.app-main-31:/layout/activity_second.xml"
     },
     {
-        "merged": "com.example.androiddev.app-merged_res-29:/drawable_button_gray.xml.flat",
-        "source": "com.example.androiddev.app-main-31:/drawable/button_gray.xml"
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xxhdpi_human_icon.png.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-xxhdpi/human_icon.png"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/xml_network_security_config.xml.flat",
         "source": "com.example.androiddev.app-main-31:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/drawable_button_gray.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/drawable/button_gray.xml"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable_patient.png.flat",
@@ -148,6 +204,10 @@
         "source": "com.example.androiddev.app-main-31:/drawable/baseline_key_24.xml"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_patient.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/activity_patient.xml"
+    },
+    {
         "merged": "com.example.androiddev.app-merged_res-29:/layout_create_new_service_r22.xml.flat",
         "source": "com.example.androiddev.app-main-31:/layout/create_new_service_r22.xml"
     },
@@ -156,16 +216,36 @@
         "source": "com.example.androiddev.app-main-31:/drawable/appointment.png"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xxxhdpi_human_icon_round.png.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-xxxhdpi/human_icon_round.png"
+    },
+    {
         "merged": "com.example.androiddev.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.example.androiddev.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xhdpi_human_icon_round.png.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-xhdpi/human_icon_round.png"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_allpatients_r5.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/activity_allpatients_r5.xml"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "com.example.androiddev.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-mdpi_human_icon.png.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-mdpi/human_icon.png"
+    },
+    {
         "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_r4_view_patient_description.xml.flat",
         "source": "com.example.androiddev.app-main-31:/layout/activity_r4_view_patient_description.xml"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-hdpi_human_icon_round.png.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-hdpi/human_icon_round.png"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable_money_bag.png.flat",
@@ -174,6 +254,10 @@
     {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable_background_image.png.flat",
         "source": "com.example.androiddev.app-main-31:/drawable/background_image.png"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_patient_history_card.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/activity_patient_history_card.xml"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
@@ -194,6 +278,10 @@
     {
         "merged": "com.example.androiddev.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.example.androiddev.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/mipmap-anydpi-v26_human_icon_round.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/mipmap-anydpi-v26/human_icon_round.xml"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable_button_gray_tight_line.xml.flat",
