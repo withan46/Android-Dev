@@ -7,6 +7,8 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
+    <string name="_12_00_pm_23_3_2023">12:00 PM 23/3/2023</string>
+    <string name="anna_maria_dagmaer">Anna Maria Dagmaer</string>
     <string name="app_name">Android Dev</string>
     <string name="button_text">Create</string>
     <string name="codeName_text">Code Name</string>
@@ -14,6 +16,7 @@
     <string name="description_text">Description:</string>
     <string name="info_to_create_service_provision_text">Please enter info to create service provision</string>
     <string name="name_text">Name</string>
+    <string name="no_description_added">No description added...</string>
     <string name="price_text">Price</string>
     <string name="search_by_name_text">Search by Name</string>
     <string name="search_text">Search</string>

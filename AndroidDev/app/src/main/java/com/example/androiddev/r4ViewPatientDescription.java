@@ -22,7 +22,7 @@ public class r4ViewPatientDescription extends AppCompatActivity {
         String date = "2022-01-15";
         String time = "17:00 PM";
         String patientSSN = "111111111";
-        String myIP = "192.168.1.5";
+        String myIP = "192.168.2.4";
         String patientName = "John Doe";
         //-------------------------------------------------------------//
 
@@ -39,7 +39,7 @@ public class r4ViewPatientDescription extends AppCompatActivity {
     }
 
     private History getPatientHistory(String myIP, String patientSSN, String date, String time) {
-        String url= "http://"+ myIP +"/r4GetPatientHistory.php?patientSSN=" + patientSSN + "&date=" + date + "&time=" + time ;
+        String url= "http://"+ myIP +"/flexFitDBServices/r4GetPatientHistory.php?patientSSN=" + patientSSN + "&date=" + date + "&time=" + time ;
         History history = null;
         try {
             OkHttpHandler okHttpHandler = new OkHttpHandler();

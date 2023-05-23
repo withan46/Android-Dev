@@ -38,6 +38,7 @@
         <activity android:name=".SelectClinicR21" />
         <activity android:name=".CreateNewServiceR22" />
         <activity android:name=".CreatePatientR3" />
+        <activity android:name=".r4ViewPatientDescription" />
     </application>
 
 </manifest>

@@ -108,6 +108,10 @@
         "source": "com.example.androiddev.app-main-31:/drawable/clinic.png"
     },
     {
+        "merged": "com.example.androiddev.app-merged_res-29:/drawable_profile_photo.png.flat",
+        "source": "com.example.androiddev.app-main-31:/drawable/profile_photo.png"
+    },
+    {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable_flex.png.flat",
         "source": "com.example.androiddev.app-main-31:/drawable/flex.png"
     },
@@ -158,6 +162,10 @@
     {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "com.example.androiddev.app-main-31:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.androiddev.app-merged_res-29:/layout_activity_r4_view_patient_description.xml.flat",
+        "source": "com.example.androiddev.app-main-31:/layout/activity_r4_view_patient_description.xml"
     },
     {
         "merged": "com.example.androiddev.app-merged_res-29:/drawable_money_bag.png.flat",

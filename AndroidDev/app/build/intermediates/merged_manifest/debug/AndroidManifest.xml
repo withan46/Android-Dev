@@ -52,6 +52,7 @@
         <activity android:name="com.example.androiddev.SelectClinicR21" />
         <activity android:name="com.example.androiddev.CreateNewServiceR22" />
         <activity android:name="com.example.androiddev.CreatePatientR3" />
+        <activity android:name="com.example.androiddev.r4ViewPatientDescription" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
