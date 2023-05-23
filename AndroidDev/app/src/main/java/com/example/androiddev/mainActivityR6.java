@@ -28,6 +28,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
+import java.util.Objects;
 
 public class mainActivityR6 extends AppCompatActivity implements calendarAdapterR6.OnItemListener{
     ArrayList<createAppointmentItemsR6> appointments = new ArrayList<>(); // ArrayList to store appointment items
@@ -40,7 +41,8 @@ public class mainActivityR6 extends AppCompatActivity implements calendarAdapter
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.weekly_planner_r6);
-        this.myIP = "192.168.0.103"; // Initialize IP address
+        Objects.requireNonNull(getSupportActionBar()).hide();
+        this.myIP = "192.168.2.4"; // Initialize IP address
         this.clinic_vat_number = "10000"; // Initialize clinic VAT number
         weeklyPlannerDatumR6s = new ArrayList<>(); // Initialize weekly planner data ArrayList
 
@@ -83,8 +85,8 @@ public class mainActivityR6 extends AppCompatActivity implements calendarAdapter
 
 
     private void setAppointments(String searchingDate) throws IOException {
-        OkHttpHandlerR6 okHttpHandler = new OkHttpHandlerR6();
-        String url = "http://" + myIP + "/weeklyPlannerR6.php?date=" + '"' +searchingDate + '"'
+        OkHttpHandler okHttpHandler = new OkHttpHandler();
+        String url = "http://" + myIP + "/flexFitDBServices/weeklyPlannerR6.php?date=" + '"' +searchingDate + '"'
                 + "&clinic=" + clinic_vat_number;
 
         // Retrieve the weekly planner data from the server using OkHttpHandler

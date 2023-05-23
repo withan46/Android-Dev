@@ -47,6 +47,7 @@
         <activity android:name=".patient_card" />
         <activity android:name=".Patient" />
         <activity android:name=".PatientHistoryCard"/>
+        <activity android:name=".mainActivityR6"/>
     </application>
 
 </manifest>
