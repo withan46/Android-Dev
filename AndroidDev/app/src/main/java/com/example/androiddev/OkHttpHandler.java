@@ -64,7 +64,7 @@ public class OkHttpHandler {
                 } else {
                     nextAppointmentTime = "";
                 }
-                String historyDate;
+                /*String historyDate;
                 if(!jsonObject.isNull("history_date")) {
                     historyDate = jsonObject.getString(("history_date"));
                 } else {
@@ -77,6 +77,26 @@ public class OkHttpHandler {
                     history.add(historyDate + " " + historyTime);
                 } else {
                     historyTime = "";
+                }*/
+
+                List<String> history = new ArrayList<>();
+                if (!jsonObject.isNull("history")) {
+                    JSONArray historyArray = jsonObject.getJSONArray("history");
+                    for (int j = 0; j < historyArray.length(); j++) {
+                        JSONObject historyObject = historyArray.getJSONObject(j);
+                        String historyDate;
+                        if (!historyObject.isNull("date")) {
+                            historyDate = historyObject.getString("date");
+                        } else {
+                            historyDate = "";
+                        }
+                        String historyTime;
+                        if (!historyObject.isNull("time")) {
+                            historyTime = historyObject.getString("time");
+                            String historyDateTime = historyDate + " " + historyTime;
+                            history.add(historyDateTime);
+                        }
+                    }
                 }
 
                 patientsList.add(new Patient(name, email, ssn, phone, nextAppointment, nextAppointmentTime, caseType, history));
