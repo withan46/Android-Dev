@@ -12,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 
 public class ViewAndManageAppointmentRequestsR7 extends AppCompatActivity {
+    private String ip;
+    private String clinicVatNumber;
     ArrayList<Appointment> appointments = new ArrayList<>();
 
 
@@ -19,12 +21,16 @@ public class ViewAndManageAppointmentRequestsR7 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        this.ip = "192.168.1.5";
+        this.clinicVatNumber = "10000";
+
 
         //Creating an OkhttpHandler object to manage any communication with the database.
 
         OkhttpHandler handler = new OkhttpHandler();
         try {
-            handler.fetchData(appointments);
+            String url = "https://" + ip +"/ViewAndManageAppointmentRequestsR7/fetchAppointmentDetailsR7.php?clinic_vat_number=10000";
+            handler.fetchData(appointments,url);
         }catch(Exception e){
             e.printStackTrace();
         }
@@ -75,10 +81,11 @@ public class ViewAndManageAppointmentRequestsR7 extends AppCompatActivity {
              acceptButton.setOnClickListener(new View.OnClickListener(){
                  @Override
                  public void onClick(View v){
+                     String url = "https://" + ip + "/ViewAndManageAppointmentRequestsR7/acceptAppointmentR7.php";
                      // Getting the patientBox layout (Buttons are each inside a relative layout, which is inside a linear layout, which is inside the patientBox)
                      LinearLayout parent = (LinearLayout) acceptButton.getParent().getParent().getParent();
                      //Calling the onAcceptClicked method of the handler object that changes the state of the appointment from false to true.
-                     handler.onAcceptClicked((int) parent.getTag());
+                     handler.onAcceptClicked((int) parent.getTag(), url );
 
                      //Removing the appointment container after the aforementioned action has been completed.
                      parent.setVisibility(View.GONE);
@@ -88,10 +95,11 @@ public class ViewAndManageAppointmentRequestsR7 extends AppCompatActivity {
              denyButton.setOnClickListener(new View.OnClickListener(){
                  @Override
                  public void onClick(View v){
+                     String url = "https://" + ip + "/ViewAndManageAppointmentRequestsR7/denyAppointmentR7.php";
                      // Getting the patientBox layout (Buttons are each inside a relative layout, which is inside a linear layout, which is inside the patientBox)
                      LinearLayout parent = (LinearLayout) denyButton.getParent().getParent().getParent();
                      //Calling the onDenyClicked method of the handler object that deletes the appointment from the database.
-                     handler.onDenyClicked((int) parent.getTag());
+                     handler.onDenyClicked((int) parent.getTag(), url);
                      //Removing the appointment container after the aforementioned action has been completed.
                      parent.setVisibility(View.GONE);
                  }
