@@ -30,10 +30,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.AndroidDev"
         android:usesCleartextTraffic="true" >
-        <activity
-            android:name="com.example.androiddev.ShowEconomicMovementsR10"
-            android:exported="false" />
-
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@xml/network_security_config" />
@@ -47,26 +43,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.androiddev.PatientActivityR1" />
-        <activity android:name="com.example.androiddev.DoctorActivityR1" />
-        <activity android:name="com.example.androiddev.PsfActivityR1" />
-        <activity android:name="com.example.androiddev.RegisterClinicR1" />
-        <activity android:name="com.example.androiddev.SelectClinicR21" />
-        <activity android:name="com.example.androiddev.CreateNewServiceR22" />
-        <activity android:name="com.example.androiddev.CreatePatientR3" />
-        <activity android:name="com.example.androiddev.ViewPatientDescriptionR4" />
-        <activity android:name="com.example.androiddev.PatientContactR5" />
-        <activity android:name="com.example.androiddev.PatientHistoryR5" />
-        <activity android:name="com.example.androiddev.TodaysPatientsR5" />
-        <activity android:name="com.example.androiddev.AllPatients_R5" />
-        <activity android:name="com.example.androiddev.Patient_card" />
-        <activity android:name="com.example.androiddev.Patient" />
-        <activity android:name="com.example.androiddev.PatientHistoryCard" />
-        <activity android:name="com.example.androiddev.WeeklyPlannerR6" />
-        <activity android:name="com.example.androiddev.ViewAndManageAppointmentRequestsR7" />
-        <activity android:name="com.example.androiddev.AddDescriptionR8" />
-        <activity android:name="com.example.androiddev.SearchClinicR9" />
-        <activity android:name="com.example.androiddev.BookAppointmentR9" />
+        <activity android:name="com.example.androiddev.Activities.PatientActivityR1" />
+        <activity android:name="com.example.androiddev.Activities.DoctorActivityR1" />
+        <activity android:name="com.example.androiddev.Activities.PsfActivityR1" />
+        <activity android:name="com.example.androiddev.Activities.RegisterClinicR1" />
+        <activity android:name="com.example.androiddev.Activities.SelectClinicR21" />
+        <activity android:name="com.example.androiddev.Activities.CreateNewServiceR22" />
+        <activity android:name="com.example.androiddev.Activities.CreatePatientR3" />
+        <activity android:name="com.example.androiddev.Activities.ViewPatientDescriptionR4" />
+        <activity android:name="com.example.androiddev.Activities.PatientContactR5" />
+        <activity android:name="com.example.androiddev.Activities.PatientHistoryR5" />
+        <activity android:name="com.example.androiddev.Activities.TodaysPatientsR5" />
+        <activity android:name="com.example.androiddev.Activities.AllPatientsR5" />
+        <activity android:name="com.example.androiddev.Activities.Patient_card" />
+        <activity android:name="com.example.androiddev.MainClasses.PatientHasHistory" />
+        <activity android:name="com.example.androiddev.Activities.PatientHistoryCard" />
+        <activity android:name="com.example.androiddev.Activities.WeeklyPlannerR6" />
+        <activity android:name="com.example.androiddev.Activities.ViewAndManageAppointmentRequestsR7" />
+        <activity android:name="com.example.androiddev.Activities.AddDescriptionR8" />
+        <activity android:name="com.example.androiddev.Activities.SearchClinicR9" />
+        <activity android:name="com.example.androiddev.Activities.BookAppointmentR9" />
+        <activity android:name="com.example.androiddev.Activities.ShowEconomicMovementsR10" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

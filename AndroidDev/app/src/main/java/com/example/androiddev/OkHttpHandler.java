@@ -2,31 +2,32 @@ package com.example.androiddev;
 
 import android.os.StrictMode;
 
+import com.example.androiddev.HelpfulClasses.weeklyPlannerDataR6;
+import com.example.androiddev.MainClasses.AcceptedAppointments;
+import com.example.androiddev.MainClasses.Appointment;
+import com.example.androiddev.MainClasses.Clinic;
+import com.example.androiddev.MainClasses.Doctor;
+import com.example.androiddev.MainClasses.EconomicMovements;
+import com.example.androiddev.MainClasses.History;
+import com.example.androiddev.MainClasses.Patient;
+import com.example.androiddev.MainClasses.PatientHasHistory;
+import com.example.androiddev.MainClasses.Service;
+import com.example.androiddev.MainClasses.UsersR1;
+
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.IOException;
-import java.security.KeyManagementException;
-import java.security.NoSuchAlgorithmException;
-import java.security.cert.CertificateException;
-import java.security.cert.X509Certificate;
+
 import java.util.ArrayList;
 
-import okhttp3.FormBody;
-import okhttp3.MediaType;
-import okhttp3.OkHttpClient;
-import okhttp3.Request;
-import okhttp3.RequestBody;
-import okhttp3.Response;
+import okhttp3.*;
 
 import org.json.*;
 
-import java.security.SecureRandom;
 import java.util.*;
 
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.TrustManager;
-import javax.net.ssl.X509TrustManager;
+
 
 public class OkHttpHandler {
 
@@ -35,9 +36,9 @@ public class OkHttpHandler {
         StrictMode.setThreadPolicy(policy);
     }
 
-    String findClinic(String url) throws Exception {
+    public String findClinic(String url) throws Exception {
         String clinic_vat_number = "";
-        String data = "";
+        String data;
         OkHttpClient client = new OkHttpClient().newBuilder().build();
         RequestBody body = RequestBody.create("", MediaType.parse("text/plain"));
         Request request = new Request.Builder().url(url).method("POST", body).build();
@@ -88,35 +89,31 @@ public class OkHttpHandler {
                 body).build();
         Response response = client.newCall(request).execute();
         String data = response.body().string();
-
-        if(data != "[]"){
-            try {
-                JSONObject json = new JSONObject(data);
-                Iterator<String> keys = json.keys();
-                String patientSSN = "";
-                String description = "";
-                String time = "";
-                String date = "";
-                String tos = "";
-                while (keys.hasNext()) {
-                    patientSSN = keys.next();
-                    description = json.getJSONObject(patientSSN).getString("description").toString();
-                    time = json.getJSONObject(patientSSN).getString("time").toString();
-                    date = json.getJSONObject(patientSSN).getString("date").toString();
-                    tos = json.getJSONObject(patientSSN).getString("tos").toString();
-                }
-                history = new History(patientSSN, tos, time, date, description);
-            } catch (JSONException e) {
-                e.printStackTrace();
+        if(data.isEmpty()) return null;
+        try {
+            JSONObject json = new JSONObject(data);
+            Iterator<String> keys = json.keys();
+            String patientSSN = "";
+            String description = "";
+            String time = "";
+            String date = "";
+            String tos = "";
+            while (keys.hasNext()) {
+                patientSSN = keys.next();
+                description = json.getJSONObject(patientSSN).getString("description");
+                time = json.getJSONObject(patientSSN).getString("time");
+                date = json.getJSONObject(patientSSN).getString("date");
+                tos = json.getJSONObject(patientSSN).getString("tos");
             }
-            return history;
+            history = new History(patientSSN, tos, time, date, description);
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
-
-        return null;
+        return history;
     }
 
-    ArrayList<Patient> populateScrollView(String url) throws Exception {
-        ArrayList<Patient> patientsList = new ArrayList<>();
+    public ArrayList<PatientHasHistory> populateScrollView(String url) throws Exception {
+        ArrayList<PatientHasHistory> patientsList = new ArrayList<>();
         OkHttpClient client = new OkHttpClient().newBuilder().build();
         RequestBody body = RequestBody.create("",
                 MediaType.parse("text/plain"));
@@ -172,7 +169,7 @@ public class OkHttpHandler {
                     }
                 }
 
-                patientsList.add(new Patient(name, email, ssn, phone, nextAppointment, nextAppointmentTime, caseType, history));
+                patientsList.add(new PatientHasHistory(name, email, ssn, phone, nextAppointment, nextAppointmentTime, caseType, history));
             }
         } catch (JSONException e) {
             e.printStackTrace();
@@ -191,9 +188,9 @@ public class OkHttpHandler {
         try {
             JSONObject json = new JSONObject(data);
             Iterator<String> keys = json.keys();
-            List<String> times = new ArrayList<>();
-            List<String> tos = new ArrayList<>();
-            List<String> names = new ArrayList<>();
+            List<String> times;
+            List<String> tos;
+            List<String> names;
 
             while (keys.hasNext()) {
                 String date = keys.next();
@@ -211,49 +208,20 @@ public class OkHttpHandler {
         return weeklyPlannerDatumR6s;
     }
 
-    public OkHttpClient customSSL() throws KeyManagementException, NoSuchAlgorithmException {
-        TrustManager[] trustAllCerts = new TrustManager[]{new X509TrustManager() {
-            public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException {
-            }
-
-            public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException {
-            }
-
-            public X509Certificate[] getAcceptedIssuers() {
-                return new X509Certificate[0];
-            }
-        }};
-
-        // Create a SSL context with the trust manager
-        SSLContext sslContext = SSLContext.getInstance("TLS");
-        sslContext.init(null, trustAllCerts, new SecureRandom());
-
-        // Configure OkHttpClient to use the custom SSL context
-        OkHttpClient client = new OkHttpClient.Builder()
-                .sslSocketFactory(sslContext.getSocketFactory(), (X509TrustManager) trustAllCerts[0])
-                .hostnameVerifier((hostname, session) -> true)
-                .build();
-        return client;
-    }
-
-    public void fetchData(ArrayList<Appointment> appointmentsList, String url) throws IOException, KeyManagementException, NoSuchAlgorithmException {
-        String appointments = "no data";
-
+    public ArrayList<Appointment> retrieveData(String url) throws IOException {
+        ArrayList<Appointment> appointmentsList = new ArrayList<>();
 
         // Create a trust manager that accepts all certificates
-
-
+        OkHttpClient client = new OkHttpClient().newBuilder().build();
         RequestBody body = RequestBody.create("", MediaType.parse("text/plain"));
         Request request = new Request.Builder().url(url).method("POST", body).build();
-
-        //Fetching the data from the database
-        OkHttpClient client = customSSL();
         Response response = client.newCall(request).execute();
-        if (response.isSuccessful())
-            appointments = response.body().string();
+
+        String data = response.body().string();
+
         try {
             //Storing every appointment's information in variables.
-            JSONArray jsonAppointments = new JSONArray(appointments);
+            JSONArray jsonAppointments = new JSONArray(data);
             for (int i = 0; i < jsonAppointments.length(); i++) {
                 JSONObject patientInformation = jsonAppointments.getJSONObject(i);
                 String patientSSN = patientInformation.getString("ssn");
@@ -262,63 +230,36 @@ public class OkHttpHandler {
                 String appointmentTime = patientInformation.getString("time");
                 String appointmentNote = patientInformation.getString("tos");
                 int appointmentID = patientInformation.getInt("id");
-                //Creating a new appointment object, based on the information of the current appointment.
-                Appointment appointment = new Appointment(patientSSN, patientName, appointmentDate, appointmentTime, appointmentNote, appointmentID);
+
                 //Adding the appointment to the appointments' list.
-                appointmentsList.add(appointment);
-
-
+                appointmentsList.add(new Appointment(patientSSN, patientName, appointmentDate, appointmentTime, appointmentNote, appointmentID, false));
             }
-            response.body().close();
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-
+        return appointmentsList;
     }
 
-    public void onAcceptClicked(int appointmentID, String url) {
+    public void onAcceptClicked(String url) throws IOException {
 
+        OkHttpClient client = new OkHttpClient().newBuilder().build();
+        RequestBody body = RequestBody.create("",
+                MediaType.parse("text/plain"));
 
-        RequestBody requestBody = new FormBody.Builder().add("appointment_id", String.valueOf(appointmentID)).build();
-        Request request = new Request.Builder().url(url).post(requestBody).build();
-
-        try {
-            // changing the state of an appointment from false to true.
-            OkHttpClient client = customSSL();
-            Response response = client.newCall(request).execute();
-            response.body().close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (NoSuchAlgorithmException e) {
-            throw new RuntimeException(e);
-        } catch (KeyManagementException e) {
-            throw new RuntimeException(e);
-        }
-
-
+        Request request = new Request.Builder().url(url).method("POST",
+                body).build();
+        Response response = client.newCall(request).execute();
     }
 
-    public void onDenyClicked(int appointmentID, String url) {
+    public void onDenyClicked(String url) throws IOException {
+        OkHttpClient client = new OkHttpClient().newBuilder().build();
+        RequestBody body = RequestBody.create("",
+                MediaType.parse("text/plain"));
 
-
-        RequestBody requestBody = new FormBody.Builder().add("appointment_id", String.valueOf(appointmentID)).build();
-        Request request = new Request.Builder().url(url).post(requestBody).build();
-
-        try {
-            // deleting an appointment from the database.
-            OkHttpClient client = customSSL();
-
-            Response response = client.newCall(request).execute();
-
-            response.body().close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (NoSuchAlgorithmException e) {
-            throw new RuntimeException(e);
-        } catch (KeyManagementException e) {
-            throw new RuntimeException(e);
-        }
+        Request request = new Request.Builder().url(url).method("POST",
+                body).build();
+        Response response = client.newCall(request).execute();
     }
 
     public ArrayList<AcceptedAppointments> getAcceptedAppointments(String url) throws Exception {
@@ -347,11 +288,11 @@ public class OkHttpHandler {
 
             while (keys.hasNext()) {
                 String clinic_vat_number = keys.next();
-                times = Arrays.asList(json.getJSONObject(clinic_vat_number).getString("grouped_times").toString().split(","));
-                dates = Arrays.asList(json.getJSONObject(clinic_vat_number).getString("grouped_dates").toString().split(","));
-                ssn = Arrays.asList(json.getJSONObject(clinic_vat_number).getString("grouped_ssn").toString().split(","));
-                names = Arrays.asList(json.getJSONObject(clinic_vat_number).getString("grouped_names").toString().split(","));
-                tos = Arrays.asList(json.getJSONObject(clinic_vat_number).getString("grouped_tos").toString().split(","));
+                times = Arrays.asList(json.getJSONObject(clinic_vat_number).getString("grouped_times").split(","));
+                dates = Arrays.asList(json.getJSONObject(clinic_vat_number).getString("grouped_dates").split(","));
+                ssn = Arrays.asList(json.getJSONObject(clinic_vat_number).getString("grouped_ssn").split(","));
+                names = Arrays.asList(json.getJSONObject(clinic_vat_number).getString("grouped_names").split(","));
+                tos = Arrays.asList(json.getJSONObject(clinic_vat_number).getString("grouped_tos").split(","));
             }
 
             for (int i = 0; i < ssn.size(); i++) {
@@ -371,7 +312,6 @@ public class OkHttpHandler {
         Request request = new Request.Builder().url(url).method("POST",
                 body).build();
         Response response = client.newCall(request).execute();
-        String data = response.body().string();
     }
 
     public ArrayList<Clinic> populateClinicDropDown(String url) throws Exception {
@@ -451,9 +391,9 @@ public class OkHttpHandler {
         return services;
     }
 
-    public ArrayList<AppointmentR9> getClinicAppointments(String url) throws Exception {
+    public ArrayList<Appointment> getClinicAppointments(String url) throws Exception {
 
-        ArrayList<AppointmentR9> appointments = new ArrayList<>();
+        ArrayList<Appointment> appointments = new ArrayList<>();
 
         OkHttpClient client = new OkHttpClient().newBuilder().build();
         RequestBody body = RequestBody.create("",
@@ -466,6 +406,9 @@ public class OkHttpHandler {
         try {
             JSONObject json = new JSONObject(data);
             Iterator<String> keys = json.keys();
+            List<String> id;
+            List<String> patientSSN;
+            List<String> names;
             List<String> times;
             List<String> dates;
             List<String> tos;
@@ -473,13 +416,16 @@ public class OkHttpHandler {
 
             while (keys.hasNext()) {
                 String appointment = keys.next();
+                id = Arrays.asList(json.getJSONObject(appointment).getString("grouped_id").split(","));
+                patientSSN = Arrays.asList(json.getJSONObject(appointment).getString("grouped_ssn").split(","));
+                names = Arrays.asList(json.getJSONObject(appointment).getString("grouped_names").split(","));
                 times = Arrays.asList(json.getJSONObject(appointment).getString("grouped_times").split(","));
                 dates = Arrays.asList(json.getJSONObject(appointment).getString("grouped_dates").split(","));
                 tos = Arrays.asList(json.getJSONObject(appointment).getString("grouped_tos").split(","));
                 accepted = Arrays.asList(json.getJSONObject(appointment).getString("grouped_accepted").split(","));
 
                 for (int i = 0; i < accepted.size(); i++) {
-                    appointments.add(new AppointmentR9(times.get(i), dates.get(i), tos.get(i), Integer.parseInt(appointment), Boolean.parseBoolean(accepted.get(i))));
+                    appointments.add(new Appointment(patientSSN.get(i), names.get(i), dates.get(i), times.get(i), tos.get(i), Integer.parseInt(id.get(i)), Boolean.parseBoolean(accepted.get(i))));
                 }
             }
         } catch (JSONException e) {
@@ -508,9 +454,9 @@ public class OkHttpHandler {
         Response response = client.newCall(request).execute();
     }
 
-    public ArrayList<Movement> populateEconimicMovements(String url) throws Exception {
+    public ArrayList<EconomicMovements> populateEconomicMovements(String url) throws Exception {
 
-        ArrayList<Movement> movements = new ArrayList<>();
+        ArrayList<EconomicMovements> movements = new ArrayList<>();
 
         OkHttpClient client = new OkHttpClient().newBuilder().build();
         RequestBody body = RequestBody.create("",
@@ -530,7 +476,7 @@ public class OkHttpHandler {
                 tos = Arrays.asList(json.getJSONObject(patient_ssn).getString("grouped_tos").split(","));
                 costs = Arrays.asList(json.getJSONObject(patient_ssn).getString("grouped_cost").split(","));
                 for (int i = 0; i < dates.size(); i++) {
-                    movements.add(new Movement(dates.get(i), tos.get(i), Double.parseDouble(costs.get(i))));
+                    movements.add(new EconomicMovements(dates.get(i), tos.get(i), Double.parseDouble(costs.get(i))));
                 }
             }
         } catch (JSONException e) {
@@ -540,8 +486,7 @@ public class OkHttpHandler {
         return movements;
     }
 
-
-    ArrayList<UsersR1> patient_data(String url) throws Exception {
+    public ArrayList<UsersR1> patient_data(String url) throws Exception {
         ArrayList<UsersR1> userList = new ArrayList<>();
         OkHttpClient client = new OkHttpClient().newBuilder().build();
         RequestBody body = RequestBody.create("",
@@ -575,8 +520,8 @@ public class OkHttpHandler {
         Response response = client.newCall(request).execute();
     }
 
-    public PatientR1 getLoggedPatient(String url) throws IOException {
-        PatientR1 patient = null;
+    public Patient getLoggedPatient(String url) throws IOException {
+        Patient patient = null;
         OkHttpClient client = new OkHttpClient().newBuilder().build();
         RequestBody body = RequestBody.create("",
                 MediaType.parse("text/plain"));
@@ -599,7 +544,7 @@ public class OkHttpHandler {
                 phoneNumber = json.getString("phone_number");
                 vatRegNum = json.getString("vat_reg_number");
             }
-            patient = new PatientR1(patientSSN, email, name, phoneNumber, vatRegNum);
+            patient = new Patient(patientSSN, email, name, phoneNumber, vatRegNum);
         } catch (JSONException e) {
             e.printStackTrace();
         }

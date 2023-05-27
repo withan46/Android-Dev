@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddDescriptionR8">
+    tools:context=".Activities.AddDescriptionR8">
 
     <include
         layout="@layout/add_description_r8"

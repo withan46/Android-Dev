@@ -4,19 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.androiddev.Activities.DoctorActivityR1;
+import com.example.androiddev.Activities.PatientActivityR1;
+import com.example.androiddev.Activities.PsfActivityR1;
+import com.example.androiddev.MainClasses.UserListR1;
 
 import java.util.List;
 import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String myIP = "192.168.2.4";
-    private UserListR1 usl;
-
+    private final String myIP = "192.168.56.1";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,19 +46,19 @@ public class MainActivity extends AppCompatActivity {
                 if(Objects.equals(all_passwords.get(i), password)){
                     if(all_emails.get(i).contains("@doctor.com")){
                         Intent intent = new Intent(MainActivity.this, DoctorActivityR1.class);
-                        intent.putExtra("message", all_names.get(i));
+                        intent.putExtra("name", all_names.get(i));
                         intent.putExtra("email", all_emails.get(i));
                         intent.putExtra("Ip", myIP);
                         startActivity(intent);
                     }else if (all_emails.get(i).contains("@patient.com")){
                         Intent intent = new Intent(MainActivity.this, PatientActivityR1.class);
-                        intent.putExtra("message", all_names.get(i));
+                        intent.putExtra("name", all_names.get(i));
                         intent.putExtra("email", all_emails.get(i));
                         intent.putExtra("Ip", myIP);
                         startActivity(intent);
                     }else if (all_emails.get(i).contains("@psf.com")){
                         Intent intent = new Intent(MainActivity.this, PsfActivityR1.class);
-                        intent.putExtra("message", all_names.get(i));
+                        intent.putExtra("name", all_names.get(i));
                         intent.putExtra("Ip", myIP);
                         startActivity(intent);
                     }
