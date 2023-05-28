@@ -110,9 +110,9 @@
 57        <activity android:name="com.example.androiddev.Activities.AllPatientsR5" />
 57-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:44:9-62
 57-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:44:19-59
-58        <activity android:name="com.example.androiddev.Activities.Patient_card" />
-58-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:9-61
-58-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:19-58
+58        <activity android:name="com.example.androiddev.Activities.PatientCardR5" />
+58-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:9-62
+58-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:19-59
 59        <activity android:name="com.example.androiddev.MainClasses.PatientHasHistory" />
 59-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:46:9-67
 59-->C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:46:19-64

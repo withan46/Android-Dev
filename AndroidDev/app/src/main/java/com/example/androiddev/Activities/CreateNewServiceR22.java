@@ -35,17 +35,23 @@ public class CreateNewServiceR22 extends AppCompatActivity {
     }
 
     public void createService(View view)  {
-        String url= "http://"+myIP+"/flexFitDBServices/createNewServiceR2.php?" + "code=" + code.getText() + "&name=" + name.getText() + "&description=" + description.getText()
-                + "&price=" + price.getText() + "&clinic_vat_number=" + clinic_vat_number;
-        OkHttpHandler okHttpHandler = new OkHttpHandler();
-        try {
-            boolean isSuccessful = okHttpHandler.createNewService(url);
-            if(isSuccessful)
-                Toast.makeText(getApplicationContext(), "Service created successfully!", Toast.LENGTH_SHORT).show();
-            else
-                Toast.makeText(getApplicationContext(), "Unable to create the service..", Toast.LENGTH_SHORT).show();
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+
+        if(!code.getText().toString().equals("") && !name.getText().toString().equals("") && !description.getText().toString().equals("") && !price.getText().toString().equals("")) {
+            String url= "http://"+myIP+"/flexFitDBServices/createNewServiceR2.php?" + "code=" + code.getText() + "&name=" + name.getText() + "&description=" + description.getText()
+                    + "&price=" + price.getText() + "&clinic_vat_number=" + clinic_vat_number;
+            OkHttpHandler okHttpHandler = new OkHttpHandler();
+            try {
+                boolean isSuccessful = okHttpHandler.createNewService(url);
+                if(isSuccessful)
+                    Toast.makeText(getApplicationContext(), "Service created successfully!", Toast.LENGTH_SHORT).show();
+                else
+                    Toast.makeText(getApplicationContext(), "Unable to create the service..", Toast.LENGTH_SHORT).show();
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        }
+        else {
+            Toast.makeText(getApplicationContext(), "Unable to create the service..", Toast.LENGTH_SHORT).show();
         }
     }
 }

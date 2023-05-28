@@ -55,7 +55,7 @@
         <activity android:name="com.example.androiddev.Activities.PatientHistoryR5" />
         <activity android:name="com.example.androiddev.Activities.TodaysPatientsR5" />
         <activity android:name="com.example.androiddev.Activities.AllPatientsR5" />
-        <activity android:name="com.example.androiddev.Activities.Patient_card" />
+        <activity android:name="com.example.androiddev.Activities.PatientCardR5" />
         <activity android:name="com.example.androiddev.MainClasses.PatientHasHistory" />
         <activity android:name="com.example.androiddev.Activities.PatientHistoryCard" />
         <activity android:name="com.example.androiddev.Activities.WeeklyPlannerR6" />

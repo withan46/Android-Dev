@@ -176,10 +176,10 @@ activity#com.example.androiddev.Activities.AllPatientsR5
 ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:44:9-62
 	android:name
 		ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:44:19-59
-activity#com.example.androiddev.Activities.Patient_card
-ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:9-61
+activity#com.example.androiddev.Activities.PatientCardR5
+ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:9-62
 	android:name
-		ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:19-58
+		ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:45:19-59
 activity#com.example.androiddev.MainClasses.PatientHasHistory
 ADDED from C:\Users\Windows 10\AndroidStudioProjects\Android-Dev\AndroidDev\app\src\main\AndroidManifest.xml:46:9-67
 	android:name
