@@ -18,7 +18,7 @@ import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final String myIP = "192.168.56.1";
+    private final String myIP = "139.162.150.72";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
