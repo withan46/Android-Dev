@@ -403,33 +403,35 @@ public class OkHttpHandler {
         Response response = client.newCall(request).execute();
         String data = response.body().string();
 
-        try {
-            JSONObject json = new JSONObject(data);
-            Iterator<String> keys = json.keys();
-            List<String> id;
-            List<String> patientSSN;
-            List<String> names;
-            List<String> times;
-            List<String> dates;
-            List<String> tos;
-            List<String> accepted;
+        if(!data.equals("")) {
+            try {
+                JSONObject json = new JSONObject(data);
+                Iterator<String> keys = json.keys();
+                List<String> id;
+                List<String> patientSSN;
+                List<String> names;
+                List<String> times;
+                List<String> dates;
+                List<String> tos;
+                List<String> accepted;
 
-            while (keys.hasNext()) {
-                String appointment = keys.next();
-                id = Arrays.asList(json.getJSONObject(appointment).getString("grouped_id").split(","));
-                patientSSN = Arrays.asList(json.getJSONObject(appointment).getString("grouped_ssn").split(","));
-                names = Arrays.asList(json.getJSONObject(appointment).getString("grouped_names").split(","));
-                times = Arrays.asList(json.getJSONObject(appointment).getString("grouped_times").split(","));
-                dates = Arrays.asList(json.getJSONObject(appointment).getString("grouped_dates").split(","));
-                tos = Arrays.asList(json.getJSONObject(appointment).getString("grouped_tos").split(","));
-                accepted = Arrays.asList(json.getJSONObject(appointment).getString("grouped_accepted").split(","));
+                while (keys.hasNext()) {
+                    String appointment = keys.next();
+                    id = Arrays.asList(json.getJSONObject(appointment).getString("grouped_id").split(","));
+                    patientSSN = Arrays.asList(json.getJSONObject(appointment).getString("grouped_ssn").split(","));
+                    names = Arrays.asList(json.getJSONObject(appointment).getString("grouped_names").split(","));
+                    times = Arrays.asList(json.getJSONObject(appointment).getString("grouped_times").split(","));
+                    dates = Arrays.asList(json.getJSONObject(appointment).getString("grouped_dates").split(","));
+                    tos = Arrays.asList(json.getJSONObject(appointment).getString("grouped_tos").split(","));
+                    accepted = Arrays.asList(json.getJSONObject(appointment).getString("grouped_accepted").split(","));
 
-                for (int i = 0; i < accepted.size(); i++) {
-                    appointments.add(new Appointment(patientSSN.get(i), names.get(i), dates.get(i), times.get(i), tos.get(i), Integer.parseInt(id.get(i)), Boolean.parseBoolean(accepted.get(i))));
+                    for (int i = 0; i < accepted.size(); i++) {
+                        appointments.add(new Appointment(patientSSN.get(i), names.get(i), dates.get(i), times.get(i), tos.get(i), Integer.parseInt(id.get(i)), Boolean.parseBoolean(accepted.get(i))));
+                    }
                 }
+            } catch (JSONException e) {
+                e.printStackTrace();
             }
-        } catch (JSONException e) {
-            e.printStackTrace();
         }
         return appointments;
     }

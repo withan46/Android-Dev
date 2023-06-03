@@ -5,7 +5,6 @@ import androidx.core.content.ContextCompat;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
-import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -22,7 +21,6 @@ import com.example.androiddev.R;
 import com.example.androiddev.MainClasses.Service;
 import com.example.androiddev.HelpfulClasses.WeeklyPlanR9;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -129,10 +127,6 @@ public class BookAppointmentR9 extends AppCompatActivity {
         nameDay = getNameDays();
         //------------//
 
-        //deleting past saved appointments//
-        deletePastAppointments();
-        //--------------------------------//
-
         //Setting Listeners to Buttons//
         setTotalDaysListener(clinicVAT, nameDay, selectedIndex);
         setHourDaysListener(selectedHour);
@@ -218,17 +212,6 @@ public class BookAppointmentR9 extends AppCompatActivity {
             btn.setEnabled(true);
             btn.setClickable(true);
             btn.setBackground(this.defaultHourBtnBackground);
-        }
-    }
-
-    //--Deleting past appointments-//
-    private void deletePastAppointments() {
-        try {
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                okHttpHandler.deletePastAppointments("http://" + myIP + "/flexFitDBServices/deleteAppointmentsR9.php?localDate=" + LocalDate.now());
-            }
-        } catch (Exception e) {
-            throw new RuntimeException(e);
         }
     }
 

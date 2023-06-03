@@ -25,9 +25,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
-
-
+    
     public void signInOnClick(View view){
         TextView emailText = findViewById(R.id.email);
         TextView passwordText = findViewById(R.id.password);

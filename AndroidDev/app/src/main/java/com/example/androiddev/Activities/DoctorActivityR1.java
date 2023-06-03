@@ -3,6 +3,7 @@ package com.example.androiddev.Activities;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -15,6 +16,7 @@ import com.example.androiddev.OkHttpHandler;
 import com.example.androiddev.R;
 
 import java.io.IOException;
+import java.time.LocalDate;
 
 public class DoctorActivityR1 extends Activity {
 
@@ -40,6 +42,14 @@ public class DoctorActivityR1 extends Activity {
         }
         TextView helloTxt = findViewById(R.id.hello);
         helloTxt.setText("Hello " + name + " !");
+
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                okHttpHandler.deletePastAppointments("http://" + ip + "/flexFitDBServices/deleteAppointmentsR9.php?localDate=" + LocalDate.now());
+            }
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public void logOutLink(View view){

@@ -2992,7 +2992,6 @@ int id bounce 0x7f0a006f
 int id bounceBoth 0x7f0a0070
 int id bounceEnd 0x7f0a0071
 int id bounceStart 0x7f0a0072
-int id button 0x7f0a0073
 int id button2 0x7f0a0074
 int id buttonContainer 0x7f0a0075
 int id buttonContainer2 0x7f0a0076
@@ -3119,7 +3118,6 @@ int id fill 0x7f0a00ee
 int id fill_horizontal 0x7f0a00ef
 int id fill_vertical 0x7f0a00f0
 int id filled 0x7f0a00f1
-int id first 0x7f0a00f2
 int id fitCenter 0x7f0a00f3
 int id fitEnd 0x7f0a00f4
 int id fitStart 0x7f0a00f5
@@ -3288,7 +3286,6 @@ int id parentPanel 0x7f0a0197
 int id parentRelative 0x7f0a0198
 int id parent_matrix 0x7f0a0199
 int id password 0x7f0a019a
-int id passwordTxt 0x7f0a019b
 int id password_toggle 0x7f0a019c
 int id pastBtn 0x7f0a019d
 int id path 0x7f0a019e
@@ -3373,7 +3370,6 @@ int id search_view_status_bar_spacer 0x7f0a01ec
 int id search_view_toolbar 0x7f0a01ed
 int id search_view_toolbar_container 0x7f0a01ee
 int id search_voice_btn 0x7f0a01ef
-int id second 0x7f0a01f0
 int id select_clinic_header 0x7f0a01f1
 int id select_clinic_info 0x7f0a01f2
 int id select_dialog_listview 0x7f0a01f3
@@ -3627,9 +3623,7 @@ int layout activity_r4_view_patient_description 0x7f0d0023
 int layout activity_r8 0x7f0d0024
 int layout activity_r9_book_appointment 0x7f0d0025
 int layout activity_r9_search_clinic 0x7f0d0026
-int layout activity_second 0x7f0d0027
 int layout activity_show_economic_movements_r10 0x7f0d0028
-int layout activity_third 0x7f0d0029
 int layout activity_todayspatients_r5 0x7f0d002a
 int layout activity_view_and_manage_appointment_requests_r7 0x7f0d002b
 int layout add_description_r8 0x7f0d002c

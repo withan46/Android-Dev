@@ -2993,7 +2993,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
 id button2
 id buttonContainer
 id buttonContainer2
@@ -3120,7 +3119,6 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
-id first
 id fitCenter
 id fitEnd
 id fitStart
@@ -3289,7 +3287,6 @@ id parentPanel
 id parentRelative
 id parent_matrix
 id password
-id passwordTxt
 id password_toggle
 id pastBtn
 id path
@@ -3374,7 +3371,6 @@ id search_view_status_bar_spacer
 id search_view_toolbar
 id search_view_toolbar_container
 id search_voice_btn
-id second
 id select_clinic_header
 id select_clinic_info
 id select_dialog_listview
@@ -3628,9 +3624,7 @@ layout activity_r4_view_patient_description
 layout activity_r8
 layout activity_r9_book_appointment
 layout activity_r9_search_clinic
-layout activity_second
 layout activity_show_economic_movements_r10
-layout activity_third
 layout activity_todayspatients_r5
 layout activity_view_and_manage_appointment_requests_r7
 layout add_description_r8

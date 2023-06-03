@@ -3,8 +3,8 @@ package com.example.androiddev.Activities;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.view.View;
 import android.widget.TextView;
 
@@ -16,6 +16,7 @@ import com.example.androiddev.MainClasses.Patient;
 import com.example.androiddev.R;
 
 import java.io.IOException;
+import java.time.LocalDate;
 
 public class PatientActivityR1 extends Activity {
 
@@ -29,14 +30,22 @@ public class PatientActivityR1 extends Activity {
         String name = getIntent().getStringExtra("name");
         String email = getIntent().getStringExtra("email");
         Ip = getIntent().getStringExtra("Ip");
-        TextView helloTxt = findViewById(R.id.hello);
-        helloTxt.setText("Hello " + name + " !");
 
         String url = "http://"+Ip+"/flexFitDBServices/patientLandingPageR1.php?email="+email+"&name="+name;
         OkHttpHandler okHttpHandler = new OkHttpHandler();
         try {
             patient= okHttpHandler.getLoggedPatient(url);
         } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        TextView helloTxt = findViewById(R.id.hello);
+        helloTxt.setText("Hello " + name + " !");
+
+        try {
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                okHttpHandler.deletePastAppointments("http://" + Ip + "/flexFitDBServices/deleteAppointmentsR9.php?localDate=" + LocalDate.now());
+            }
+        } catch (Exception e) {
             throw new RuntimeException(e);
         }
     }

@@ -79,7 +79,6 @@ id appointmentsTextView
 id arrange_textView
 id barrier2
 id book_appointment
-id button
 id button2
 id buttonContainer
 id buttonContainer2
@@ -118,7 +117,6 @@ id emailField
 id emailTxt
 id email_field
 id fifthteenPM_button
-id first
 id fourteenPM_button
 id header
 id hello
@@ -143,7 +141,6 @@ id niceDay
 id note
 id parent
 id password
-id passwordTxt
 id pastBtn
 id patientCase
 id patientHistory
@@ -173,7 +170,6 @@ id saveButton
 id screen
 id search_button
 id search_name_tb
-id second
 id select_clinic_header
 id select_clinic_info
 id servicedropdown
@@ -208,9 +204,7 @@ layout activity_r4_view_patient_description
 layout activity_r8
 layout activity_r9_book_appointment
 layout activity_r9_search_clinic
-layout activity_second
 layout activity_show_economic_movements_r10
-layout activity_third
 layout activity_todayspatients_r5
 layout activity_view_and_manage_appointment_requests_r7
 layout add_description_r8

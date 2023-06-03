@@ -79,7 +79,7 @@
         android:drawableTop="@drawable/appointment"
         android:onClick="arrangeOnClick"
         android:paddingTop="20dp"
-        android:text="Arrage an Appointment"
+        android:text="Arrange an Appointment"
         android:textAllCaps="false"
         android:textColor="#3996A9"
         app:layout_constraintBottom_toBottomOf="parent"
